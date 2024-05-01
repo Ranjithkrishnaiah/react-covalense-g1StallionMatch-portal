@@ -1,0 +1,332 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.template{
+    padding: 0px;
+    background: #ffffff;
+}
+
+.template-banner{
+    padding-left: 2.2rem;
+}
+
+.template h1{
+    margin: 0;
+    padding: 0;
+    font-family: Flecha M;
+    font-size: 56px;
+    font-weight: 400;
+    color: #005632;
+    line-height: 72px;
+}
+
+.template h2{
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-family: Flecha M;
+    font-size: 24px;
+    font-weight: 400;
+    color: #161716;
+    line-height: 36px;
+}
+
+.template p{
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    font-family: Synthese;
+    font-size: 14px;
+    font-weight: 400;
+    color: #161716;
+    line-height: 25px;
+}
+
+.breeder-template{
+    /* background: url(../../assets/Images/SuccessBreeder.jpg); */
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 387px;
+}
+
+.farm-template{
+    /* background: url(../../assets/Images/SuccessFarm.jpg); */
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 388px;
+}
+
+.template-content{
+    background: #1D472E;
+    display: block;
+}
+
+.template-content h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.template-content .content-clmn{
+    margin: 40px 0px;
+    padding-left: 25px;
+    border-left: solid 4px #2EFFB4;
+}
+
+.template-footer{
+    padding: 30px 0px;
+    background: #ffffff;
+}
+
+.template-footer p{
+    font-family: Synthese Light;
+    font-size: 14px;
+    font-weight: 400;
+    color: #B1BCC0;
+    line-height: 24px;
+}
+.template-footer a{
+    color: #B1BCC0;
+    padding-left: 4px;
+
+}
+
+.template-footer a:hover{
+    text-decoration: none;
+}
+
+/* Unsubscribe template styles */
+
+.unsubscribe{
+    /* background: url(../../assets/Images/EmailBg.png) #ffffff; */
+    background-position: top right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.unsubscribe .logo{
+    padding-left: 2.5rem;
+}
+
+.unsubscribe .logo img{
+    width: 25%;
+}
+
+.unsub-content{
+    margin: 0;
+    display: block;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.unsub-content h1{
+    margin: 0;
+    padding: 0;
+    font-family: Flecha M;
+    font-size: 56px;
+    font-weight: 400;
+    color: #0C1014;
+    line-height: 72px;
+}
+
+.unsub-content p{
+    padding-top: 1rem;
+    font-family: Synthese;
+    font-size: 18px;
+    font-weight: 400;
+    color: #515759;
+    line-height: 27px;
+}
+
+.Resub-btn{
+    margin-top: 1.5rem;
+    background: #1D472E;
+    border: none;
+    width: 180px;
+    height: 52px;
+    color: #2EFFB4;
+    font-family: Synthese;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    line-height: 40px;
+}
+.Resub-btn:hover{
+    background: #007142;
+}
+
+.unsub-footer{
+    /* background:url(../../assets/Images/bottomTiles.png) #1D472E; */
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.unsub-footer p{
+    font-family: Synthese Book;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 16px;
+}
+
+/* Report template styles */
+.SMlogo img{
+    width: 45%;
+}
+.download-btn{
+    margin-top: 2rem;
+    background: #1D472E;
+    border: none;
+    width: 250px;
+    height: 52px;
+    color: #2EFFB4;
+    font-family: Synthese;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    line-height: 40px;
+}
+.download-btn i{
+    padding-left: 6px;
+    font-size: 22px;
+    position: relative;
+    top:2px;
+}
+.download-btn:hover{
+    background: #007142;
+}
+
+.report-visit{
+    padding-right: 3rem;
+    font-family: Inter;
+    font-weight: 500;
+    font-size:15px;
+    line-height: 18px;
+    color: #005632;
+    text-decoration: none;
+}
+
+.report-visit:hover{
+    color: #005632;
+}
+.report-visit i{
+    color: #005632;
+    position: relative;
+    top:2px;
+}
+
+.report-content{
+    background: #ffffff;
+    display: block;
+}
+
+.report-content i{
+    font-size: 42px;
+    color: #00DE8E;
+}
+
+.report-content h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0C1014;
+    line-height: 22px;
+}
+.report-content p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    color: #515759;
+    line-height: 20px;
+}
+
+.report-content .content-clmn{
+    margin: 40px 0px;
+    padding-left: 25px;
+    border-left: solid 4px #2EFFB4;
+}
+
+.rigister-btn{
+    margin: 0 auto;
+    display: block;
+    background: #1D472E;
+    border: none;
+    padding: 0 30px;
+    height: 52px;
+    color: #2EFFB4;
+    font-family: Synthese;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    line-height: 40px;
+}
+
+.rigister-btn:hover{
+    background: #007142;
+}
+
+@media (max-width: 575px) {
+    .breeder-template{
+        background: none;
+    }
+    .farm-template{
+        background: none;
+    }
+    .template-footer p{
+        font-size:10px;
+        line-height: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .template-banner{
+        padding-right: 2rem;
+    }
+    .template-content .content-clmn{
+        margin: 30px 30px;
+    }
+    .template-content h3{
+       font-size:20px;
+    }
+    .template h2{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .unsub-footer{
+        background: none;
+        background-color:#1D472E;
+    }
+    .unsub-footer p{
+        font-size: 9px;
+    }
+    .unsubscribe .logo img{
+        width: 45%;
+    }
+    .unsub-content h1{
+        font-size: 42px;
+        line-height: 56px;
+    }
+    .SMlogo img{
+        width: 85%;
+    }
+
+    .report-visit{
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    .rigister-btn{
+        font-size: 14px;
+    }
+    
+
+}

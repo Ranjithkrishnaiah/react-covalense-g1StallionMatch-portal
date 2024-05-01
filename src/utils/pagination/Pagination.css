@@ -1,0 +1,77 @@
+/* ... Pagenation Styles ..... */
+.SDpagenation .Mui-selected{
+    background: #1D472E !important;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.SDpagenation .MuiPaginationItem-previousNext{
+    background: #E2E7E1;
+    border-radius: 4px;
+    padding: 0 !important;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SDpagenation .MuiPaginationItem-previousNext svg {
+    padding: 0;
+    margin: 0px auto;
+    display: block;
+    font-size: 16px;
+}
+
+.SDpagenation .MuiPaginationItem-root{
+    border: none;
+    margin: 0px;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 4px 0px 5px;
+    min-width: 32px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 32px;
+}
+.SDpagenation ul.MuiPagination-ul li {
+    margin: 0px 8px;
+}
+
+
+.SDpagenation .MuiPaginationItem-root:hover {
+    background: none;
+    border: 1px solid #1D472E;
+}
+.SDpagenation .MuiPaginationItem-previousNext:hover {
+    background: #C5CFC4 !important;
+    border: 1px solid transparent !important;
+}
+/* Media-query */
+@media only screen and (max-width: 767px) {
+    .StakesProgenyWrapper .SDpagenation .MuiPaginationItem-root {
+        margin: 0px 0px;
+    }
+    .SDpagenation ul.MuiPagination-ul li {
+        margin: 0px 8px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .SDpagenation {justify-content: center;}
+  
+    .SDpagenation nav.MuiPagination-root ul.MuiPagination-ul li:last-child {
+        display: block;
+    }
+    .SDpagenation ul.MuiPagination-ul li {
+        margin: 0px 8px;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .SDpagenation .MuiPaginationItem-root {
+        margin: 0px;
+    }
+
+}

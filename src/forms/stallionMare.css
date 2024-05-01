@@ -1,0 +1,77 @@
+.SMare {
+  margin: 0;
+}
+.SMare .MuiOutlinedInput-root {
+  font-family: 'Synthese-Book';
+  font-size: 16px;
+  color: #1d472e;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.SMare .MuiOutlinedInput-root::placeholder {
+  color: #1d472e !important;
+}
+
+.SMare .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.SMare .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+.SMare .MuiOutlinedInput-root:active .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.SMare .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.SMare .MuiBox-root {
+  flex-grow: 1;
+}
+
+
+
+
+.SMare .MuiBox-root.css-1kgakwq {padding: 0px 0px;}
+.SMare {align-items: center;}
+.SMare hr.MuiDivider-root {margin-right: 15px;border-color: #C5CFC4;}
+.SMare .MuiOutlinedInput-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #1D472E;
+  opacity:1;
+}
+.SMare .MuiOutlinedInput-input::-moz-placeholder { /* Firefox 19+ */
+  color: #1D472E;
+  opacity:1;
+}
+.SMare .MuiOutlinedInput-input:-ms-input-placeholder { /* IE 10+ */
+  color: #1D472E;
+  opacity:1;
+}
+.SMare .MuiOutlinedInput-input:-moz-placeholder { /* Firefox 18- */
+  color: #1D472E;
+  opacity:1;
+}
+
+
+.SPhypomating  .Homesearch .directory-arrow .MuiAutocomplete-endAdornment {
+  display: block;
+  right: 0px;
+}
+
+.SPhypomating  .Homesearch .directory-arrow .MuiSvgIcon-root{
+  color: #1D472E;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .SPhypomating .Homesearch .directory-arrow .MuiAutocomplete-endAdornment {
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    height: 28px;
+    right: 32px;
+  }
+}

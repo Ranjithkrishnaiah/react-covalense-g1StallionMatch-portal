@@ -1,0 +1,1210 @@
+.stallionsearchButton.MuiButton-root{
+    font-family: 'Synthese-Book';
+    color: #626E60;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 0;
+}
+.stallionsearchButton.Mui-disabled,.stallionsearchButton.Mui-disabled i::before {
+    color: #B0B6AF;
+}
+.stallionsearchDWNButton {
+    margin-left: 24px;
+}
+.stallionSearchHeaderRight .MuiLoadingButton-loadingIndicator{
+    left: -20px;
+    top: 10px;
+}
+.disabled-a {
+    pointer-events: none;
+  cursor: default;
+}
+.disabled-section {
+    display: none;
+}
+.stallionsearchButton:hover{
+    background: none;
+}
+.graph-search-left {padding-right: 5rem;}
+
+.graph-search-right {padding-left: 5rem;}
+.APTitle {color: #1D472E;}
+
+.aptitude-profile-chart-box {
+    background: #F4F1EF;
+border-radius: 8px;padding: 1.5rem 2.5rem;margin-top: 1.5rem;}
+.stallionSearchHeaderRight .stallionsearchButton i {font-size: 20px;
+    padding-right: 6px;
+    bottom: -2px;
+    position: relative;}
+.stallionsearchButton span{
+    position: relative;
+    bottom: 0px;
+}
+.stallionsearchButton:hover {
+    color: #007142;
+}
+
+.stallionsearchButton:hover i:before {
+    color: #007142;
+}
+.aptitude-profile-chart-box .ListBtn {
+    display: flex;
+    margin-left: auto;
+    margin-right: -15px;
+    margin-bottom: 20px;
+}
+
+
+/****************** Stallion-search-tabs ***************************/
+.hypomating-tabs {
+    margin-top: 2rem;
+}
+.stallion-search-graph .SPtabs .MuiTab-root {
+    color: #626E60;
+}
+
+.stallion-search-graph .SPtabs .MuiTab-root.Mui-selected {
+    color: #1D472E;
+}
+.stallion-search-graph .SPtabs span.MuiTabs-indicator {
+    height: 3px;
+}
+.alternate-mating-box {
+    margin-top: 25px;
+}
+
+.alternate-mating-box .breed {
+    color: #161716;
+}
+
+.alternate-mating-box .year {
+    color: #161716;
+}
+.alternate-mating-tabs {
+    margin-top: 5rem;
+}
+.SDavatar .icon-for-alternate {
+    font-size: 60px;
+}
+
+.alternate-mating-box .icon-for-alternate {
+    font-size: 28px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.sortby{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .sort-recent{
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+    display: flex;
+    height: 40px;
+    font-family: 'Synthese-Book';
+    min-width: 160px;
+  }
+  
+  
+  .sort-recent svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    color: #161716;
+  }
+  .SortByCommonStyle{
+    display: flex;
+    align-items: center;
+  }
+
+
+
+/* ------------------------Pedegree-Modal----------------------------------- */
+  .pedegreeModal .MuiDialogTitle-root {
+    background: none;
+}
+  
+.pedegree-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pedegree-picture h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #333333;
+    font-family: 'Synthese-Bold';
+}
+
+.pedegree-picture h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Synthese-Book';
+}
+
+.pedegree-picture h5 {
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    font-family: 'Synthese-Book';
+    margin-top: 12px;
+}
+
+.pedegree-modal-footer {
+    padding: 25px 24px;
+    background: #E2E7E1;
+    margin-top: 24px;
+}
+.pedegree-modal-footer .lr-btn{
+    margin-top: 0px;
+}
+
+.pedegreeModal .popup-cnt {
+    padding: 0;
+}
+.pedegree-modal-pop-box .lr-btn {
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 1rem;
+    text-transform: none;
+    background-color: #1D472E;
+    height: 48px;
+    border-radius: 4px;
+    letter-spacing: -0.01rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.pedegree-modal-pop-box .lr-btn:hover {
+    background-color: #007142;
+}
+
+.pedegree-modal-pop-box .lr-btn-outline {
+    background: none;
+    color: #161716;
+    border: 1px solid #007142;
+    border-radius: 4px;
+}
+
+.pedegree-modal-pop-box .lr-btn-outline:disabled{
+    background: none;
+    color: #626E60;
+    border: 1px solid #B0B6AF;
+    border-radius: 4px;
+}
+
+.pedegree-modal-pop-box .lr-btn-outline:hover {
+    color: #fff;
+}
+
+.pedegree-modal-buttn {
+    width: 100%;
+    padding: 25px 24px 0px 24px;
+}
+
+.pedegree-picture .MuiBox-root {
+    width: 100%;
+}
+
+.pedegree-modal-pop-box .lr-btn {
+    width: 100%;
+    padding: 0px 3px;
+
+}
+
+.pedegreeModal .MuiDialog-paper {
+    width: 344px;
+}
+.pedegreeModal .MuiIconButton-root{
+    z-index: 1;
+}
+.pedegree-picture .css-kpnovy-MuiAvatar-root {
+    width: 56px;
+    height: 56px;
+}
+.pedegree-modal-buttn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: auto !important;
+}
+
+
+
+
+/* ============================Legend-Modal-Popup================================= */
+.legent-modal-pop-box .legend-para{
+    padding-right: 40px;
+}
+
+.legent-modal-pop-box p {
+    color: #161716;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 0px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Book';
+}
+
+.legent-modal-pop-box h4 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 32px;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    margin-bottom: 8px;
+}
+.legend-modal-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.color-legend {
+    min-width: 56px;
+    height: 24px;
+    width: 56px;
+}
+
+.legent-modal-pop-box 
+ .legend-modal-list p {
+    color: #333333;
+    padding-left: 23px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+/* ==============================20/20 Match! Accordion ==============================*/
+.accordion-wrapper-st-search .MuiPaper-root.MuiPaper-elevation {
+    background: #1D472E;
+    border-radius: 4px;
+    box-shadow: inherit;
+}
+.accordion-wrapper-st-search.normal-match-accordion-wrapper .MuiPaper-root.MuiPaper-elevation{
+    background: #E2E7E1;
+}
+.accordion-wrapper-st-search.normal-match-accordion-wrapper h5{
+    color: #1D472E;
+}
+.accordion-wrapper-st-search.normal-match-accordion-wrapper  .MuiAccordionDetails-root p {
+    color: #1D472E;
+}
+.accordion-wrapper-st-search.normal-match-accordion-wrapper  h5 i::before {
+    color:#BD9A68 !important ;
+}
+.accordion-wrapper-st-search .accordionBtnNormal{
+    background: #1D472E;
+    border-radius: 4px;
+    min-width: 304px;
+    min-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    text-transform: none;
+    margin-top: 16px;
+    padding: 5px 12px 7px;
+}
+.stallion-directory-header-wrp .accordion-wrapper-st-search .accordionBtnNormal{
+    margin-top: 29px;
+}
+.accordion-wrapper-st-search .accordionBtnNormal:hover{
+    color: #ffffff;
+    background: #007142;
+}
+
+.accordion-wrapper-st-search .accordionBtnNormal i {
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+}
+.accordion-wrapper-st-search  h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    font-family: 'Synthese-Bold';
+}
+
+.accordion-wrapper-st-search h5 i {
+    font-size: 22px;
+    vertical-align: baseline;
+    position: relative;
+    top: 2px;
+}
+
+.accordion-wrapper-st-search .MuiAccordionSummary-expandIconWrapper svg {
+    color: #fff;
+    font-size: 33px;
+}
+.normal-match-accordion-wrapper.accordion-wrapper-st-search .MuiAccordionSummary-expandIconWrapper svg{
+    color: #007142 !important;
+}
+
+.accordion-wrapper-st-search .MuiAccordionDetails-root p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    font-family: 'Synthese-Book';
+}
+
+.accordion-wrapper-st-search .MuiAccordionDetails-root {
+    padding: 0px 24px 24px;
+}
+.accordion-wrapper-st-search .MuiAccordionSummary-root {
+    padding: 0px 20px;
+    min-height: 52px;
+}
+
+.accordion-wrapper-st-search .MuiAccordionSummary-root .Mui-expanded {
+    margin: 9px 0px;
+}
+
+.accordion-wrapper-st-search .MuiAccordionDetails-root p {
+    padding-right: 40px;
+}
+
+.accordion-wrapper-st-search .accordionBtnT20{
+    background: #2EFFB4;
+    border-radius: 4px;
+    min-width: 304px;
+    min-height: 32px;
+    color: #1D472E;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Regular';
+    text-transform: none;
+    margin-top: 16px;
+    padding: 5px 12px 7px;
+}
+.accordion-wrapper-st-search .accordionBtnT20:hover{
+    color: #1D472E;
+    background: #00DE8E;
+}
+
+
+.perfect-match-accordion-wrapper .MuiPaper-root.MuiPaper-elevation {
+    background: #2EFFB4;
+}
+
+.perfect-match-accordion-wrapper h5 {
+    color: #1D472E;
+}
+
+
+
+.perfect-match-accordion-wrapper .MuiAccordionDetails-root p {color: #1D472E;}
+
+.perfect-match-accordion-wrapper .accordionBtnT20 {
+    background: #1D472E;
+    color: #fff;
+}
+
+.perfect-match-accordion-wrapper .accordionBtnT20:hover {
+    background: #007142;
+    color: #fff;
+}
+
+.accordion-wrapper-st-search .accordionBtnT20 i {
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+}
+.accordion-wrapper-st-search .accordionBtnT20.Mui-disabled {
+    background: #B0B6AF;
+    color: #FFFFFF;
+    cursor: not-allowed;
+}
+.perfect-match-accordion-wrapper .MuiAccordionSummary-expandIconWrapper svg {
+    color: #1D472E;
+}
+
+.search-stallion-pop-box .MuiAutocomplete-endAdornment .MuiButtonBase-root {
+    color: #161716;
+}
+
+.search-stallion-pop-box .MuiAutocomplete-endAdornment .MuiButtonBase-root svg {
+    font-size: 26px;
+    margin-right: 2px;
+}
+
+.search-stallion-pop-box .MuiAutocomplete-endAdornment {
+    top: 10px;
+}
+p.search-stallion-error {
+    padding: 0px 0px 5px;
+    margin: 0;
+    line-height: 15px;
+}
+.submit-new-bg{
+    margin: 0px;
+    background: #FAF8F7;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    flex-direction: row;
+    margin-left: -17px;
+}
+.submit-new-bg .lr-btn-outline{
+    height: 36px !important;
+    min-width: 175px !important;
+    font-size: 14px !important;
+    padding: 7px 10px 9px !important;
+    margin: 0px 0px 0px 16px;
+    color: #161716 !important;
+    line-height: 0px;
+    text-transform: inherit !important;
+    border: 1px solid #007142 !important;
+    border-radius: 4px !important;
+    font-family: 'Synthese-Regular';
+}
+.submit-new-bg .lr-btn-outline:hover{
+    color: #fff !important;
+    background: #007142 !important;
+    border: 1px solid #007142 !important;
+}
+
+.sorry-message{
+    padding: 10px 0px !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626E60;
+    margin-bottom: 10px !important;
+}
+
+.scroll-submit-stallion-wrp{
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.scroll-submit-stallion-wrp span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #626E60;
+    font-family: 'Synthese-Book';
+    padding: 0px 0px 0px 16px;
+}
+.search-stallion-pop-box .MuiAutocomplete-popper {
+    border: solid 1px #000;
+    margin-top: -5px !important;
+    padding:0px !important;
+    margin:0px;
+    border-radius: 4px;
+}
+
+.search-stallion-pop-box .MuiAutocomplete-popper[data-popper-placement="top"] {
+    margin-bottom: -5px !important;
+    margin-top: 0px !important;
+}
+.search-stallion-pop-box .MuiAutocomplete-popper[data-popper-placement="top"] .floting-btn{
+    bottom: 0px !important;
+}
+
+
+.search-stallion-pop-box .MuiBox-root {
+    padding: 0px 0px 0px;
+}
+.add-favourite {
+    padding-top: 8px;
+}
+.search-stallion-pop-box .add-favourite {
+    margin-left: 0;
+    padding-top: 18px;
+}
+
+.search-stallion-pop-box .add-favourite span.MuiCheckbox-root {
+    padding: 0;
+}
+
+.search-stallion-pop-box .add-favourite span.MuiTypography-root {
+    margin-left: 8px;
+    padding-bottom: 1px;
+}
+.search-stallion-pop-box .MuiOutlinedInput-root {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.search-stallion-pop-box .MuiOutlinedInput-root input#customAutocomplete {
+    padding: 13.94px 8px;
+}
+.fav-Media-Box {
+    width: 100%;
+}
+
+.fav-Media-Box .fullscreen h6.noform{
+    padding-top: 100px;
+    text-align: center;
+}
+.dashboardSlider h6.noform{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.radarHeadings {
+    color: #1D472E;
+    margin-top: 30px;
+}
+.pedegree-overlap-right-wrapper .fullscreen {
+    height: 100%;
+}
+
+.search-stallion-pop-box .MuiAutocomplete-popper .MuiAutocomplete-paper {
+    max-height: 130px;
+}
+
+
+
+.search-stallion-pop-box .MuiAutocomplete-popper {
+    max-height: 130px;
+}
+
+.search-stallion-pop-box-inner .MuiAutocomplete-paper .MuiAutocomplete-listbox {
+    min-height: 50px;
+    max-height: 130px;
+
+}
+
+.search-stallion-pop-box .MuiAutocomplete-popper .MuiAutocomplete-noOptions {
+    padding-bottom: 2px;
+    padding-top: 0px;
+}
+
+.search-stallion-pop-box.reportPopup .MuiAutocomplete-popper .MuiAutocomplete-paper {
+    max-height: 230px;
+}
+
+
+
+.search-stallion-pop-box.reportPopup .MuiAutocomplete-popper {
+    max-height: 230px;
+}
+
+.search-stallion-pop-box.reportPopup .search-stallion-pop-box-inner .MuiAutocomplete-paper .MuiAutocomplete-listbox {
+    min-height: 70px;
+    max-height: 230px;
+
+}
+.search-stallion-pop-box-inner.searchPopupBox .MuiAutocomplete-listbox li:last-child {
+    margin-bottom: 0px;
+}
+
+/* *********************************select a stallion **********************************/
+.search-stallion-pop-box {
+    margin-top: 32px;
+    padding-bottom: 20px;
+    min-height: 130px;
+}
+.search-stallion-pop-box.reportPopup{
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+.select-stallion-modal .MuiInputLabel-root {
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: #161716;
+    margin: 0;
+    padding: 0;
+}
+.search-stallion-pop-box .MuiFormControl-root .MuiOutlinedInput-input {
+    padding: 0px 10px;
+}
+.select-favourite-list .MuiListItemButton-root {
+    border: 1px solid #B0B6AF;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #fff;
+    min-height: 64px;
+    padding: 2px 16px;
+}
+
+.select-favourite-pop-inner {
+    margin-top: 0px;
+}
+.select-favourite-list .MuiListItemText-primary {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Regular';
+}
+
+.select-favourite-list .MuiListItemText-secondary {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Synthese-Book;
+    color: #161716;
+}
+
+.select-favourite-list .MuiListItemText-secondary span.MuiTypography-root {
+    color: #007142;
+    font-size: 12px;
+}
+.fav-stallion-img {
+    width: 48px;
+    height: 48px;
+}
+
+.select-favourite-list {
+    padding-bottom: 3px;
+  }
+  .select-favourite-list .MuiListItemButton-root:focus {
+    background: #E2E7E1;
+}
+
+.search-stallion-pop-box {
+    min-height: 120px;
+}
+.fullscreen {
+    width: 100%;
+}
+.aptitude-fullscreen.fullscreen.fullscreen-enabled {
+    height: 100%;
+}
+
+.aptitude-fullscreen.fullscreen.fullscreen-enabled .aptitude-profile-chart-box {
+    height: 100%;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.aptitude-fullscreen.fullscreen.fullscreen-enabled .aptitude-profile-chart-box {
+    margin-top: 0;
+}
+.bubble-Wrapper canvas {
+    width: 100% !important;
+}
+.aptitude-fullscreen.fullscreen.fullscreen-enabled  .bubble-Wrapper {
+    height: 80%;
+}
+
+em.desk-stake {
+    font-style: normal;
+}
+
+em.mob-stake {font-style: normal;display: none;}
+.StakesWinnersComparisionTable .DataList th:nth-child(2), .StakesWinnersComparisionTable .DataList th:nth-child(3), .StakesWinnersComparisionTable .DataList th:nth-child(4), .StakesWinnersComparisionTable .DataList th:nth-child(5) {
+    min-width: 80px;
+}
+
+
+
+/* Pedegree Color */
+
+.LightBlue{
+    background: #C5D9F0;
+}
+.DarkBlue{
+    background: #8BBAF0;
+}
+.LightPink{
+    background: #EFC6DF;
+}
+.DarkPink{
+    background: #ED8AC5;
+}
+.LightGreen{
+    background: #00DE8E;
+}
+.DarkGreen{
+    background: #007142;
+    color: #fff !important;
+}
+.stakes-winner-header .sort-recent .MuiSelect-select {
+    padding: 14px 16px;
+    min-height: 48px;
+    box-sizing: border-box;
+    padding-right: 42px;
+}
+
+.stakes-winner-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.stakes-winner-wrapper .SDpagenation {
+    margin-top: 30px;
+}
+
+.stakes-winner-header .sort-recent {
+    height: 48px;
+    width: 168px;
+}
+
+.stakes-winner-header .sortby {
+    padding-right: 16px;
+    line-height: 20px;
+}
+
+#StakesWinnersComparision{
+    padding-top: 80px;
+}
+
+#AptitudeProfile{
+    padding-top: 80px;
+}
+
+#AlternateMatingSuggestions{
+    padding-top: 80px;
+}
+#StakesWins{
+    padding-top: 80px;
+}
+
+
+
+/* Radar-Chart */
+.radar-legend {display: flex;align-items: center;}
+
+.radar-legend-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+
+
+.radar-legend span.redar-legend-right {
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 22.4448px;
+    line-height: 30px;
+    color: #161716;
+    font-family: 'Synthese-Book';
+    letter-spacing: 0;
+}
+
+.radar-legend .redar-legend-left {
+    width: 63.84px;
+    height: 22.2px;
+    box-sizing: border-box;
+    border: 2.77549px solid #ED8AC5;
+}
+.radar-legend-body:nth-child(2) .redar-legend-left {
+    border: 2.77549px solid #8BBAF0;
+}
+/* .raceHorseContainer{
+    position: relative;
+} */
+.raceSignup .trends-signup{
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+}
+.raceHorseSearch{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 0px !important;
+    margin-top: -12px;
+}
+.raceHorseSearch h5{ 
+    padding-right: 10px;
+    font-family: 'Synthese-Regular';
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.raceHorseSearch .MuiOutlinedInput-root input.MuiOutlinedInput-input{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+color: #161716;
+}
+.searchFooter .MuiAutocomplete-popper .MuiAutocomplete-paper {
+    width: 200px;
+}
+
+.raceSignup .MuiOutlinedInput-root .MuiAutocomplete-endAdornment{
+    display: none ;
+}
+.raceHorseSearch .MuiOutlinedInput-notchedOutline{
+    border-width: 1px !important;
+}
+.raceHorseSearch .MuiAutocomplete-noOptions{
+   padding: 0px 14px;
+}
+.raceHorseSearch .MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 50px;
+}
+.raceHorseSearch .Mui-focused .MuiOutlinedInput-root.MuiOutlinedInput-notchedOutline{
+    border-color: #161716 !important;
+    border-width: 1px !important;
+}
+.raceHorseSearch .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #161716;
+  }
+  .raceHorseSearch .MuiOutlinedInput-root:active .MuiOutlinedInput-notchedOutline {
+    border-color: #161716;
+    border-width: 1px !important;
+  }
+  
+  .raceHorseSearch .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #161716;
+  }
+  
+.raceHorseContainer .MuiAutocomplete-root .MuiOutlinedInput-root{
+   padding: 4px 8px !important;
+   width: 200px;
+}
+.raceHorseSearch .search-stallion-pop-box-inner .MuiAutocomplete-listbox li{
+display: flex;
+flex-direction: column;
+align-items: self-start;
+justify-content: center;
+}
+.raceHorseSearch .MuiAutocomplete-listbox .stallionListBoxHead{
+    font-size: 14px;
+}
+.raceHorseSearch .MuiAutocomplete-listbox .stallionListBoxpara{
+    font-size: 12px;
+    width: 100%;
+}
+.raceHorseSearch .MuiAutocomplete-listbox .stallionListBoxpara p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.searchRHorse{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #ffffff;
+}
+.searchRHorse .search-stallion-pop-box-inner{
+    width: 100%;
+}
+.searchRHorse .search-stallion-pop-box-inner .MuiAutocomplete-popper{
+    margin-top: 0px;
+}
+
+
+.searchRHorse .MuiOutlinedInput-root input.MuiOutlinedInput-input{
+    font-family: 'Synthese-Light';
+    font-weight: 300 !important;
+    font-size: 20px;
+    line-height: 32px;
+color: #ffffff;
+}
+.trends-btm.do-you-stand .searchRHorse .MuiOutlinedInput-root input.MuiOutlinedInput-input{
+    padding: 0px;
+    min-height: auto;
+}
+.trends-btm.do-you-stand .searchRHorse .MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-endAdornment{
+    display: none;
+}
+.trends-btm.do-you-stand .searchRHorse .MuiAutocomplete-root .MuiOutlinedInput-root{
+    padding: 0px;
+}
+.trends-btm.do-you-stand i{
+    cursor: pointer;
+}
+.trends-btm.do-you-stand .searchRHorse .search-stallion-pop-box-inner .MuiAutocomplete-listbox::-webkit-scrollbar {
+    width: 12px;
+  }
+  .searchFooter .search-stallion-pop-box-inner .MuiAutocomplete-listbox::-webkit-scrollbar {
+    width: 12px;
+  }
+  .searchFooter .MuiAutocomplete-root button.MuiButtonBase-root [aria-label="open"]{
+display: none;
+  }
+
+.searchRHorse .MuiOutlinedInput-root input.MuiOutlinedInput-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #C5CFC4;
+    font-family: 'Synthese-Light';
+    opacity: 1; 
+  }
+
+.searchRHorse .search-stallion-pop-box-inner .MuiOutlinedInput-input{
+    border-color: transparent !important;
+    border-width: 0 !important;
+}
+.searchRHorse .search-stallion-pop-box-inner .MuiAutocomplete-noOptions{
+    margin: 0px 16px;
+    padding: 0px;
+   background:transparent !important;
+}
+.searchRHorse .search-stallion-pop-box-inner .MuiAutocomplete-listbox .stallionListBoxpara{
+    font-size: 12px;
+    width: 100%;
+}
+.searchRHorse .search-stallion-pop-box-inner .MuiAutocomplete-listbox .stallionListBoxpara p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+    .searchRHorse .search-stallion-pop-box-inner .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+  }
+  .searchRHorse .search-stallion-pop-box-inner .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+  }
+  .searchRHorse .search-stallion-pop-box-inner .MuiOutlinedInput-root:active .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+  }
+  .searchRHorse fieldset.MuiOutlinedInput-notchedOutline{
+    border: 0px;
+  }
+  .searchRHorse .MuiAutocomplete-popper{
+    margin-top: 2px !important;
+    border-top: 0px !important;
+  }
+/* mediaquery */
+
+@media only screen and (max-width: 1024px) {
+    .stallion-search-graph header{
+        z-index: 1;
+        top: 72px;
+    }
+    .stakes-winner-header-inner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    em.mob-stake {font-style: normal;display: block;}
+    em.desk-stake{display: none;}
+    .alternate-mating-tabs {
+        margin-top: 64px;
+    }
+    
+    .stakes-winner-wrapper {
+        padding-bottom: 24px;
+    }
+    .aptitude-profile-chart-box {
+        min-height: 472px;
+    }
+   
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+
+    .alternate-mating-tabs {
+        min-height: 680px;
+    }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+    .alternate-mating-tabs {
+        min-height: inherit;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .legent-modal-pop-box p {
+        padding-right: 0px  ;
+    }
+    .stakes-winner-header-inner h3, .AlternateSuggesionWrp h3, .SPaptitudeprofile .APTitle, .radarHeadings {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .search-stallion-pop-box .search-stallion-pop-box-inner  .MuiAutocomplete-endAdornment {
+        display: flex;
+        flex-direction: row;
+    }
+    .alternate-mating-tabs {
+        min-height: inherit;
+    }
+    .StakesWinnersComparisionTable .DataList th:nth-child(2), .StakesWinnersComparisionTable .DataList th:nth-child(3), .StakesWinnersComparisionTable .DataList th:nth-child(4), .StakesWinnersComparisionTable .DataList th:nth-child(5) {
+        min-width: inherit;
+    }
+    .stallion-search-graph header{
+        z-index: 1;
+    }
+    .search-stallion-pop-box .MuiBox-root .MuiOutlinedInput-root {
+        line-height: 20px;
+    }
+    .search-stallion-pop-box .stallionListBoxHead {
+        width: 100%;
+    }
+    
+    .search-stallion-pop-box .stallionListBoxpara {
+        display: none;
+    }
+    /* .search-stallion-pop-box.reportsPopup 
+        padding-left: 0px;
+    } */
+    .stallionsearchDWNButton {
+        margin-left: 24px;
+    }
+    .stallionsearchButton i{
+        padding-right: 5px;
+        font-size: 18px;
+    }
+    .graph-search-left {padding-right: 0rem;}
+    .graph-search-right {padding-left: 0rem; margin-top: 1rem;}
+    .aptitude-profile-chart-box {padding: 24px 12px;
+        min-height: initial;}
+    .graph-search {margin-top: 60px;padding-top: 0;}
+    .radarHeadings {
+        margin-top: 0;
+    }
+    .stallion-search-graph .SortByCommonStyle {
+        display: block;
+        margin-top: 40px;
+    }
+    .aptitude-profile-chart-box .ListBtn {
+        margin-left: 12px;
+    }
+   .stakes-winner-wrapper .SPracerecordCount .css-1xwb152-MuiGrid-root {padding-left: 7px;}
+
+    .stakes-winner-wrapper .SPracerecordCount span {
+        line-height: 0px;
+    }
+
+    .stakes-winner-wrapper .SPracerecord {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-basis: 16.666667%;
+        -ms-flex-preferred-size: 16.666667%;
+        flex-basis: 16.666667%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 16.666667%;
+    }
+    .stakes-winner-wrapper .SDpagenation {
+        margin-top: 30px;
+    }
+    .accordion-wrapper-st-search .accordionBtnT20 {
+        text-align: left;
+        min-width: 100%;
+    }
+
+    .accordion-wrapper-st-search .MuiAccordionDetails-root p {
+        padding-right: 0px;
+    }
+    .select-stallion-modal .MuiInputLabel-root { white-space: pre-line; line-height: 28px; }
+    .select-favourite-list .MuiListItemButton-root {height: auto;  min-height: 76px; padding-top: 0;padding-bottom: 0;  padding-left: 10px; padding-right: 10px; }
+    .stakes-winner-header-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .stakes-winner-header-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .stallion-search-graph .SortByCommonStyle .sortby {
+        display: none;
+    }
+    .stakes-winner-wrapper .DataList table {
+        min-width: 100%;
+    }
+    .DataList td {
+        font-size: 12px !important;
+    }
+    .DataList tbody td:first-child {
+        padding-left: 12px !important;
+    }
+    .DataList i {
+        font-size: 20px !important;
+    }
+    .stallionSearchHeaderRight .stallionsearchButtonOuter {
+        padding-right: 0;
+        margin-left: 0rem;
+        margin-right: 0;
+        padding-left: 0rem;
+    }
+    .alternate-mating-tabs {
+        margin-top: 64px;
+    }
+    
+    .stakes-winner-wrapper {padding-bottom: 24px;}
+    .select-favourite-pop-box {
+        margin-top: 0px;
+        margin-bottom: 32px;
+    }
+    .search-stallion-pop-box {
+        margin-top: 0;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    #StakesWinnersComparision{
+        padding-top: 64px;
+    }
+    
+    #AptitudeProfile{
+        padding-top: 64px;
+    }
+    
+    #AlternateMatingSuggestions{
+        padding-top: 64px;
+    }
+    .legent-modal-pop-box .legend-para{
+        padding-right: 0px;
+    }
+}
+
+

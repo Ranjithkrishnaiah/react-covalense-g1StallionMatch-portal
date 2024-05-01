@@ -1,0 +1,93 @@
+{
+  "common":{
+    "stallions" : "Stallions",
+    "sortBy":"Sort by",
+    "promoted": "Promoted",
+    "alphabetical": "Alphabetical",
+    "studFee": "Stud Fee",
+    "recentlyUpdated": "Recently Updated",
+    "availableNominations": "Available Nominations",
+    "advancedFilters": "Advanced Filters",
+    "location": "Location",
+    "farm": "Farm",
+    "YearToStud":"Year of Stud",
+    "colour":"Colour",
+    "feeRange":"Fee Range",
+    "currency": "Currency",
+    "includePrivateFees":"Include Private Fees",
+    "pedigree":"Pedigree",
+    "grandsire":"Grand Sire",
+    "sire": "Sire",
+    "damSire":"Dam Sire",
+    "keyAncestor":"Key Ancestor",
+    "excludeKeyAncestor": "Exclude Key Ancestor",
+    "stallionCount":"Stallion Count",
+    "stallionFilters":"Stallion Filters",
+    "grandSire":"Grand Sire",
+    "farmFilters":"Farm Filters",
+    "ExcludeAncestor": "Exclude Key Ancestor",
+    "defaultCurrencySymbol": "$"
+
+  },
+  "demo": {
+    "title": "English",
+    "introduction": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "homePage":{
+    "links":["Dashboard", "Stallion Match", "Farms", "Directory",  "Trends", "Reports"],
+    "h1":"Find your Perfect Stallion Match.........."
+  },
+  "stallionDirectory":{
+    "filterCount": 4,
+    "filters":{
+      "filter1":{
+        "title": "Sort by",
+        "options":["Promoted", "Alphabetical", "Stud Fee", "Recently Updated", "Available Nominations"]
+      },
+      "filter2":{
+        "title": "Advanced Filters",
+        "placeholderOptions":["Location", "Farm", "Year of Stud", "Colour"]
+      },
+      "filter3":{
+        "title": "Fee Range",
+        "placeholderOptions":["Currency"],
+        "options":"Include Private Fees"
+      },
+      "filter4":{
+        "title": "Pedigree",
+        "placeholderOptions":["Grand Sire", "Dam Sire", "Key Ancestor"],
+        "options":"Exclude Key Ancestor"
+      }
+    }
+  },
+  "stallionPage":{
+    
+  },
+  "farmDirectory":{
+    "filters":{
+      "filterCount": 5,
+      "filter1":{
+        "title": "Sort by",
+        "options":["Promoted", "Alphabetical", "Stallion Count", "Recently Updated"]
+      },
+      "filter2":{
+        "title": "Farm Filters",
+        "placeholderOptions":["Location"]
+      },
+      "filter3":{
+        "title": "Stallion Filters",
+        "placeholderOptions":["Year to Stud", "Colour"]
+      },
+      "filter4":{
+        "title": "Fee Range",
+        "placeholderOptions":["Currency"],
+        "options":"Include Private Fees"
+      },
+      "filter5":{
+        "title": "Pedigree",
+        "placeholderOptions":["Sire", "Grand Sire", "Key Ancestor"],
+        "options":"Exclude Key Ancestor"
+      }
+    }
+  }
+}

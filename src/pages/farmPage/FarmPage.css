@@ -1,0 +1,312 @@
+.signup{
+    background-color: #2EFFB4;
+    color: #1D472E;
+    border: solid 1px #2EFFB4;
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    height: 52px;
+    line-height: 52px;
+    letter-spacing: 0.01rem;
+}
+
+.signup:hover{
+    background-color: #00DE8E;
+    color:#1D472E;
+  }
+
+.farm-content p{
+    padding: 0 0 0 0rem;
+    margin: 0px;
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.farm-header-btns{
+    justify-content: end;
+    align-items: center;
+
+}
+
+section#Our-Stallions h3 {
+    line-height: 60px;
+}
+section#Our-Stallions .SDpagenation {
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+.farm-slider{
+    position: relative;
+}
+.farm-slider i::before{
+    position: absolute;
+    font-size: 26px;
+    color: #ffffff;
+    z-index: 1;
+    cursor: pointer;
+    bottom: 24px;
+    right: 24px;
+}
+.farm-page-slider 
+ .farm-media-image {
+    height: 556px;
+}
+
+.farm-page-slider .farm-media-image img {
+    height: 556px;
+    border-radius: 9px;
+}
+.farm-page-slider.fullscreen-enabled .farm-media-image {
+    height: auto;
+}
+
+.farm-page-slider.fullscreen-enabled .farm-media-image img {
+    height: 100%;
+}   
+/* .recent-slider-box {
+    position: relative;
+} */
+.farm-page-slider.fullscreen.fullscreen-enabled {
+    height: 100%;
+}
+.farm-page-slider.fullscreen.fullscreen-enabled .MuiGrid-root {
+    height: 100%;
+}
+.farm-page-slider.fullscreen.fullscreen-enabled .farm-slider {
+    height: 100%;
+}
+
+.farm-page-slider.fullscreen.fullscreen-enabled .farm-slider .recent-slider-box.farm-media {
+    height: 100%;
+}
+
+.farm-page-slider.fullscreen.fullscreen-enabled .farm-slider  .fullscreen {
+    height: 100%;
+}
+
+.farm-page-slider.fullscreen.fullscreen-enabled .farm-slider  .farm-media-image.media-slider {
+    height: 100%;
+}
+.media-image .MuiCardMedia-root{
+    height: 244px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.farms-page-header-button {
+    margin-bottom: 8px;
+}
+
+.mediaSliderPop .media-slider img.MuiCardMedia-root {
+    height: 400px;
+    object-fit: cover;
+}
+
+.mediaSliderPop .media-slider video.MuiCardMedia-root {
+    height: 400px;
+    object-fit: cover;
+}
+.edit-farm-profile-modal .profile-picture .MuiAvatar-root.MuiAvatar-circular {
+    width: 189px;
+    height: auto;
+    min-height: 126px;
+    border-radius: 4px;
+    background: #eee;
+}
+section#Our-Stallions {
+    padding-top: 80px;
+}
+
+.farm-share{
+    margin-top: 20px;
+}
+
+.media-slider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.farmpagesliderWrapper .fullscreen.fullscreen-enabled .farm-slider .farm-media-image img.MuiCardMedia-root {
+    border-radius: 0;
+}
+
+.farmpagesliderWrapper .fullscreen.fullscreen-enabled .farm-slider img.arrowcollapse {
+    position: absolute;
+    top: 20px;
+    bottom: inherit;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .farmpagesliderWrapper .fullscreen.fullscreen-enabled .MuiDialog-container .MuiPaper-root {
+    height: auto;
+    margin: auto;
+}
+.media-image .MuiCardMedia-root {
+    height: 100%;
+}
+#Media .farm-media-image {
+    height: 100%;
+    max-height: initial;
+    height: 190px;
+}
+.farmpagesliderWrapper .dots {
+    bottom: 32px;
+}
+
+.farm-slider i::before {
+    bottom: 32px;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .farm-content p{
+        padding: 0px;
+    }
+    .media-slider-wrapper .navigarion-arrow-wrapper{
+        width: 98%;
+        top:100px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 1023px){
+    .farm-page-slider .farm-media-image {
+        height: 354px;
+    }
+
+    .farm-page-slider .farm-media-image img {
+        height: 354px;
+    }
+    .farm-content {
+        padding: 0;
+           margin-top: 32px;
+    }
+    section#Our-Stallions {
+        padding-top: 64px;
+    }
+    #Media .farm-media-image {
+        height: 188px;
+        max-height: initial;
+    }
+    .media-image .MuiCardMedia-root {
+        height: 100%;
+    }
+    #Media .navigarion-arrow-left {
+        margin: 0;
+    }
+    .farms-page-header-button {
+        margin-bottom: 16px;
+    }
+
+ 
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .farm-content p{
+        padding: 0px;
+    }
+    .farm-header-btns .ListBtn{
+        font-size: 11px;
+        padding: 4px 8px;
+    }
+    .farm-slider i::before{
+    right: 1.2rem;
+    font-size: 24px;
+    }
+    .farm-header-btns{
+        position: relative;
+        top: 5px;
+    }
+    .media-slider-wrapper .navigarion-arrow-wrapper{
+        width: 98%;
+        top:82px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px){
+
+    .farm-slider i::before {
+        bottom: 16px;
+        right: 1.2rem;
+        font-size: 24px;
+    }
+    }
+
+
+@media only screen and (max-width: 600px){
+    .farmpagesliderWrapper .recent-slider-box img.MuiCardMedia-root {
+        border-radius: 0px;
+    }
+    .media-slider-wrapper .navigarion-arrow-wrapper{
+        width: 98%;
+        top:74px;
+    }
+    .farm-content p{
+        padding: 0rem 0 0 0;
+    }
+    .farm-header-btns{
+        justify-content: left;
+        margin: 0;
+        top: 0;
+    }
+    .farm-header-btns .ListBtn{
+        font-size: 14px;
+        padding: 4px 8px;
+        margin: 16px 0px;
+    }
+    .farms-page-header-button {
+        margin: 0;
+    }
+    #Media .farm-media-image {
+        width: 100%;
+    }
+    
+    .farmpagesliderWrapper {
+        padding: 0;
+    }
+    
+    .farmpagesliderWrapper .recent-slider-box {
+        gap: 0;
+    }
+    
+    .farm-page-slider .farm-media-image img {
+        border-radius: 0;
+        height: 250px;
+    }
+    
+    .farm-page-slider .farm-media-image {
+        height: 250px;
+    }
+    section#Our-Stallions .MuiContainer-root > .MuiBox-root {
+        margin-top: 24px;
+    }
+    .farm-page-header .MuiGrid-root.MuiGrid-container {
+        margin-bottom: 20px;
+    }
+    .mediaSliderPop .media-slider img.MuiCardMedia-root{
+        height: auto;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 844px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #Media .farm-media-image{
+        height: 140px;
+    }
+    #Media .farm-media-image video{
+        height: 100%;
+    }
+}

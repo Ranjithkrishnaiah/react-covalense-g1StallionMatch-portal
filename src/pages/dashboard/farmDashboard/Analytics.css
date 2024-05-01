@@ -1,0 +1,239 @@
+.analytics{
+    position: relative;
+}
+
+.analytics div{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 24px;
+    white-space: nowrap;
+    line-height: 40px;
+    color: #161716; 
+
+}
+
+.analytics span{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #007142;
+    padding-left: 5px;
+}
+.analytics span.arrowDownBlock {
+    color: #C75227;
+}
+.analytics p{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #C75227;
+    padding-left: 5px;
+}
+
+.analytics i{
+    position: relative;
+    top:2px;
+}
+
+.add-stallion{
+    background: none;
+    border: solid 1px #007142;
+    color: #161716;
+    border-radius: 4px;
+    padding: 0px 16px;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    text-transform:capitalize;
+    height: 40px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.add-stallion:hover{
+    background: #007142;
+    color: #FFFFFF;
+}
+.stallion-overview-right .add-stallion {
+    font-size: 16px;
+    padding: 6px 24px 10px 24px;
+    min-width: 167px;
+    height: 40px;
+    width: auto;
+    letter-spacing: -0.01em;
+}
+.stallion-overview-left h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1D472E;
+}
+.stallion-overview-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.add-stallion i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.stallion-overview-right .add-stallion i.icon-Plus {
+    margin-top: 4px;
+}
+.stallion-overview-right .regisBtn {
+    padding: 6px 24px 10px;
+    min-width: 182px;
+    margin-left: 11px;
+    white-space: nowrap;
+    letter-spacing: -0.01em;
+}
+
+.user-list .dashboardList{
+    /* min-height: 512px; */
+    box-sizing: border-box;
+    min-height: 355px;
+    max-height: 512px;
+}
+
+.Stallion-Activity .dashboardList{
+    min-height: 355px;
+    box-sizing: border-box;
+}
+
+.userlist-dashboard-box .buttonBottommwrp .MuiBox-root {
+    margin-top: 0;
+}
+.analyticsList h5 {
+    color: #626E60;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+}
+
+.reports-order.dashboardList{
+    height: 400px;
+    padding-bottom: 0;
+
+}
+
+.stallion-overview-wrapper{
+    margin-top: 160px;
+    margin-bottom: 32px;
+}
+.farmDashboardAnalystic .analytics i {
+    top: 0;
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+.farmDashboardAnalystic .analytics span.MuiTypography-root,.farmDashboardAnalystic .analytics p.MuiTypography-root {
+    display: flex;
+    align-items: end;
+    padding-left: 6px;
+}
+.farmDashboardAnalystic .dashboardList {
+    /* min-height: 347px; */
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .stallion-overview-wrapper {
+        margin-top: 56px;
+    }
+   
+}
+@media only screen and (max-width: 900px) {
+.stallion-overview-right {
+    justify-content: flex-start;
+}
+.Stallionview .roaster-lines-anlaytics{
+flex-direction: column;
+}
+.Stallionview .roaster-lines-anlaytics .MuiDivider-root{
+    margin-left: 0px;
+}
+.Stallionview .roaster-block{
+    margin-top: 16px;
+    margin-left: 0px;
+}
+}
+@media only screen and (max-width: 767px) {
+    
+    .stallion-overview-right .regisBtn {
+        min-width: 167px;
+        width: auto;
+        padding: 6px 10px 10px;
+    }
+    .stallion-overview-wrapper{
+        margin-top: 3rem;
+    }
+    .mare-list .dashboardList{
+        height: auto;
+        padding-bottom: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .stallion-overview-right .regisBtn:last-child {
+        display: block;
+    }
+    .stallion-overview-right .add-stallion {
+        min-width: 140px;
+        padding: 6px 14px 10px 14px;
+    }
+    .stallion-overview-right {
+        justify-content: flex-start;
+    }
+
+    .stallion-overview-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 64px;
+    }
+    .stallion-overview-left h3 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .stallion-overview-right {margin-top: 4px; flex-wrap: wrap;}
+    .stallion-overview-right .viewSR{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .Stallion-Activity .dashboardList{
+        height: auto;
+        padding-bottom: 24px;
+    }
+
+    .add-stallion{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 330px) {
+    .stallion-overview-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .stallion-overview-right .regisBtn {
+        margin: 0;
+        margin-top: 16px;
+    }
+    .DBprofile .profile-pic h4 {
+        width: 140px;
+    }
+
+}
+

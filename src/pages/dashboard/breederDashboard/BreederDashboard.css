@@ -1,0 +1,532 @@
+.Dashboard-Hypomate {
+  background: #f4f1ef;
+  padding: 5rem 0;
+  text-align: center;
+}
+.farmMediaSliderPopup .MuiDialog-paper {
+  width: 504px;
+}
+.SPhypomating .Homesearch .directory-arrow .MuiAutocomplete-endAdornment {
+  display: block;
+}
+.your-mare-block.no-data .dashboardList{
+  height: 40% !important;
+}
+
+.your-mare-block .dashboardList {
+  height: 100%;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+
+}
+
+.Favorite-Stallions .dashboardList {
+  min-height: 355px;
+  box-sizing: border-box;
+ 
+}
+
+.Favorite-Damsires .dashboardList {
+  height: auto;
+  min-height: 355px;
+  box-sizing: border-box;
+  
+}
+
+.resent-search .dashboardList {
+  min-height: 340px;
+  box-sizing: border-box;
+}
+
+.fav-farms .dashboardList {
+  min-height: 355px;
+  box-sizing: border-box;
+}
+
+.fav-farms .dashboardList .MuiContainer-root .List-content{
+  margin-top: 0;
+}
+.fav-farms .dashboardList .buttonGlobal {
+  margin-top: 8px;
+}
+
+.account-confirm .resendEmail-toast {
+  padding: 16px 24px;
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: space-between;
+  background: #2effb4;
+}
+
+.account-confirm .resendEmail-toast h5 {
+  font-family: 'Synthese-Book';
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #1d472e;
+  line-height: 20px;
+}
+
+.account-confirm .resendEmail-toast h5 strong {
+  font-family: 'Synthese-Bold';
+  font-weight: 700;
+}
+.account-confirm .resendEmail-toast h5 strong.resendConfirm {
+  color: #3d3ddd;
+  font-family: 'Synthese-Book';
+  font-weight: 400;
+  cursor: pointer;
+}
+.account-confirm .resendEmail-toast i {
+  font-size: 24px;
+  color: #1d472e;
+  cursor: pointer;
+}
+.Dashboard-Hypomate .HomeSearchBlock {
+  margin-top: 32px;
+}
+
+.Dashboard-Hypomate h3 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: #1D472E;
+}
+
+.Dashboard-Hypomate p.MuiTypography-root {
+  text-align: center;
+  letter-spacing: -0.01em;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+}
+.Dashboard-Hypomate .MuiOutlinedInput-root input.MuiOutlinedInput-input {
+  padding-left: 0;
+  letter-spacing: -0.01em;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Synthese-Book';
+  color: #161716;
+}
+.SPhypomating .Homesearch .MuiAutocomplete-clearIndicator .MuiSvgIcon-root {
+  font-size: 24px !important;
+}
+.Favorite-Damsires .dashboardList .buttonGlobal {
+  margin-top: 8px;
+}
+.fav-Media-Box .MuiCardContent-root h5.MuiTypography-root {
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Synthese-Book;
+  margin-bottom: 0;
+}
+
+.fav-Media-Box .MuiCardContent-root h4.MediacardTitle {
+  color: #161716;
+  letter-spacing: -0.02em;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fav-Media-Box .MuiCardContent-root  h6.MuiTypography-root {
+  color: #161716;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Synthese-Book';
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+.mediaSliderPop .MuiBox-root .MuiCardContent-root h6 {
+  letter-spacing: -0.02em;
+  color: #161716;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.dashboard-header {
+  margin-top: 32px;
+}
+.dashboardList .boxes-header-wrapper .ListBtn {
+  margin-left: 16px;
+  box-shadow: none;
+}
+.Dashboard-Hypomate .HomeSearchBlock .Homesearch button.MuiButtonBase-root.MuiAutocomplete-popupIndicator {
+  display: inline-flex;
+}
+
+/* media-query */
+
+@media only screen and (max-width: 1200px) {
+  .your-mare-block .dashboardList {
+    padding-bottom: 24px;
+        min-height: 355px;
+        box-sizing: border-box;
+  }
+  .no-data .your-mare-box {
+    margin-top: -50px;
+}
+  .Dashboard-Hypomate {
+    margin-top: 24px;
+}.fav-Media-Box .dashboardList {
+  margin-bottom: 0;
+}
+.fav-Media-Box .farm-media-image {
+  height: 650px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  .Dashboard-Hypomate .MuiBox-root {
+    flex-grow: 1;
+    padding: 0;
+  }
+  .Dashboard-Hypomate .SMare {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Dashboard-Hypomate .HomeSearchBlock .SMare .directory-arrow.mareBlockInput .MuiAutocomplete-endAdornment {
+    margin-right: 0;
+}
+.Dashboard-Hypomate .Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+  min-height: 104px;
+}
+
+  .Dashboard-Hypomate .SMare .MuiBox-root {
+    width: 100%;
+  }
+  .MuiOutlinedInput-input {
+    font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+  }
+  .Dashboard-Hypomate .SMare hr.MuiDivider-root {
+    background: #c5cfc4;
+    width: auto;
+    height: 56px;
+    margin: auto 0px !important;
+  }
+  .Dashboard-Hypomate .MuiOutlinedInput-root {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Dashboard-Hypomate
+    button.MuiIconButton-root.MuiIconButton-sizeMedium.MuiAutocomplete-popupIndicator {
+    position: absolute;
+    
+  }
+  .Dashboard-Hypomate {
+    position: relative;
+    padding: 5rem 24px;
+    margin-top: 24px;
+}
+.fav-Media-Box .dashboardList {
+  margin-bottom: 0;
+}
+  .Dashboard-Hypomate .MuiOutlinedInput-input {
+    padding: 15px 0px !important;
+  }
+  .Dashboard-Hypomate h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+}
+  .Dashboard-Hypomate .SMare .MuiOutlinedInput-root {
+    padding: 0rem !important;
+  }
+  .Dashboard-Hypomate .mareBlockInput .MuiOutlinedInput-root {
+    padding-right: 56px !important;
+  }
+  .homeBackground .STMbannertext {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+  }
+  .Dashboard-Hypomate button.MuiButtonBase-root img {
+    width: 44px;
+  }
+  .Dashboard-Hypomate button.MuiIconButton-root.MuiIconButton-sizeMedium {
+    position: static;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 32px;
+  }
+  .fav-Media-Box .farm-media-image {
+    height: 650px;
+}
+.fav-Media-Box .farm-media-image video {
+  height: 100%;
+}
+  .Dashboard-Hypomate .MuiBox-root .MuiContainer-root {
+    padding: 0;
+}
+  .Dashboard-Hypomate .MuiBox-root {
+    position: relative;
+    min-height: 104px;
+    padding: 0px 0px;
+  }
+  .Dashboard-Hypomate button.MuiIconButton-root.MuiIconButton-sizeMedium.MuiAutocomplete-clearIndicator {
+    position: absolute;
+    right: 32px;
+    margin: auto;
+}
+
+  .dashboard-header h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 56px;
+}
+.your-mare-block .dashboardList {
+  padding-bottom: 24px;
+      min-height: 355px;
+}
+.Dashboard-Hypomate .SPhypomating .HomeSearchBlock .SMare hr.MuiDivider-root {
+  width: auto;
+  height: 56px;
+  margin: auto 0px;
+}
+.Dashboard-Hypomate .HomeSearchBlock {
+  padding: 0;
+}
+}
+
+@media only screen and (max-width: 992px) {
+  .fav-Media-Box .farm-media-image {
+    height: 430px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .Dashboard-Hypomate .SPhypomating .HomeSearchBlock .SMare .MuiAutocomplete-root .MuiAutocomplete-endAdornment {
+    display: flex;
+}
+
+  .homeBackground .STMbannertext {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-bottom: 3rem;
+  }
+  .Dashboard-Hypomate .Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+    min-height: 72px;
+}
+
+  .Dashboard-Hypomate .MuiGrid-root.MuiGrid-item {
+    max-width: 100%;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+ 
+  
+.DBprofile .List-content h6 {
+  padding-left: 0;
+}
+.resent-search .dashboardList {
+  height: auto;
+}
+.Dashboard-Hypomate {
+  padding: 64px 32px;
+  margin-top: 24px;
+}
+
+
+
+
+
+.Favorite-Stallions .dashboardList{
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.Favorite-Damsires .dashboardList{
+  height: auto;
+  padding-bottom: 2rem;
+}
+.Dashboard-Hypomate .MuiOutlinedInput-root input.MuiOutlinedInput-input {
+  padding: 24px 0px 24px !important;
+}
+.dashboardList .title {
+  margin-bottom: 0px;
+}
+.dashboardList .boxes-header-wrapper .ListBtn {
+  margin-right: 0;
+  margin-left: 0px;
+}
+.dashboardList .boxes-header-wrapper .ListBtn:nth-child(2) {
+  margin-left: 16px;
+  margin-right: 0;
+}
+.resent-search .dashboardList .title {
+  margin-bottom: 0;
+}
+.fav-Media-Box .dashboardList .title {
+  margin-bottom: 0;
+}
+.fav-Media-Box .farm-media-image {
+
+  height: 410px;
+}
+
+.fav-Media-Box .MuiCardContent-root h6.MuiTypography-root {
+  margin-bottom: 30px;
+}
+
+.fav-Media-Box .dashboardList {
+  min-height: 579px;
+  margin-bottom: 0;
+}
+.Dashboard-Hypomate .Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+  font-size: 16px;
+}
+.Dashboard-Hypomate  .Homesearch .MuiOutlinedInput-root input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #1D472E !important;
+  opacity:1;
+   text-transform:capitalize;
+   font-size: 16px !important;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+.Dashboard-Hypomate  .Homesearch .MuiOutlinedInput-root input::-moz-placeholder { /* Firefox 19+ */
+  color: #1D472E !important;
+  opacity:1;
+   text-transform:capitalize;
+   font-size: 16px!important;
+   line-height: 24px;
+   letter-spacing: -0.01em;
+}
+.Dashboard-Hypomate  .Homesearch .MuiOutlinedInput-root input:-ms-input-placeholder { /* IE 10+ */
+  color: #1D472E !important;
+  opacity:1;
+   text-transform:capitalize;
+   font-size: 16px!important;
+   line-height: 24px;
+   letter-spacing: -0.01em;
+}
+.Dashboard-Hypomate  .Homesearch .MuiOutlinedInput-root input:-moz-placeholder { /* Firefox 18- */
+  color: #1D472E !important;
+  opacity:1;
+  text-transform:capitalize;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+.Dashboard-Hypomate .Homesearch .SMareWrapper .stallionListBoxpara p {
+  width: 60%;
+}
+}
+
+@media only screen and (max-width: 560px) {
+  .fav-Media-Box .farm-media-image {
+    height: 207px;
+  }
+.fav-farms .dashboardList{
+  min-height: 355px;
+}
+.dashboardList .boxes-header-wrapper .ListBtn {
+  margin-right: 0px;
+  margin-left: 0;
+}
+.Dashboard-Hypomate h3 {
+  white-space: nowrap;
+}
+.Dashboard-Hypomate .SMare {
+  flex-direction: column;
+  align-items: center;
+}
+.Dashboard-Hypomate .MuiBox-root {
+  min-height: 144px;
+  padding: 0px 0px;
+}
+.Dashboard-Hypomate .MuiContainer-root.MuiContainer-maxWidthLg {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.Dashboard-Hypomate .SPhypomating .HomeSearchBlock .SMare hr.MuiDivider-root {
+height: 1px;
+min-height: initial !important;
+margin: 0px 24px !important;
+box-sizing: border-box;
+width: inherit;
+}
+.Dashboard-Hypomate .SMare hr.MuiDivider-root {
+  height: 1px;
+  width: 100%;
+  margin: 0px auto !important;
+}
+.Dashboard-Hypomate .SPhypomating .HomeSearchBlock .SMare button.MuiButtonBase-root {
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+  top: inherit;
+  margin-right: 0;
+}
+.Dashboard-Hypomate  .SPhypomating .HomeSearchBlock .SMare .MuiAutocomplete-root .MuiAutocomplete-endAdornment {
+  height: 32px;
+  margin: auto;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin-right: 32px;
+}
+
+.Dashboard-Hypomate .SPhypomating .HomeSearchBlock .SMare button.MuiAutocomplete-popupIndicator {
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+  top: inherit;
+  position: static;
+  padding: 0;
+}
+.Dashboard-Hypomate .SMare  .MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot {
+  padding-right: 0;
+}
+
+.Dashboard-Hypomate .SPhypomating .HomeSearchBlock .SMare button.MuiButtonBase-root.MuiAutocomplete-clearIndicator {
+  position: static;
+}
+.Dashboard-Hypomate .HomeSearchBlock .SMare .directory-arrow.mareBlockInput .MuiAutocomplete-endAdornment {
+  margin-right: 70px !important;
+}
+.Dashboard-Hypomate .SPhypomating .HomeSearchBlock .SMare .mareBlockInput  button.MuiAutocomplete-popupIndicator {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .Dashboard-Hypomate h3 {
+    white-space: pre-line;
+  }
+}
+
+.profile-confirm .resendEmail-toast h5{
+  color: #ffffff;
+  font-family:'Synthese-Book';
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.01rem;
+}
+
+.profile-confirm .resendEmail-toast {
+  padding: 16px 24px;
+  display: flex;
+  color: #ffffff;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #C75227;
+}

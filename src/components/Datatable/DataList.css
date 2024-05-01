@@ -1,0 +1,1549 @@
+
+/* Grid Styles */
+
+.dashboardList{
+    position: relative;
+    background: #F4F1EF;
+    border-radius: 8px;
+}
+
+.dashboardList .title{
+    font-family: 'Synthese-Regular';
+    font-size: 24px;
+    color: #1D472E;
+    font-weight: 400;
+    /* line-height: 40px; */
+    letter-spacing: -0.02em;
+}
+
+.dashboardList .searched-stallions{
+    font-family: 'Synthese-Regular';
+    font-size: 24px;
+    color: #1D472E;
+    font-weight: 400;
+    padding-right: 10px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    padding-bottom: 14px;
+}
+.dashboardList .broodmare-sires{
+    font-family: 'Synthese-Regular';
+    font-size: 24px;
+    color: #1D472E;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+
+.dashboardList .matched-broodmare-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.dashboardList .matched-broodmare-header .trends-broodmare{
+    width: 70%;
+}
+
+.trends-broodmare .MuiTooltip-popper {
+inset: -25px auto 0px auto;}
+
+.matched-broodmare-header .select-dropdown .MuiSelect-select {
+    height: 40px;
+    padding: 10px 16px 10px;
+    min-height: 40px;
+    padding-right: 38px;
+}
+
+.dashboardList .List-title{
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+    font-size: 12px;
+    color: #1D472E;
+    line-height: 20px;
+    padding: 8px 0px;
+    padding-top: 0;
+}
+.dashboardList .List-border{
+ border: none;
+}
+.stallionactivity-dashboard-box i.icon-Arrow-up,.stallionactivity-dashboard-box i.icon-Arrow-down {
+    font-size: 13px;
+    vertical-align: bottom;
+    margin-left: 2px;
+}
+.breederactivity-dashboard-box i.icon-Arrow-up,.breederactivity-dashboard-box i.icon-Arrow-down {
+    font-size: 13px;
+    vertical-align: bottom;
+    margin-left: 2px;
+}
+.dashboardList .List-content{
+    background: #FFFFFF;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 12px;
+    min-height: 32px;
+}
+.dashboardList .breederactivity-dashboard-box .List-content .datatable-list-item:nth-child(4) {
+    text-transform: uppercase;
+    display: flex;
+}
+.dashboardList .recent-search-box .List-content {
+    box-sizing: border-box;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.dashboardList .List-content span{
+    font-family: 'Synthese-Book';
+    font-weight:400;
+    font-size: 12px;
+    color:#161716;
+    /* word-break: break-word; */
+    text-align: left;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    line-height: 16px;
+}
+.dashboardList .report-order-box .List-content span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Regular';
+    letter-spacing: -0.01em;
+    color: #161716;
+}
+.mare-list .dashboardList .List-content .datatable-list-item:first-child span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Regular';
+    letter-spacing: -0.01em;
+    color: #161716;
+}
+
+.mare-list .dashboardList .List-content .MuiGrid-root:nth-child(2) span.MuiTypography-root {
+    width: 46px;
+    display: inline-block;
+}
+
+.mare-list .dashboardList .List-content .MuiGrid-root:nth-child(3) span.MuiTypography-root {
+    width: 72px;
+    display: inline-block;
+}
+
+
+.dashboardList .List-content .marelist-table-head {
+    font-weight: 400;
+    font-size: 16px !important;
+    color: #161716;
+    font-family: 'Synthese-Regular' !important;
+    letter-spacing: -0.01em;
+    white-space: inherit;
+    padding: 16px 0px;
+    overflow: hidden;
+}
+.DataList i.icon-Dots-horizontal {
+    font-size: 24px;
+    justify-content: flex-end;
+    
+}
+.marelist-table-head{
+    font-weight: 400;
+    font-size: 16px !important;
+    color: #161716 ;
+    font-family: 'Synthese-Regular' !important;
+    letter-spacing: -0.01em !important;
+    white-space: nowrap;
+    padding: 16px 0px;
+}
+.dashboardList .dashboardSlider .recent-slider-box img.MuiCardMedia-root {
+    cursor: pointer;
+}
+.dashboardList .datatable-list-item i.icon-Dots-horizontal {
+    font-size: 24px;
+}
+.dashboardList .List-content .datatable-list-item:last-child i.icon-Dots-horizontal {
+    margin-left: auto;
+}
+
+.breederlist .breeders{
+    width: 24%;
+}
+
+.breederlist .list-left-clumn{
+    display: flex;
+    align-items: center;
+    height: 64px;
+    white-space: nowrap;
+  }
+
+  .breederlist .list-left-clumn span{
+   text-align: left;
+   padding-right: 16px;
+  }
+
+ .breederlist i.icon-Dots-horizontal{
+    padding-right: 0px;
+}
+
+.dashboardList .list-clumn{
+    background: #F4F1EF;
+    border-radius: 8px;
+    align-items: center;
+}
+.dashboardList .list-clumn span{
+    font-family: 'Synthese-Book';
+    font-weight:400;
+    font-size: 12px;
+    color:#161716;
+}
+
+.dashboardList i{
+    font-size: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.dashboardList .List-content .datatable-list-item:last-child {
+    text-align: right;
+}
+
+.resent-search .dashboardList  .List-content .datatable-list-item:last-child {
+    text-align: left;
+    display: flex;
+}
+.your-mare-block .dashboardList .List-content .icon-Dots-horizontal {
+    font-size: 24px;
+}
+.dashboardList .buttonGlobal {
+    margin-top: 12px;
+}
+
+.dashboardList .GotoList{
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px auto;
+}
+.backtopage{
+    font-family: 'Synthese-Book';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #007142;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+
+}
+
+.backtopage:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+
+}
+
+
+.popover:hover{
+    cursor: pointer;
+}
+.dashboardList  .your-mare-box .List-content  .MuiAvatar-root.MuiAvatar-circular {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px !important;
+}
+.your-mare-box {
+    padding-top: 0;
+}
+.dashboardList .List-content .MuiAvatar-root.MuiAvatar-circular {
+    width: 24px;
+    height: 24px;
+}
+
+.dashboardList .List-content .MuiGrid-root:first-child{
+    padding-left: 0px;
+    padding-right: 12px;
+}
+
+.dashboardList .your-mare-box .List-content span {
+    letter-spacing: -0.01em;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 24px;
+}
+.your-mare-block .dashboardList .List-content {
+    min-height: 64px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.StakesProgenyTable .data-grid-header {
+    padding: 0px;
+}
+
+.StakesProgenyTable .SPracerecordCount .datatable-list-item:first-child{
+    padding-left: 24px;
+}
+.RaceRecordTable .data-grid-header {
+    padding: 0px;
+}
+.data-grid-header {
+    padding: 0px 12px;
+}
+
+.data-grid-header .List-border:first-child, .data-grid-header .List-title:first-child {
+    position: relative;
+    left: -12px;
+}
+.resent-search .data-grid-header .List-border:first-child, .resent-search .data-grid-header .List-title:first-child {
+   max-width: 50%;
+   flex-basis: 50%;
+}
+.resent-search .data-grid-header .List-border:nth-child(2), .resent-search .data-grid-header .List-title:nth-child(2) {
+    max-width: 25%;
+    flex-basis: 25%;
+ }
+ .resent-search .data-grid-header .List-border:nth-child(3), .resent-search .data-grid-header .List-title:nth-child(3) {
+    max-width: 15%;
+    flex-basis: 15%;
+ }
+ .resent-search .data-grid-header .List-border:last-child, .resent-search .data-grid-header .List-title:last-child {
+    max-width:10%;
+    flex-basis: 10%;
+ }
+.your-mare-block .dashboardList .List-content .MuiGrid-root:first-child {
+    padding-left: 0px;
+}
+.your-mare-block .dashboardList .List-content {
+    padding: 8px 24px;
+}
+
+.your-mare-block .dashboardList .List-content .datatable-list-item:last-child {
+    text-align: right;
+}
+.dashboardList .boxes-header-wrapper{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.dashboardList .boxes-header-wrapper .icon-Info-circle:before{
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.dashboardList .boxes-header-wrapper .grid-btns .MuiPopover-paper{
+    margin-left: -0.5px;
+    border-radius: 8px !important;
+
+}
+.dashboardList .matched-broodmare-header .grid-btns .MuiPopover-paper{
+    margin-left: -0.5px;
+    
+}
+
+.dashboardList .boxes-header-wrapper.grid-btns{
+    display: flex;
+    align-items: center;
+}
+.report-oreders-box-wrpr .boxes-header-wrapper {
+    padding-bottom: 0;
+}
+.dashboardList .boxes-header-wrapper > .MuiBox-root {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.dashboardSlider{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.common-dashboard-box {
+    padding-top: 0;
+}
+.common-dashboard-box .circular-progress-wrapper{
+    margin-top: 0px !important;
+    height: 350px;
+}
+
+.common-dashboard-box .datatable-list-item{
+    display: flex;
+}
+.mare-list .dashboardList{
+    min-height: 355px;
+    /* max-height: 487px; */
+    box-sizing: border-box;
+
+}
+
+
+.dashboardSlider .navigarion-arrow-wrapper  {left: 0;right: 0;    width: 96%;margin: auto;}
+.dashboardSlider i.icon-Carousel-Arrow-Left:before,.dashboardSlider i.icon-Carousel-Arrow-Right:before {color: transparent;border: 1px solid #BD9A68;border-radius: 50%;width: 32px;height: 32px;}
+.dashboardSlider i.icon-Carousel-Arrow-Left:after, .dashboardSlider i.icon-Carousel-Arrow-Right:after {margin-left: -1.05em;color: #161716;}
+.dashboardSlider i.icon-Carousel-Arrow-Left:after {
+    margin-left: -1.0em;
+}
+.fav-Media-Box .MuiCardContent-root {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+.dashboardSlider .dots__dot {background: #B0B6AF;width: 8px;height: 8px;margin-right: 8px;}
+.dashboardSlider .dot-active {background: #1D472E;}
+.dashboardSlider .dots {left: 0;right: 0;margin: auto;}
+.fav-Media-Box .farm-media-image {
+    height: 240px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.fav-Media-Box .farm-media-image video {
+    height: 240px;
+    object-fit: cover;
+}
+.fav-Media-Box .dashboardSlider .dots {
+    position: absolute;
+    bottom: 32px;
+}
+.fav-Media-Box .farm-media-image img.MuiCardMedia-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fav-Media-Box .dashboardSlider .navigarion-arrow-wrapper {
+    top: 188px
+}
+.fav-Media-Box .dashboardSlider .navigarion-arrow-wrapper i {
+    font-size: 32px !important;
+    box-sizing: border-box;
+}
+/* Farm-dashboard-Style */
+.downLoadTemplateButton{
+ border: solid 1px #000;
+}
+
+.buttonBottommwrp{
+    justify-content: start;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 15px;
+}
+.downLoadTemplateButton {height: 32px; border: 1px solid #007142; text-transform:none; font-family: 'Synthese-Regular';color: #161716;min-width: 174px; box-sizing: border-box;}
+.downloadBtn{
+    height: 34px;
+}
+ 
+   .buttonBottommwrp{
+       justify-content: start;
+       padding-left: 24px;
+       padding-right: 24px;
+       margin-top: 15px;
+   }
+   .userlist-dashboard-box .buttonBottommwrp {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 24px;
+}
+.viewallUsersButton {
+    height: 32px;
+    border: 1px solid #007142;
+    text-transform: inherit;
+    font-family: 'Synthese-Regular';
+    color: #161716;
+    margin-right: 22px;
+    min-width: 115px;
+    font-weight: 400;
+    padding: 5px 8px 7px;
+    letter-spacing: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+    .mare-list .viewallUsersButton {
+        margin-right: 20px;
+    }
+
+
+.viewallUsersButton:hover {background: #007142;color: #fff;}
+.no-data.user-list .buttonBottommwrp .viewallUsersButton {
+    display: none;
+}
+.fav-Media-Box.no-data .dashboardList {
+    min-height: 588px;
+    box-sizing: border-box;
+}
+.fav-Media-Box .dashboardList {
+    margin-bottom: 40px;
+    min-height: 588px;
+    box-sizing: border-box;
+}
+.stallionMatchActvityBox{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.Farmdashboard-Linechart .stallionMatchActvityBox .Linechart-Graph {
+    height: 300px;
+}
+.Farmdashboard-Linechart .fullscreen.fullscreen-enabled .Linechart-Graph {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.StallionMatchActivityFS .ListBtn.Mui-disabled {
+    color: #626E60;
+    border-color:  #B0B6AF;
+    cursor: not-allowed;
+}
+.no-graph-data {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Synthese-Book';
+    font-size: 18px;
+    color: #626E60;
+    width: 200px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #eeeae7;
+    border-radius: 4px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 30px;
+}
+.stallionMatchActvityBox .fullscreen.fullscreen-enabled {
+    background: #F4F1EF;
+}
+.stallionMatchActvityBox .fullscreen.fullscreen-enabled .MuiPaper-root {
+    background: #F4F1EF;
+}
+.downLoadTemplateButton i.icon-Download {margin-right: 4px; font-size: 18px;}
+.buttonBottommwrp .buttonGlobal i.icon-Plus {font-size: 16px;margin-right: 4px;}
+.downLoadTemplateButton:hover {background: #007142;color: #fff;}
+.buttonBottommwrp .buttonGlobal {min-width: 178px;padding: 5px 8px 7px;}
+.dashboardList .MuiContainer-root.MuiContainer-maxWidthLg {margin-top: 0;}
+.dashboardList .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {color: #161716;}
+.dashboardList .selectDropDownBox {
+    width: 150px;
+    min-width: 150px;
+}
+.mare-list .boxes-header-wrapper .downLoadTemplateButton {
+    height: 40px;
+    padding: 9px 8px 11px 8px;
+    margin-right: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.mare-list .dashboardList .List-content {
+    margin-top: 0;
+    padding: 4px 24px;
+    min-height: 72px;
+    align-items: center;
+   
+}
+.report-order-description{
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #161716;
+}
+.recent-search-box  .List-border {
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+    font-size: 12px;
+    color: #1D472E;
+    padding: 8px 0px;
+    padding-top: 0;
+    line-height: 20px;
+
+}
+.dashboardList .css-7kyf5d-MuiDivider-root {
+    border: 0;
+    border-bottom: solid 2px #B0B6AF;
+}
+
+
+
+.resent-search .List-content .MuiGrid-root:first-child,.resent-search .List-border:first-child {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.resent-search .List-content .MuiGrid-root:last-child,.resent-search .List-border:last-child {
+    max-width: 10%;
+    flex-basis: 10%;
+}
+
+
+.resent-search .List-content .MuiGrid-root:nth-child(2),.resent-search .List-border:nth-child(2) {
+    max-width: 25%;
+    flex-basis: 25%;
+}
+.resent-search .List-content .MuiGrid-root:nth-child(3),.resent-search .List-border:nth-child(3) {
+    /* max-width: 15%; */
+    flex-basis: 15%;
+}
+
+.marelist-dashboard-box .buttonGlobal, .userlist-dashboard-box .buttonGlobal {
+    padding: 5px 8px 7px;
+    min-width: 158px;
+}
+.userlist-dashboard-box .buttonGlobal {
+    margin-top: 0;
+}
+.buttonGlobal i.icon-Plus {
+    margin-right: 4px;
+}
+.mare-list.no-data .buttonGlobal {
+    margin-top: 0;
+}
+.marelist-dashboard-box .buttonGlobal i.icon-Plus,.userlist-dashboard-box .buttonGlobal i.icon-Plus {
+    margin-top: 1px;
+    margin-right: 4px;
+    font-size: 16px;
+}
+.marelist-dashboard-box .buttonGlobal {
+    margin-top: 0;
+}
+.mare-header{
+    display: flex;
+}
+.marelist-dashboard-box > .MuiBox-root {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 17px 24px 0;
+}
+.no-data 
+ .userlist-dashboard-box .buttonGlobal {
+    margin: 0px auto;
+    margin-top: 18%;
+}
+
+.no-data .userlist-dashboard-box .MuiBox-root {
+    width: 100%;
+}
+
+.no-data .userlist-dashboard-box .buttonBottommwrp {
+    display: flex;
+    flex-direction: column;
+}
+.no-data .common-dashboard-box .fullscreen {
+    width: 100%;
+}
+/* List-header */
+.common-list-header  .css-yt08g5-MuiStack-root {
+    align-items: center;
+}
+
+
+.common-list-header {
+    margin-bottom: 10px;
+}
+
+.common-list-header h2{
+    text-transform: capitalize;
+}
+
+.common-list-header i{
+    vertical-align:inherit;
+}
+
+.list-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.listheadsortby .MuiPopover-paper{
+    margin-left: -0.5px;
+}
+
+
+/* Mare Lists Table */
+.mare-list-table-wrp {
+    min-height: 64px;
+}
+
+.mare-list-table-wrp span.MuiTypography-root {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Book';
+    text-align: left;
+    white-space: nowrap;
+}
+
+.datatable-margin{
+    margin-bottom: 5rem;
+}
+.datatable-without-margin{
+    margin-bottom: 0rem;
+}
+.mare-list-table-wrp .icon-Dots-horizontal {
+    font-size: 22px;
+    color: #161716;
+    margin-left: auto;
+    margin-right: 28px;
+}
+
+
+
+/* UserList */
+.user-list-table-wrp {
+    padding-left: 1rem;
+    min-height: 72px;
+}
+
+.user-list-table-wrp .sort-recent {
+    height: 40px;
+}
+
+.user-list-table-wrp .css-1uwgr7b-MuiTypography-root {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+}
+
+.user-list-table-wrp i.icon-Dots-horizontal {
+    font-size: 22px;
+    color: #161716;
+    margin-left: auto;
+    margin-right: 28px;
+}
+
+
+/*================================ Sort By Styles =======================================================*/
+
+.sortby{
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .sort-recent{
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+    display: flex;
+    height: 40px;
+    font-family: 'Synthese-Book';
+    min-width: 168px;
+ 
+    
+  }
+
+  .dashboardList .sort-recent {
+    min-width: 130px;
+}
+  
+  
+  .sort-recent svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    color: #161716;
+    margin-right: 0;
+  }
+  
+  .boxes-header-wrapper .select-dropdown {
+    margin: 0;
+    height: 40px;
+    box-sizing: border-box;
+}
+.boxes-header-wrapper .select-dropdown  .MuiSelect-select {
+    height: 40px;
+    padding: 10px 16px 10px;
+    min-height: 40px;
+    padding-right: 38px;
+}
+
+.dashboardList .userlist-dashboard-box  .List-content {
+    min-height: 72px;
+}
+
+.userlist-dashboard-box .SPracerecord {
+    height: auto;
+    min-height: 25px;
+    padding: 8px 0px;
+    padding-top: 0;
+    background: #f4f1ef;
+}
+.Stallion-Activity 
+ .dashboardList .buttonGlobal {
+    margin-top: 8px;
+}
+.userlist-dashboard-box .SPracerecord:first-child {
+    padding-left: 0;
+}
+.userlist-dashboard-box .DataList table tbody tr .UserlistName {width: 150px;}
+
+
+.userlist-dashboard-box .SPracerecord:first-child {
+    width: 172px;
+}
+.userlist-dashboard-box .DataList tbody tr td.AcceslevelClassUser {
+    width: 150px;
+}
+
+.userlist-dashboard-box .DataList tbody tr td.AcceslevelClassUser .MuiPopover-paper{
+    margin-left: -0.5px;
+}
+
+.userlist-dashboard-box .SPracerecord:nth-child(3) {
+    width: 170px;
+}
+.userlist-dashboard-box .DataList tbody tr td.ActiveClassUser {
+    width: 53px;
+}
+
+.userlist-dashboard-box .SPracerecord:nth-child(2) {
+    width: 59px;
+}
+.userlist-dashboard-box .DataList tbody tr td em {
+    font-style: normal;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ListBodyWrapper .DataList tbody td em {
+    font-style: normal;
+}
+.ListBodyWrapper .List-content .icon-Dots-horizontal {
+    cursor: pointer;
+    padding-right: 0px;
+}
+.marelist-dashboard-box .buttonBottommwrp .MuiBox-root {
+    margin-right: 10px;
+}
+
+
+.dashboardList .report-order-box .List-content {
+    min-height: 72px;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+.report-oreders-box-wrpr .buttonGlobal {
+    margin-top: 8px;
+}
+
+.dashboardList .report-order-box .List-content .MuiGrid-root:first-child {
+    padding: 0;
+}
+
+.dashboardList .report-order-box .List-content .marelist-table-head {
+    padding: 0;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.dashboardList .report-order-box .List-content  i.icon-Download {
+    font-size: 24px;
+}
+
+.dashboardList .report-order-box .List-content a {
+    float: right;
+}
+
+.report-oreders-box-wrpr .dashboardList {
+    min-height: 408px;
+    box-sizing: border-box;
+}
+
+.report-order-box {
+    margin-top: 32px;
+}
+
+.report-oreders-box-wrpr .dashboardList .boxes-header-wrapper .MuiBox-root {
+    padding-bottom: 0;
+}
+
+
+.Stallion-Activity .dashboardList .List-title:first-child,.Stallion-Activity .dashboardList .List-content .datatable-list-item:first-child {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 36.333333%;
+    max-width: 36.333333%;
+}
+.Stallion-Activity  .dashboardList .List-content .datatable-list-item:last-child, .Stallion-Activity .dashboardList .List-title:last-child  {
+    -webkit-flex-basis: 8.666667%;
+    -ms-flex-preferred-size: 8.666667%;
+    flex-basis: 8.666667%;
+    max-width: 8.666667%;
+}
+
+.breederlist .yourmares {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    white-space: nowrap;
+}
+.nominationSetting{
+    padding-top: 12px;
+}
+
+.order-report-menu{
+    position: relative;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #626E60;
+    cursor: pointer;
+    border-radius: 8px !important;
+    line-height: 20px;
+}
+.order-report-menu .report-menu-hover{
+    padding: 12px 16px;
+}
+.order-report-menu .report-menu-hover:hover{
+    background-color: #F0F3F0;
+    cursor: pointer;
+}
+.reportDropdown .MuiPopover-paper{
+    border-radius: 8px !important;
+}
+.common-list-header-row {
+    display: flex;
+    justify-content: space-between;
+}
+.list-slider{
+    position: relative;
+    margin-top: 32px;
+}
+
+/* Media-query */
+@media only screen and (max-width: 1200px) {
+.no-data .userlist-dashboard-box .buttonGlobal {
+    margin-top: 10%;
+}
+.fav-Media-Box .dashboardSlider .navigarion-arrow-wrapper{
+    display: none;
+}
+}
+@media only screen and (max-width: 1024px) {
+    .common-list-header .css-yt08g5-MuiStack-root {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .fav-Media-Box .dashboardSlider .navigarion-arrow-wrapper {
+        top: 40%;
+        display: none;
+    }
+    .no-data .userlist-dashboard-box .buttonGlobal {
+        margin-top: 12%;
+    }
+    .no-data .marelist-dashboard-box > .MuiBox-root {
+        margin-top: 10% !important;
+    }
+    .common-list-header .MuiBox-root.css-46po9k {
+        margin: 0;
+    }
+    .report-order-box {
+        margin-top: 0;
+    }
+    
+    .report-oreders-box-wrpr .dashboardList {
+        min-height: 384px;
+    }
+    .user-list .dashboardList {
+        min-height: inherit;
+    }
+    .breederlist .breeders{
+        width: 23.5%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .no-data .userlist-dashboard-box .buttonGlobal {
+        margin-top: 15%;
+    }
+    .no-data .marelist-dashboard-box > .MuiBox-root {
+        margin-top: 10% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .list-header .ListBtn{
+        margin-left: 0px;
+        margin-bottom: 10px !important;
+    }
+    .mare-header{
+        display: flex;
+        flex-direction: row;
+        gap:12px;
+    }
+    .mare-header .ListBtn{
+        margin-top: 0px;
+    }
+    .listheadsortby .MuiPopover-paper{
+        margin-left: 0px;
+    }
+    .userlist-dashboard-box .DataList tbody tr td.AcceslevelClassUser .MuiPopover-paper{
+        margin-left: 0px;
+    }
+    .dashboardList .boxes-header-wrapper .grid-btns .MuiPopover-paper{
+        margin-left: 0px;
+    }
+    .dashboardList .matched-broodmare-header .grid-btns .MuiPopover-paper{
+        margin-left: 0px;
+    }
+    .dashboardList .matched-broodmare-header .trends-broodmare{
+        width: 60%;
+    }
+    .dashboardList .title{
+        padding-bottom: 0px;
+    }
+
+    .dashboardList .searched-stallions{
+        padding-bottom: 8px;
+    }
+
+    .userlist-dashboard-box .DataList table tbody tr .UserlistName {
+        width: 134px;
+    }
+    
+ 
+    .userlist-dashboard-box .SPracerecord:nth-child(2) {
+        width: 77px;
+    }
+    
+
+    .no-data .userlist-dashboard-box .SPracerecord:first-child, .no-data .userlist-dashboard-box .SPracerecord:nth-child(2), .no-data .userlist-dashboard-box .SPracerecord:nth-child(3) {
+        width: auto;
+    }
+
+    .report-oreders-box-wrpr .MuiBox-root.boxes-header-wrapper {
+        padding-top: 24px;
+    }
+    .report-oreders-box-wrpr .dashboardList .boxes-header-wrapper {padding-bottom: 16px;}
+    .report-oreders-box-wrpr .MuiBox-root {
+        padding-top: 0;
+    }
+    .report-oreders-box-wrpr .report-order-box {
+        margin-top: 8px;
+    }
+    .buttonBottommwrp {padding: 0px 16px;display: flex;flex-direction: row;align-items: flex-start;justify-content: flex-start;}
+.buttonBottommwrp .downLoadTemplateButton {min-width: 182px;    margin-bottom: 10px;}
+.buttonBottommwrp .buttonGlobal {min-width: 178px;}
+.dashboardList {padding-bottom: 24px;}
+.list-header{
+    flex-direction: column;
+}
+.common-list-header .ListBtn {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.common-list-header .css-yt08g5-MuiStack-root {
+    align-items: start;
+    display: block;
+}
+.user-list .dashboardList {
+    max-height: inherit !important;
+}
+
+.common-list-header .MuiBox-root.css-46po9k {
+    margin-top: 40px;
+}
+
+.common-list-header-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.common-list-header-row.common-list-slider{
+    align-items: flex-start;
+}
+.list-slider{
+    margin-top: 0px;
+}
+
+.listheadsortby {
+    display: flex;
+    align-items: center;
+}
+
+.common-list-header .list-header {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    align-items: flex-start;
+}
+.your-mare-box {
+    padding-top: 0px;
+    padding-bottom: 0rem;
+}
+.recent-search-box .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 {padding-left: 12px;}
+.recent-search-box .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 {padding-left: 12px;}
+
+.recent-search-box .List-border.MuiGrid-grid-lg-8 {
+    -webkit-flex-basis: 66.666667%;
+    -ms-flex-preferred-size: 66.666667%;
+    flex-basis: 66.666667%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 66.666667%;
+}
+
+.recent-search-box .List-border.MuiGrid-grid-lg-2 {
+    -webkit-flex-basis: 16.666667%;
+    -ms-flex-preferred-size: 16.666667%;
+    flex-basis: 16.666667%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 16.666667%;
+}
+.dashboardSlider .MuiBox-root i {
+    display: none;
+}
+
+.dashboardSlider {padding-left: 16px;padding-right: 16px;}
+
+
+.userlist-dashboard-box {
+    padding-top: 0px;
+}
+.userlist-dashboard-box {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+.userlist-dashboard-box table tbody::after{
+    width: 50px;
+    height: 88%;
+    position: absolute;
+    right: 0px;
+    top: 26px;
+    content: "";
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgb(255 255 255) 100%);
+    border-radius: 0 8px 8px 0;
+}
+.userlist-dashboard-box .MuiBox-root{
+    position: relative;
+}
+ .ListBodyWrapper{
+    position: relative;
+ }
+.ListBodyWrapper .DataList.list-clumns table tbody::after{
+    width: 35px;
+    height: 91%;
+    position: absolute;
+    right: 0;
+    top: 63px;
+    content: "";
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgb(255 255 255) 100%);
+}
+.ListBodyWrapper .DataList.mareListTable table tbody::after{
+    top: 0px;
+}
+.dashboardList .boxes-header-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+}
+.userlist-dashboard-box .SPracerecord {line-height: 10px;}
+.userlist-dashboard-box .MuiGrid-root .sort-recent {
+    min-width: 60px;
+    margin-left: 0px;
+}
+
+.userlist-dashboard-box .MuiGrid-root .sort-recent .MuiSelect-select {
+    font-size: 12px;
+    padding: 8px 7px !important;
+    padding-right: 30px !important;
+}
+
+.userlist-dashboard-box .MuiGrid-root .sort-recent  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    font-size: 22px;
+}
+
+.dashboardList .stallionMatchActvityBox {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.marelist-dashboard-box .List-content {
+    min-height: 80px;
+    align-items: inherit;
+    padding: 11px 0px;
+}
+
+.marelist-dashboard-box .List-content .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-4.MuiGrid-grid-lg-4 {-webkit-flex-basis: 100%;-ms-flex-preferred-size: 100%;flex-basis: 100%;max-width: 100%;padding-bottom: 8px;}
+
+.marelist-dashboard-box .List-content .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.MuiGrid-grid-lg-2 {
+    padding-left: 5px;
+    display: block;
+}
+
+.marelist-dashboard-box .List-content .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-4.MuiGrid-grid-lg-4 span {
+    padding: 0;
+    overflow: inherit;
+}
+
+
+.marelist-dashboard-box .List-content .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.MuiGrid-grid-lg-2 i.icon-Dots-horizontal {
+    position: relative;
+    top: -10px;
+    right: 0;
+}
+.user-list-table-wrp .MuiAvatar-root.MuiAvatar-circular {
+    width: 30px;
+    height: 30px;
+}
+
+.user-list-table-wrp .sort-recent {
+    min-width: 120px;
+}
+
+.user-list-table-wrp .sort-recent .MuiSelect-select {
+    padding: 0px 9px !important;
+}
+.your-mare-block .dashboardList .List-content {
+    margin-top: 0;
+}
+.dashboardList .your-mare-box .List-content span {
+    line-height: 24px;
+}
+
+.breederlist .breeders{
+    width: auto;
+}
+
+.mare-list .dashboardList .boxes-header-wrapper {
+    flex-direction: row;
+}
+
+.mare-list .dashboardList .boxes-header-wrapper > .MuiBox-root .select-dropdown {
+    margin-top: 0;
+}
+
+.mare-list .dashboardList .boxes-header-wrapper > .MuiBox-root {
+    flex-direction: row;
+}
+.no-data .userlist-dashboard-box .buttonBottommwrp .buttonGlobal {
+    margin-top: 18%;
+}
+.stallionactivity-dashboard-box i.icon-Arrow-up, .stallionactivity-dashboard-box i.icon-Arrow-down {
+    position: relative;
+    top: 1px;
+}
+.userlist-dashboard-box .buttonBottommwrp {
+    padding-top: 0;
+}
+.dashboardList .matched-broodmare-header{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+}
+
+@media only screen and (min-width: 653px) and (max-width:667px) {
+
+    .list-header{
+        margin-bottom: 24px !important;
+    }
+    .listheadsortby {
+        align-items: flex-start;
+    }
+    .sortby{
+        padding-top: 6px;
+    }
+    .DataList table {
+        min-width: 100% !important;
+    }
+    .ListBodyWrapper .List-content .yourmares .icon-Dots-horizontal{
+        padding-right: 4px;
+    }
+}
+
+
+
+@media only screen and (max-width: 560px) {
+    .dashboardList .matched-broodmare-header .trends-broodmare{
+        width: 100%;
+    }
+
+    .yourmares{
+        padding-right: 20px;
+    }
+   
+    .no-data .userlist-dashboard-box .buttonBottommwrp .buttonGlobal {
+        margin-top: 28%;
+    }
+    
+    .dashboardList .boxes-header-wrapper {
+        padding-bottom: 24px;
+        flex-direction: column;
+    }
+    .user-list .dashboardList .boxes-header-wrapper {
+        flex-direction: row;
+    }
+    .Stallion-Activity .dashboardList .boxes-header-wrapper {
+        flex-direction: column;
+    }
+    
+    .Stallion-Activity .dashboardList .boxes-header-wrapper .grid-btns {
+        margin-top: 16px;
+    }
+    .your-mare-block .dashboardList .boxes-header-wrapper .grid-btns {
+        margin-top: 16px;
+    }
+
+.fav-farms .dashboardList .boxes-header-wrapper .grid-btns, .Favorite-Stallions .dashboardList .boxes-header-wrapper .grid-btns, .Favorite-Damsires .dashboardList .boxes-header-wrapper .grid-btns  {
+    margin-top: 16px;
+}
+    .resent-search .List-content .MuiGrid-root:nth-child(2), .resent-search .List-border:nth-child(2) {
+        max-width: initial;
+        display: flex;
+    }
+    .common-list-header .list-header {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        align-items: flex-start;
+    }
+    .mare-list .dashboardList .boxes-header-wrapper{
+        flex-direction: column;
+    }
+      
+        .dashboardList .List-content .MuiGrid-root:last-child{
+          padding-right: 0px;
+        }
+        .buttonBottommwrp { padding: 20px 16px 0px;width: 100%;display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-start;}
+        .dashboardList .List-content .MuiAvatar-root.MuiAvatar-circular {
+        margin-right: 5px !important;
+        }
+        .resent-search .List-content .MuiGrid-root:first-child, .resent-search .List-border:first-child {
+            max-width: 45%;
+            flex-basis: 45%;
+        }
+        .marelist-dashboard-box .List-content .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.MuiGrid-grid-lg-2 {
+            max-width: 60%;
+            flex-basis: 60%;
+        }
+        .marelist-dashboard-box .buttonBottommwrp .MuiBox-root {
+            margin-top: 10px;
+        }
+        
+        .marelist-dashboard-box .List-content .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.MuiGrid-grid-lg-2:nth-child(2) {
+            padding-left: 0px;
+            max-width: 30%;
+            flex-basis: 30%;
+        }
+        .mare-list .dashboardList .List-content {
+            padding: 16px 24px;
+            box-sizing: border-box;
+        }
+        .marelist-dashboard-box .List-content .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2.MuiGrid-grid-lg-2:last-child {
+            max-width: 10%;
+            flex-basis: 10%;
+            padding: 0;
+        }
+        .stallionactivity-dashboard-box .MuiGrid-root.MuiGrid-container .MuiGrid-grid-xs-2:nth-child(3) span {white-space: nowrap;}
+
+.stallionactivity-dashboard-box .MuiGrid-root.MuiGrid-container .MuiGrid-grid-xs-2:last-child {
+    max-width: 8% !important;
+    flex-basis: 8% !important;
+}
+
+.stallionactivity-dashboard-box .MuiGrid-root.MuiGrid-container .MuiGrid-grid-xs-2 {
+    max-width: 20% !important;
+    flex-basis: 20% !important;
+}
+
+
+.dashboardList .report-order-box .List-content {
+    padding: 12px 24px;
+    height: auto;
+    min-height: 72px;
+}
+
+.dashboardList .MuiContainer-root.MuiContainer-maxWidthLg {
+    margin-top: 0px;
+}
+.userlist-dashboard-box .buttonBottommwrp .buttonGlobal {
+    margin-top: 16px;
+    min-width: 100px;
+}
+.Stallion-Activity .dashboardList .List-content .MuiGrid-root:last-child {
+    max-width: 8%;
+    flex-basis: 8%;
+}
+.marelist-dashboard-box > .MuiBox-root {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 16px 0;
+    align-items: flex-start;
+    margin-right: auto;
+}
+.mare-list .viewallUsersButton {
+    margin-right: 0;
+    margin-bottom: 16px;
+    min-width: 180px;
+}
+
+.mare-list .dashboardList .boxes-header-wrapper > .MuiBox-root.grid-btns {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.mare-list .dashboardList .boxes-header-wrapper > .MuiBox-root .select-dropdown {
+    margin: 0;
+    width: 150px;
+}
+
+
+
+.Stallion-Activity .dashboardList .List-content .MuiGrid-root:first-child {
+    padding-right: 15px;
+    max-width: 36%;
+    flex-basis: 36%;
+}
+
+
+.Stallion-Activity .dashboardList .List-title.MuiGrid-root:first-child {
+    max-width: 36%;
+    flex-basis: 36%;
+    padding-right: 16px;
+}
+
+
+
+.Stallion-Activity .dashboardList .List-title.MuiGrid-root:last-child {
+    max-width: 8%;
+    flex-basis: 8%;
+}
+.stallionactivity-dashboard-box .MuiGrid-root.MuiGrid-container .MuiGrid-grid-xs-2.List-title span {
+    vertical-align: middle;
+}
+.Stallion-Activity .dashboardList .List-content .MuiGrid-root span {
+    white-space: normal;
+    word-break: break-word;
+}
+
+.Stallion-Activity .MuiGrid-root.MuiGrid-container .MuiGrid-grid-xs-2:nth-child(3), .Stallion-Activity .MuiGrid-root.MuiGrid-container .MuiGrid-grid-xs-2:nth-child(2) {
+    max-width: 15% !important;
+    flex-basis: 15% !important;
+    display: flex;
+}
+
+.Stallion-Activity .dashboardList .List-title.MuiGrid-root.MuiGrid-grid-xs-2:nth-child(2),.Stallion-Activity .dashboardList .List-title.MuiGrid-root.MuiGrid-grid-xs-2:nth-child(3) {
+    max-width: 10% !important;
+    flex-basis: 10% !important;
+}
+.report-oreders-box-wrpr .MuiBox-root {
+    padding-top: 0;
+}
+.report-oreders-box-wrpr .MuiBox-root.boxes-header-wrapper {
+    padding-top: 24px;
+}
+.report-order-description {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.farmDashboardAnalystic  .dashboardList .title {
+    margin-bottom: 0;
+}
+.mare-list .dashboardList .List-content .MuiGrid-root:first-child {
+    max-width: 85%;
+    flex-basis: 85%;
+}
+
+.mare-list .dashboardList .List-content .MuiGrid-root:nth-child(3) span.MuiTypography-root {
+    width: 100%;
+}
+
+.mare-list .dashboardList .List-content .MuiGrid-root:nth-child(2) span.MuiTypography-root {
+    width: 100%;
+}
+
+.dashboardList .List-content .marelist-table-head {
+    padding: 0px 0px 8px;
+}
+.promote-stallion-wrp {
+    margin-top: 0;
+}
+.nominationSetting {
+    padding-top: 0;
+}
+.listheadsortby {
+    margin-top: 50px;
+}
+.DataList table {
+    min-width: 100% !important;
+}
+   .mare-list .dashboardList .boxes-header-wrapper > .MuiBox-root.grid-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mare-list .dashboardList .boxes-header-wrapper > .MuiBox-root .select-dropdown {
+    margin-top: 16px;
+}
+.resent-search .data-grid-header .List-border:first-child, .resent-search .data-grid-header .List-title:first-child {
+    max-width: 44%;
+    flex-basis: 44%;
+ }
+ .dashboardList .List-content span{
+    white-space: inherit;
+ }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .mare-list .dashboardList .boxes-header-wrapper > .MuiBox-root.grid-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mare-list .dashboardList .boxes-header-wrapper > .MuiBox-root .select-dropdown {
+    margin-top: 16px;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .dashboardList .List-content span {
+        font-size: 9px;
+        line-height: 14px;
+        word-break: break-word;
+    }
+    .dashboardList .title {
+        white-space: break-spaces;
+    }
+    .user-list .dashboardList .title {
+        margin-bottom: 0px;
+    }
+    .user-list .dashboardList .boxes-header-wrapper {
+        flex-direction: column;
+    }
+}

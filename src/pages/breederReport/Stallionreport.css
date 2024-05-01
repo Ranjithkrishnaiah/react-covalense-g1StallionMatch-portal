@@ -1,0 +1,208 @@
+.stallion-report{
+    background: #F4F1EF;
+    border-radius: 8px;
+}
+
+.stallion-report .report-links{
+    display: flex;
+    align-items: center;
+}
+
+
+.stallion-report .report-links li{
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.01rem;
+    color:#626E60;
+}
+
+.stallion-report .report-links li:hover{
+    background: none;
+}
+
+.stallion-report .report-links li i{
+    position: relative;
+    top:2px;
+    margin-right: 8px;
+}
+
+.stallion-report .progressbar{
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 2.5%;
+    margin-left: auto;
+    
+}
+.stallion-report .report-links .MuiLoadingButton-root .MuiCircularProgress-root{
+    position: relative;
+    left: -48px;
+    top:2px;
+}
+.stallion-report .report-links .MuiLoadingButton-root .MuiCircularProgress-root .MuiCircularProgress-svg {
+    color: #007142 !important;
+}
+
+.stallion-report .progressbar .MuiLinearProgress-root {
+    background: #E2E7E1;
+}
+
+.stallion-report .progressbar h6{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    color:#161716;
+    
+}
+
+/* Key Statistics */
+.KeyStatisticsWrapper .stallion-analytics {
+    background: none;
+    border-radius: 0 !important;
+}
+.KeyStatisticsWrapper .stallion-analytics h6 {
+    font-size: 18px;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 28px;
+}
+
+.KeyStatisticsWrapper .stallion-analytics hr.MuiDivider-root.MuiDivider-fullWidth.MuiDivider-vertical {
+    margin: 0px 56px;
+}
+.stallion-analytics-row {
+    margin-bottom: 20px;
+}
+.arrowUpBlock {
+    color: #007142;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Synthese-Regular';
+    margin-left: 7px;
+    margin-bottom: 9px;
+}
+
+.stallion-analytics .arrowUpBlock i {
+    margin-right: 0;
+    font-size: 18px;
+    position: relative;
+    left: 3px;
+    vertical-align: text-bottom;
+}
+
+.key-statics-box h4.MuiTypography-root {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+}
+.arrowDownBlock {
+    color: #C75227;
+}
+
+.stallion-analytics .arrowDownBlock i {
+    left: 1px;
+    vertical-align: sub;
+}
+.KeyStatisticsWrapper .stallion-analytics h6 i.icon-Info-circle {
+    font-size: 22px;
+    margin-left: 5px;
+    position: relative;
+    top: 4px;
+}
+
+
+/* matched-mare-table-para */
+.matched-mare-table-para{
+    color: #626E60;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+font-family: 'Synthese-Book';
+}
+.stakes-winner-wrapper .MuiContainer-root {
+    padding: 0;
+    margin: 0;
+}
+
+.common-table-scroll .MuiContainer-root {
+    padding: 0;
+    margin: 0;
+}
+
+  .stallion-report-datatable .MuiContainer-root {
+    padding: 0;
+    margin: 0;
+
+}
+.stallion-report .progressbar i.icon-Info-circle {
+    cursor: pointer;
+}
+/* mediaquery */
+@media only screen and (max-width: 1024px) {
+    .key-statics-box h4.MuiTypography-root {
+        font-size: 30px;
+    }
+
+    .StMatchActvtyInfo hr.MuiDivider-root {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .stallion-report .report-links {align-items: start;margin-top: 10px;margin-bottom: 20px;}
+    .stallion-report .report-links li {margin: 0;padding: 0;}
+    .stallion-report .report-links ul.css-h4y409-MuiList-root {padding: 0;margin: 0;height: 40px;}
+    .stallion-report .progressbar {padding: 5%;width: 100%;box-sizing: border-box;}
+    .stallion-match-activity {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    .stallion-match-activity .trends-header-wrapper {
+        padding-top: 0;
+    }
+    .stallion-report {
+        padding: 24px 10px;
+    }
+    .key-statics-box h4.MuiTypography-root {
+        font-size: 32px;
+    }
+    
+    .KeyStatisticsWrapper .stallion-analytics hr.MuiDivider-root {
+        margin: 10px 0px !important;
+    }
+    
+    .stallion-analytics-row {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    
+    }
+    
+    .key-statics-box {
+        margin-top: 0 !important;
+        align-items: center;
+    }
+    
+    .stallion-report-datatable .MuiContainer-root {
+        padding: 0;
+        margin: 0;
+        width: 850px;
+    }
+
+    .stallion-report-datatable .SPracerecordCount span {
+        line-height: inherit;
+    }
+    
+    .stallion-report-datatable {
+        overflow: hidden;
+    }
+    .stallion-report-datatable .SPracerecord {
+        max-width: 16.666667%;
+        -webkit-flex-basis: 16.666667%;
+        -ms-flex-preferred-size: 16.666667%;
+        flex-basis: 16.666667%;
+    }
+    
+}

@@ -1,0 +1,1193 @@
+
+/* Pedigree */
+
+.SPtreechat{
+    background: #F4F1EF;
+    border-radius: 8px;
+        padding: 24px;
+        box-sizing: border-box;
+}
+
+.SPtreechat .Pedigree {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.SPtreechat .Pedigree span{
+    font-family:'Synthese-Book';
+    font-size: 12px;
+    font-weight: 400;
+    color: #161716;
+}
+.treeBox {
+    height: 100%;
+    max-height: 40rem;
+    position: relative;
+    width: 100%;
+}
+
+.treeBox .PredegreeWrapperBoxInner {
+    height: 100%;
+    display: flex;
+    min-height: 532px;
+}
+
+.treeCol {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    height: auto;
+    flex-shrink: 0;
+    position: relative;
+    padding-right: 2px;
+}
+
+.treeCell {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+
+.treeCell .HorseName {
+    height: 100%;
+}
+.firstColumnblock  .treeCell { height: 50%;}
+
+.secondColumnblock .treeCell {
+    height: 25%;
+}
+.thirdColumnblock .treeCell {
+    height: 12.5%;
+}
+.fourthColumnblock .treeCell {
+    height: 12.5%;
+}
+.fifthColumnblock .treeCell {
+    height: 12.5%;
+}
+.sixthColumnblock .treeCell {
+    height: 12.5%;
+}
+.seventhColumnblock .treeCell {
+    height: 12.5%;
+}
+.eigthColumnblock .treeCell{
+    height: 12.5%; 
+}
+
+.SPtreechat .HorseName{
+    position: relative;
+    height: 20px;
+    height: auto;
+    width: 100%;
+}
+
+.SPtreechat .HorseName h5{
+    font-family: 'Synthese-Book';
+    font-weight:400;
+    font-size: 14px;
+    color:#161716;
+    line-height: 20px;
+}
+
+.treeLine{
+    position: absolute;
+    border: 0;
+    background: #161716;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    height: 0.05rem;
+}
+.treeLine[data-num='1'], .treeLine[data-num='3'], .treeLine[data-num='5'], .treeLine[data-num='7']{
+    width: 50%;
+}
+.treeLine[data-num='2'], .treeLine[data-num='6'] {
+    width: 66.5%;
+}
+.treeLine[data-num='4'] {
+    width: 96%;
+}
+.treeLine[data-num='1']{
+    top: 12.5%;
+}
+.treeLine[data-num='2']{
+    top: 25%;
+}
+.treeLine[data-num='3']{
+    top: 37.5%;
+}
+.treeLine[data-num='4']{
+    top: 50%;
+}
+.treeLine[data-num='5']{
+    top: 62.5%;
+}
+.treeLine[data-num='6']{
+    top: 75%;
+}
+.treeLine[data-num='7']{
+    top: 87.5%;
+}
+.fifthColumnblock .treeCell .HorseName {
+    height: 20px;
+    height: auto;
+}
+.fifthColumnblock .treeCell .HorseName .PredegreeWhiteBoxText {margin-top: 1px;}
+.PredegreeWrapperBoxInner {
+    width: 92%;
+    margin: 0px auto;
+    height: 38rem;
+    height: auto;
+}
+.PredegreeWrapperBox.SPtreechat .HorseName h5 {
+    cursor: pointer;
+    white-space: pre;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 4px;
+    padding-bottom: 1px;
+    padding-top: 0px;
+    min-height: 17px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+  
+}
+.fifthColumnblock .treeCell .HorseName h5 {
+    box-sizing: border-box;
+    font-size: 10px;
+    min-height: 13px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    line-height: 9px;
+}
+
+.PredegreeWrapperBox .Pedigree .g1pro-text {
+    color: #005632;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 9px;
+    font-family: 'Synthese-Regular';
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+  
+.SPtreechat .HorseName.PredegreeWhiteBox {
+    min-height: 48px;
+    width: 173px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 8px 16px 8px;
+    min-width: inherit;
+}
+
+/* Midday */
+
+
+
+
+.SPtreechatLeft {
+    background: #EAE4E0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    min-height: 884px;
+}
+
+.SPtreechatRight {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    min-height: 884px;
+}
+
+.SPtreechatRight .PredegreeWrapperBoxInner {
+    width: 95%;
+}
+
+.SPtreechatLeft .PredegreeWrapperBoxInner {
+    width: 95%;
+}
+
+
+
+.PredegreeWrapperBox {
+    width: 100%;
+    /* height: 100%; */
+    min-height: 50rem;
+    min-height: inherit;
+}
+.stallion-search-graph {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.PredegreeWhiteBox {
+    min-width: 180px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    line-height: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: -1px;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.PredegreeWrapperBox.SPtreechat  .PredegreeWhiteBox h5 {
+    margin: 0;
+    width: 108px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.PredegreeWhiteBox .PredegreeWhiteBoxText {
+    padding-left: 4px;
+}
+
+.PredegreeWrapperBox.SPtreechat  .PredegreesecondcolText h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+}
+
+
+.secondColumnblock .Pedigree .MuiBox-root .PredegreesecondcolText {
+    position: static;
+    top: 0;
+}
+
+
+
+.pedegreeTooltip .MuiTooltip-tooltip {
+    padding: 10px 16px 15px;
+    margin: 0;
+    line-height: 14px;
+}
+.pedegreeTooltip .MuiTooltip-tooltip span.MuiTooltip-arrow {
+    transform: inherit !important;
+    left: 20px !important;
+    color: #fff;
+}
+
+.pedegreeTooltip p {
+    font-size: 15px;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+}
+
+.pedegreeTooltip em {
+    font-size: 14px;
+    font-style: normal;
+}
+.pedegreeTooltip {
+    z-index: 1;
+}
+
+
+.StallionPedigree {
+    background: #EAE4E0;
+}
+.media-slider-wrapper {
+    margin-bottom: 50px;
+}
+.Search-Mare-HypoMate .StallionPedigree {
+    background: #F4F1EF;
+}
+.pedegree-overlap-left-wrapper .StallionPedigree {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+.pedegree-overlap-right-wrapper .StallionPedigree {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0px;
+}
+.pedegree-overlap-right-wrapper .SPtreechat {
+    background: #F4F1EF;
+   
+}
+.pedegree-overlap-left-wrapper .PredegreeWrapperBoxInner {
+    width: 100%;
+    min-height: 315px;
+}
+.pedegree-overlap-left-wrapper .PredegreeWrapperBoxInner.RacePredegreeWrapperBoxInner{
+    min-height:542px;
+}
+.PredegreeWhiteBox .MuiAvatar-root.MuiAvatar-circular {
+    width: 32px;
+    height: 32px;
+}
+hr.midday-hr {
+    border: 0;
+    background: #161716;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    height: 0.05rem;
+    padding: 0px 32px;
+    width: 78%;
+}
+.pedegree-overlap-right-wrapper .SPtreechat {
+  
+    box-sizing: border-box;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+   
+}
+.pedegree-overlap-left-wrapper {
+ 
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #eae4e0;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.pedegree-overlap-left-wrapper .SPtreechat {
+    background: none;
+}
+.line.main-line-wrapper {
+    position: static;
+    width: 536px;
+    margin: 0px auto;
+    padding: 12px 0px;
+}
+
+.pedegree-overlap-right-wrapper {
+    height: 100%;
+    position: relative;
+}
+.pedegree-overlap-right-head {
+    position: absolute;
+    right: 28px;
+    top: 24px;
+}
+.pedegree-overlap-right-wrapper .SPtreechat {   
+     height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px;
+    padding: 0;
+}
+.pedegree-overlap-right-wrapper .SPtreechat .SPtreechatBody {
+    position: relative;
+    top: 35px;
+    height: 90%;
+}
+.pedegree-overlap-right-wrapper .SPtreechat .SPtreechatBody.RaceSPtreechatBody{
+    height: 88%;
+}
+.middayPredegreeWrp {
+    display: flex;
+    align-content: stretch;
+}
+.pedegree-overlap-right-wrapper .SPtreechat .PredegreeWrapperBoxInner {
+    margin-top: 0px;
+    width: 100%;
+   
+}
+.pedegree-overlap-left-wrapper  .StallionPedigreepedegree-overlap-lft-colmn {
+    margin-left: 10px;
+}
+.pedegree-overlap-lft-colmn .treeCol.fifthColumnblock {
+    padding-right: 0;
+}
+.middayPredegreeWrp .PredegreeWhiteBox {
+    min-width: 170px;
+    height: auto;
+}
+
+.middayPredegreeWrp::-webkit-scrollbar, .stakes-winner-wrapper::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+.middayPredegreeWrp::-webkit-scrollbar-track, .stakes-winner-wrapper::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 0px;
+  }
+   
+  .middayPredegreeWrp .fifthColumnblock .treeCell .HorseName h5 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 4px;
+}
+ .middayPredegreeWrp::-webkit-scrollbar-thumb,.stakes-winner-wrapper::-webkit-scrollbar-thumb {
+    background: #B0B6AF;
+  border-radius: 8px;
+  }
+  
+
+.middayPredegreeWrp::-webkit-scrollbar-thumb:hover, .stakes-winner-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #B0B6AF; 
+  }
+
+  .pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .treeCol.fifthColumnblock {
+    display: none;
+}
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeCol.fifthColumnblock{
+    display: block;
+}
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .treeCol {
+    /* max-width: 20.1733333%; */
+    max-width: 20%;
+    flex-basis: 23%;
+}
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeCol {
+    /* max-width: 20.1733333%; */
+    max-width: 16.66%;
+    flex-basis: 16.66%;
+}
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeCol.fifthColumnblock{
+    display: block;
+}
+
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .treeCol.fourthColumnblock {
+    padding-right: 0;
+}
+
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeCol.fourthColumnblock {
+    padding-right: 2px;
+}
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .treeCol.secondColumnblock {
+    left: 0;
+}
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeCol.secondColumnblock {
+    left: -20px;
+}
+
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .treeCol.firstColumnblock {
+    left: 0;
+}
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeCol.firstColumnblock {
+    left: -50px;
+}
+
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .treeLine[data-num='2'],.middayPredegreeWrp .pedegree-overlap-left-wrapper .treeLine[data-num='6'] {
+    width: 50%;
+}
+
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeLine[data-num='2'],.middayPredegreeWrp .pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeLine[data-num='6'] {
+    width: 75%;
+}
+
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .treeLine[data-num='3'], .middayPredegreeWrp .pedegree-overlap-left-wrapper .treeLine[data-num='1'], .middayPredegreeWrp .pedegree-overlap-left-wrapper .treeLine[data-num='5'],.middayPredegreeWrp .pedegree-overlap-left-wrapper .treeLine[data-num='7'] {
+    /* width: 33.8%; */
+    width: 0px;
+    display: none;
+}
+
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeLine[data-num='3'], .middayPredegreeWrp .pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeLine[data-num='1'], .middayPredegreeWrp .pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeLine[data-num='5'],.middayPredegreeWrp .pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .RaceSPtreechatBody .treeLine[data-num='7'] {
+    /* width: 33.8%; */
+    width: 50%;
+    display: block;
+}
+
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5{
+width:100%;
+}
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5{
+    width:100%;
+}
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5{
+    
+    width: 100%;
+    padding-right: 0;
+}
+.pedegree-overlap-left-wrapper .pedegree-overlap-lft-colmn .treeCol.thirdColumnblock {
+    padding-right: 2px;
+}
+
+
+/* *************************Fifth Generation************************  */
+
+.fifthGenerationPedegree .OneColumnBoxWrapper .firstColumnblock .Pedigree {height: 50%;}
+
+.fifthGenerationPedegree .OneColumnBoxWrapper .secondColumnblock .Pedigree {height: 50%;}
+
+.fifthGenerationPedegree .OneColumnBoxWrapper .secondColumnblock .Pedigree .treeCell {
+    height: 50%;
+}
+.fifthGenerationPedegree .OneColumnBoxWrapper .thirdColumnblock .Pedigree {height: 50%;}
+
+
+.fifthGenerationPedegree .OneColumnBoxWrapper .thirdColumnblock .Pedigree .treeCell {
+    height: 25%;
+}
+
+.fifthGenerationPedegree .OneColumnBoxWrapper .fourthColumnblock .Pedigree {
+    height: 50%;
+}
+
+.fifthGenerationPedegree .OneColumnBoxWrapper .fourthColumnblock .Pedigree .treeCell {
+    height: 12.5%;
+}
+
+.fifthGenerationPedegree .OneColumnBoxWrapper .fifthColumnblock .Pedigree {
+    height: 50%;
+}
+
+.fifthGenerationPedegree .OneColumnBoxWrapper .treeLine[data-num='7'], .fifthGenerationPedegree .OneColumnBoxWrapper .treeLine[data-num='6'],.fifthGenerationPedegree .OneColumnBoxWrapper .treeLine[data-num='5'] {display:  none;}
+
+
+.sixthGenerationPedegree .treeCol {
+    width: 14.1%;
+    flex-basis: 14.1%;
+    flex-shrink: 1 !important;
+    flex-grow: 1 !important;
+    height: 200rem;
+}
+.sixthGenerationPedegree.treeBox {
+    max-height: 200rem;
+    height: 200rem;
+}
+
+
+
+.sixthGenerationPedegree .sixthColumnblock  .HorseName h5 {
+    font-size: 10px;
+}
+
+.sixthGenerationPedegree .sixthColumnblock .HorseName {
+    height: 20px;
+}
+
+.pedegree-overlap-lft-colmn .treeCol {
+    height: 50rem;
+    height: auto;
+}
+
+.pedegree-overlap-lft-colmn .treeBox {
+    max-height: 50rem;
+    max-height: inherit;
+}
+
+/* .pedegree-overlap-right-wrapper .treeCol {
+    height: 68rem;
+} */
+
+
+.SPtreechat .SevenColumnBoxWrapper .thirdColumnblock .Pedigree {margin-top: -21%;}
+
+.SPtreechat .SevenColumnBoxWrapper .fourthColumnblock .Pedigree {
+    margin-top: 0px;
+}
+
+
+
+.SevenColumnBoxWrapper .fifthColumnblock .treeCell .HorseName {
+    height: 10px;
+}
+
+.SevenColumnBoxWrapper .fifthColumnblock .treeCell {
+    height: 18px;
+    position: relative;
+    top: -42px;
+}
+
+.SevenColumnBoxWrapper .fifthColumnblock {
+    height: 36rem;
+}
+
+.SPtreechat .SevenColumnBoxWrapper .fourthColumnblock {
+    height: 31.5rem;
+}
+
+.pedegree-overlap-lft-colmn  .OneColumnBoxWrapper  .treeCol {
+    height: 50rem;
+}
+
+
+/* ThreeColumnBoxWrapper */
+.pedegree-overlap-lft-colmn .ThreeColumnBoxWrapper .treeCol {
+    height: 50rem;
+}
+
+
+.ThreeColumnBoxWrapper .secondColumnblock .Pedigree {
+    margin-top: -116px;
+}
+
+.ThreeColumnBoxWrapper .thirdColumnblock .Pedigree {
+    margin-top: -100px;
+}
+
+.ThreeColumnBoxWrapper .fourthColumnblock .Pedigree {
+    margin-top: -100px;
+}
+
+.ThreeColumnBoxWrapper .fourthColumnblock .Pedigree .treeCell {
+    height: 50px;
+}
+
+.ThreeColumnBoxWrapper .fifthColumnblock .Pedigree {
+    margin-top: -101px;
+}
+
+.ThreeColumnBoxWrapper .fifthColumnblock .Pedigree .treeCell {
+    height: 25px;
+}
+
+.OneColumnBoxWrapper .treeCol {
+    min-height: 40rem;
+}
+.pedegreeLogo{
+    display:flex;
+}
+.RacepedegreeLogoImg{
+    width: 80px;
+    height: 80px;
+}
+.pedegreeLogoImg {
+    width: 120px;
+    height: 80px;
+    margin-right: 4px;
+    background: #ffffff;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.pedegreeLogoImg img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sixthColumnblock {
+    display: none;
+}
+.seventhColumnblock {
+    display: none;
+}
+.eigthColumnblock {
+    display: none;
+}
+
+
+/* Midday Page */
+
+.middayPredegreeWrp .treeBox {
+    max-height: initial;
+}
+
+.middayPredegreeWrp .pedegree-overlap-right-wrapper .SPtreechat,.middayPredegreeWrp .pedegree-overlap-left-wrapper .SPtreechat {
+    padding: 32px;
+}
+
+.middayPredegreeWrp .pedegree-overlap-right-wrapper .SPtreechat .pedegreeLogo {
+    display: none;
+}
+
+
+.middayPredegreeWrp .SPtreechat .HorseName.PredegreeWhiteBox {
+    width: 122px;
+    z-index: 99;
+}
+
+
+
+.middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .PredegreeWhiteBox h5 {
+    width: 50px;
+}
+.middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .PredegreeWhiteBox h5 a {
+    text-decoration: none !important;
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .PredegreeWhiteBox h5 a:hover{
+    text-decoration: underline !important;
+}
+.middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .fourthColumnblock .HorseName h5 {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+}
+.middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5 {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+.middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5 {
+   
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+
+}
+.middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5 {
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+
+.middayPredegreeWrp .firstColumnblock {
+    margin-left: 0;
+    position: relative;
+    left: -50px;
+}
+.middayPredegreeWrp .treeLine[data-num='2'], .middayPredegreeWrp .treeLine[data-num='6'] {
+    width: 70%;
+}
+.middayPredegreeWrp .secondColumnblock {
+    position: relative;
+    left: -20px;
+}
+
+.hypomating-tabs .fullscreen.fullscreen-enabled .StallionPedigree {
+    border-radius: 0px;
+}
+.hypomating-tabs .fullscreen.fullscreen-enabled .Search-Stallion-HypoMate,.hypomating-tabs .fullscreen.fullscreen-enabled .Search-Mare-HypoMate {
+    border-radius: 0;
+}
+
+.treeCol.zeroColumnblock .HorseName {
+    line-height: 10px;
+}
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .SPtreechat {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 24px;
+}
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .SPtreechat .treeBox {
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+.pedegree-overlap-right-wrapper .pedegree-overlap-lft-colmn .treeCol.fifthColumnblock .Pedigree {
+    position: relative;
+    top: -0.2px;
+}
+.middayPredegreeWrp .pedegree-overlap-left-wrapper {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+/* .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .HorseName h5 {
+    max-width: 100.5px;
+    min-width: 100.5px;
+} */
+
+.middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .HorseName.PredegreeWhiteBox h5 {
+    min-width: inherit;
+    max-width: inherit;
+}
+
+.midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root {
+    max-width: 100%;
+    padding: 0;
+}
+
+.midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .SPtreechat {
+    border-radius: 0;
+}
+
+.midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-left-wrapper {
+    border-radius: 0;
+}
+.midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root {
+    height: 100%;
+}
+
+/* .midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp {
+    height: 100%;
+} */
+
+.midday-wrapper .fullscreen.fullscreen-enabled  .pedegree-overlap-left-wrapper {
+    height: 100%;
+}
+.midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 105px;
+}
+
+.midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-left-wrapper .pedegreeLogo {
+    position: absolute;
+    top: 24px;
+}
+
+.midday-wrapper .fullscreen.fullscreen-enabled .pedigree-logo-wrapper{
+    height: 80px;
+}
+.midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5{
+    width: 100%;
+}
+.midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5{
+    width: 100%;
+}
+.midday-wrapper .fullscreen.fullscreen-enabled hr.midday-hr{
+    width: 83%;
+}
+
+.midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-left-wrapper .fullscreen {
+    height: 100%;
+}
+.midday-wrapper .fullscreen.fullscreen-enabled {
+    overflow: visible;
+}
+.midday-wrapper  .fullscreen.fullscreen-enabled .SPtreechat .treeBox{
+ max-height: initial;
+}
+
+/* MediaQuery */
+@media only screen and (min-width: 1440px) {
+.fullscreen .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5{
+    width: 100%;
+}
+.fullscreen .middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5{
+    width: 100%;
+}
+.fullscreen .middayPredegreeWrp .SPtreechat .HorseName.PredegreeWhiteBox{
+width: 100%;
+}
+.fullscreen .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .HorseName.PredegreeWhiteBox h5{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .SPtreechat{
+        height: 100% !important;
+    }
+
+    .midday-wrapper .fullscreen.fullscreen-enabled .SPtreechat .SPtreechatBody {
+        height: 80% !important;
+        }
+
+    .pedegree-overlap-left-wrapper,.pedegree-overlap-right-wrapper { width: 100%; position: relative; }
+    hr.midday-hr {
+        width: 78%;
+    }
+    .PredegreeWrapperBoxInner {   width: 100%; }
+    .middayPredegreeWrp .SPtreechat .HorseName.PredegreeWhiteBox {   z-index: 1;}
+    .pedegree-overlap-right-head {top: 24px;}
+    .middayPredegreeWrp { position: relative;}
+    .PredegreeWrapperBoxInner {  width: 100%; }
+    .middayPredegreeWrp { display: flex; flex-direction: row;flex-wrap: nowrap; overflow-x: auto; }
+    .middayPredegreeWrp .MuiGrid-grid-md-6{ width: 100%; flex: 1; flex-wrap: nowrap; display: flex; white-space: nowrap;      min-width: 576px; }   
+    .middayPredegreeWrp .SPtreechatLeft { width: 100%; }
+    .middayPredegreeWrp .SPtreechatRight { width: 100%; }
+    .pedegree-overlap-left-wrapper,.pedegree-overlap-right-wrapper {width: 100%; position: relative;}
+    .pedegree-overlap-left-wrapper,.pedegree-overlap-right-wrapper {
+        width: 100%;
+        position: static;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root{
+        height: 100%;
+    }
+    .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5{
+        width: 100%;
+         box-sizing: border-box;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5{
+        width:100%;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5{
+        width: 100%;
+    }
+
+    .midday-wrapper .fullscreen.fullscreen-enabled .pedegree-overlap-right-wrapper .fullscreen .SPtreechat .SPtreechatBody {
+        height: 90% !important;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-left-wrapper .fullscreen {
+        min-height: 40%;
+        height: initial;
+    }
+}
+
+
+
+/* Landscape */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1600px) 
+  and (orientation: landscape) {
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-left-wrapper .fullscreen {
+        height: 40%;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .pedegree-overlap-right-wrapper .fullscreen .SPtreechat .SPtreechatBody {
+        height: 90% !important;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-left-wrapper .SPtreechatBody {
+        height: 100% !important;
+    }
+    .fullscreen .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 320px) and (max-width : 1280px) and (orientation :landscape) {
+    
+
+    .fullscreen.fullscreen-enabled .SPtreechat {
+        height: initial !important;
+    }
+    .fullscreen.fullscreen-enabled .SPtreechat .SPtreechatBody {
+        height: initial !important;
+    }
+ 
+    .fullscreen.fullscreen-enabled .SPtreechat .SPtreechatBody {
+        height: initial;
+    }
+    .fullscreen.fullscreen-enabled .SPtreechat .treeBox .PredegreeWrapperBoxInner {
+        min-height: 322px;
+    }
+    .fullscreen.fullscreen-enabled .SPtreechat.StallionMatchActivityGraph {
+        height: initial;
+    }
+
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .SPtreechat{
+        height: 100% !important;
+    }
+   
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    hr.midday-hr {
+        width: 78%;
+    }
+    .PredegreeWrapperBoxInner {   width: 100%; }
+    .middayPredegreeWrp .SPtreechat .HorseName.PredegreeWhiteBox {   z-index: 1;}
+    .pedegree-overlap-right-head {top: 24px;}
+    .middayPredegreeWrp { position: relative;}
+    .PredegreeWrapperBoxInner {  width: 100%; }
+    .middayPredegreeWrp { display: flex; flex-direction: row;flex-wrap: nowrap; overflow-x: auto; }
+    .middayPredegreeWrp .MuiGrid-grid-md-6{ width: 100%; flex: 1; flex-wrap: nowrap; display: flex; white-space: nowrap;      min-width: 576px; }   
+    .middayPredegreeWrp .SPtreechatLeft { width: 100%; }
+    .middayPredegreeWrp .SPtreechatRight { width: 100%; }
+    .pedegree-overlap-left-wrapper,.pedegree-overlap-right-wrapper {width: 100%; position: relative;}
+    .midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5{
+        width:100%;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5{
+        width:100%;
+    }
+   
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) { 
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiGrid-grid-md-6{
+        height:768px;
+    }
+    .midday-wrapper .fullscreen .pedegree-overlap-right-wrapper{
+        position: relative;
+    }
+
+   
+
+}
+
+  @media only screen and (max-width: 767px) {
+    .fullscreen-enabled .common-search-hypomate {
+        margin: 0;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .pedegree-overlap-right-wrapper .treeCol {
+        height: 100%;
+    }
+    .PredegreeWrapperBoxInner {  width: 100%; }
+    .middayPredegreeWrp { display: flex; flex-direction: row;flex-wrap: nowrap; overflow-x: auto; }
+    .middayPredegreeWrp .MuiGrid-grid-md-6{ width: 100%; flex: 1; flex-wrap: nowrap; display: flex; white-space: nowrap; min-width: 588px;}   
+    .middayPredegreeWrp .SPtreechatLeft { width: 100%; }
+    .middayPredegreeWrp .SPtreechatRight { width: 100%; }
+    .middayPredegreeWrp .SPtreechatRight .ListBtn { position: absolute; right: 30px; margin-right: 38px;}
+    .middayPredegreeWrp .SPtreechatRight .ListBtn.css-88djgp-MuiButtonBase-root-MuiButton-root {margin-right: 0;}
+    .pedegree-overlap-right-wrapper {  width: 100%;    position: static; }   
+    .line.main-line-wrapper {    width: 460px; }
+    .pedegree-overlap-left-wrapper .SPtreechat {width: 100%; }
+    .pedegree-overlap-left-wrapper { width: 100%;}
+    .PredegreeWhiteBox {  min-width: 130px; }
+    .PredegreeWhiteBox {min-width: 100px; padding: 5px;align-items: center;}
+    .PredegreeWrapperBox.SPtreechat .HorseName h5 {  font-size: 7px; overflow: hidden; }
+    .pedegreeTooltip p { font-size: 10px;  }        
+    .pedegreeTooltip em { font-size: 8px; }        
+    .pedegreeTooltip .MuiTooltip-tooltip {padding: 4px 6px 8px;font-size: 10px !important;line-height: 8px;margin-left: -10px !important;}
+    .pedegreeTooltip .MuiTooltip-tooltip span.MuiTooltip-arrow {
+        left: 0 !important;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fifthColumnblock .treeCell .HorseName h5 {white-space: nowrap;text-overflow: ellipsis;display: block;}
+    .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5 { font-size: 8px;}
+    .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5 { font-size: 7px;    width: 100%;box-sizing: border-box;}
+    .PredegreeWrapperBox .Pedigree .g1pro-text { font-size: 7px; line-height: 0;}
+    .PredegreeWrapperBox .HorseName .PredegreeWhiteBoxText { line-height: 7px; }
+    .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5 { font-size: 8px; }
+    .PredegreeWrapperBox .HorseName .PredegreeWhiteBox h5 { font-size: 8px;}
+    .PredegreeWrapperBox .PredegreeWhiteBox .PredegreeWhiteBoxText { margin-top: -2px; padding-left: 0px;}
+    .PredegreeWhiteBox .MuiAvatar-root.MuiAvatar-circular { width: 20px;  height: 20px; }
+    .PredegreeWrapperBox.SPtreechat .HorseName.PredegreeWhiteBox h5 { font-size: 8px; line-height: 7px;margin-bottom: 0px; width: 50px; min-height: inherit;text-overflow: ellipsis; white-space: nowrap; overflow: hidden; display: block;}
+    .SPtreechat .pedegreeLogo img { width: 84px; height: auto;}
+    .pedegreeLogoImg img {   height: 100% !important;}
+    .treeCol.fifthColumnblock { margin-top: 2px;}
+    .pedegree-overlap-lft-colmn .treeCol.fifthColumnblock {
+        margin-top: 0;
+    }
+    .middayPredegreeWrp  .pedegree-overlap-right-wrapper .SPtreechat .PredegreeWrapperBoxInner {
+        height: 500px;
+    }
+    .SPtreechat .MuiBox-root .legendBtn, .pedegree-overlap-right-wrapper .legendBtn  { font-size: 0; padding: 0px; width: 32px; text-align: center; align-items: center; justify-content: center; margin-left: 16px; min-width: inherit; height: 32px;}
+    .pedegree-overlap-right-head {  right: 16px; }
+     .SPtreechat .ListBtn i, .pedegree-overlap-right-wrapper .legendBtn i {  margin: 0; }
+    .SPtreechat .pedegreeLogo {padding-left: 0px;}
+    .SPtreechat .HorseName.PredegreeWhiteBox { height: 28px; width: 85px; margin-top: 0px; position: relative; padding: 4px 4px 4px;  min-height: inherit;  box-sizing: border-box; min-width: 85px;   z-index: 1;}
+    .treeLine {height: 0.02rem;}
+    .fifthColumnblock .treeCell .HorseName { height: 12px;}    
+    .PredegreeWrapperBox.SPtreechat .fifthColumnblock .treeCell .HorseName h5 { line-height: 5px;
+        font-size: 7px;
+        padding-top: 1px;
+        padding-bottom: 0px;}
+    .legent-modal-pop-box { margin-top: 0px;}
+    .pedegreeTooltip.MuiTooltip-popper[data-popper-placement*="top"] .MuiTooltip-tooltipArrow {
+        margin-bottom: 7px !important;
+    }
+    .SPtreechat .HorseName { height: 20px;height: auto; }
+    .firstColumnblock .treeCell { margin-right: 19px; }   
+    .secondColumnblock .treeCell { margin-right: 10px;     min-width: 84px;}
+    .secondColumnblock .treeCell .HorseName { height: 24px; }
+    .firstColumnblock .treeCell .HorseName { height: 30px;}
+    .ThreeColumnBoxWrapper .secondColumnblock .Pedigree { margin-top: -100px;}
+    .SPtreechat .SevenColumnBoxWrapper .thirdColumnblock .Pedigree {  margin-top: -60%; }
+    .SPtreechat { padding: 24px 16px; border-radius: 0; }
+    .pedegreeLogoImg {  width: 84px; height: 56px;}
+    .SPtreechat .ListBtn i.icon-Arrows-expand { margin-right: 4px; margin-top: 1px; }
+    .treeBox .PredegreeWrapperBoxInner { min-height: 400px; }
+    .PredegreeWrapperBox.SPtreechat .HorseName h5 {    line-height: 8px; min-height: 8px;}
+    .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5 { font-size: 8px;
+        white-space: nowrap;
+        display: block;
+        text-overflow: ellipsis; }
+    .middayPredegreeWrp  .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5 {font-size: 12px;line-height: 16px;}    
+    .middayPredegreeWrp  .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5 {font-size: 12px; line-height: 16px;}    
+    .middayPredegreeWrp  .PredegreeWrapperBox.SPtreechat .HorseName h5 { font-size: 12px;}    
+    .middayPredegreeWrp  .PredegreeWrapperBox.SPtreechat .HorseName.PredegreeWhiteBox h5 {font-size: 10px; }
+    .middayPredegreeWrp .SPtreechat .HorseName.PredegreeWhiteBox { width: 122px; z-index: 1; height: 48px;min-width: 122px; padding: 8px 16px;}    
+    .middayPredegreeWrp .PredegreeWhiteBox .MuiAvatar-root.MuiAvatar-circular { width: 32px; height: 32px; }    
+    .middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .HorseName.PredegreeWhiteBox h5 { font-size: 14px;line-height: 20px; width: 59px; margin-bottom: 0; }    
+    .middayPredegreeWrp .PredegreeWrapperBox .Pedigree .PredegreeWhiteBox .g1pro-text { font-weight: 400; font-size: 10px; line-height: 9px; }
+    .middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .fifthColumnblock .HorseName h5 { font-size: 10px; line-height: 10px; min-height: 13px;}
+    .middayPredegreeWrp .fifthGenerationPedegree .OneColumnBoxWrapper .fourthColumnblock .Pedigree .treeCell .HorseName.PredegreefifthcolText { height: auto;}
+    .middayPredegreeWrp .SPtreechat .HorseName { height: auto; }
+
+    .middayPredegreeWrp .PredegreeWrapperBox .Pedigree .g1pro-text { font-size: 10px;line-height: 9px;}
+    .middayPredegreeWrp  .pedegree-overlap-right-wrapper .SPtreechat .PredegreeWrapperBoxInner {
+        height: 590px;
+    }
+    .middayPredegreeWrp .pedegree-overlap-left-wrapper .SPtreechat {
+        padding-bottom: 0;
+    }
+    .middayPredegreeWrp .pedegree-overlap-left-wrapper {
+        padding-bottom: 24px;
+    }
+    
+    hr.midday-hr {
+        width: 82.5%;
+    }
+
+    .stallion-search-graph .SPtabs header:after { width: 50px;height: 100%; position: absolute; right: 0; top: 0;content: ""; background: rgb(255,255,255);  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgb(255 255 255) 100%);}
+    .middayPredegreeWrp .pedegree-overlap-right-wrapper .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5 {
+        min-height: 17px;
+    line-height: 13px;
+    width:75px;
+    }
+    .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5{
+        line-height: 17px;
+    }
+    .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5 {
+        width: 100%;
+        line-height: 17px;
+        padding-right: 0;
+    }
+    
+    .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5{
+        line-height: 17px;
+    }
+    /* .stallion-search-graph .SPtabs header .MuiBox-root { position: relative;} */
+    .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5 { overflow: hidden; }
+    .midday-wrapper section#PedigreeOverlap .MuiContainer-root { padding: 0; /* background: #eae4e0; padding-bottom: 8px; */}
+    .midday-wrapper .pedegree-overlap-left-wrapper { border-radius: 0;}
+    .middayPredegreeWrp .pedegree-overlap-right-wrapper .SPtreechat, .middayPredegreeWrp .pedegree-overlap-left-wrapper .SPtreechat {border-radius: 0; padding: 16px;    padding-top: 0;}
+    .middayPredegreeWrp .firstColumnblock { left: 0;}
+    .middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .fourthColumnblock .HorseName h5 { width: auto;line-height: 17px;}
+    .middayPredegreeWrp .OneColumnBoxWrapper .treeCol { min-height: 35rem;}
+    .middayPredegreeWrp .treeBox .PredegreeWrapperBoxInner {min-height: 250px;}
+    .middayPredegreeWrp .treeBox .PredegreeWrapperBoxInner.RacePredegreeWrapperBoxInner{
+        min-height: 500px;
+    }
+
+    .pedegree-overlap-right-wrapper .treeCol {
+        height: 34rem;
+    }
+    
+    .middayPredegreeWrp .pedegree-overlap-right-wrapper .SPtreechat .PredegreeWrapperBoxInner {
+        height: auto;
+    }
+      
+    .midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .thirdColumnblock .HorseName h5{
+        width:100%;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .middayPredegreeWrp .pedegree-overlap-left-wrapper .PredegreeWrapperBox.SPtreechat .secondColumnblock .HorseName h5{
+        width:100%;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled hr.midday-hr {
+        width: 83%;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 330px) {
+    .SPtreechat .pedegreeLogo img { width: 90px; }
+    .pedegree-modal-buttn { padding-left: 20px; padding-right: 20px;}    
+    .pedegree-modal-footer {  padding: 25px 20px;}
+    .PredegreeWrapperBox.SPtreechat .HorseName.PredegreeWhiteBox h5 { width: 48px; }
+    .SPtreechat { padding: 20px 10px; }  
+    .SPtreechat .HorseName.PredegreeWhiteBox { width: 80px;   min-width: 80px; }
+    .middayPredegreeWrp .PredegreeWrapperBox.SPtreechat .firstColumnblock .HorseName h5 { font-size: 12px;}
+    
+}
+
+
+

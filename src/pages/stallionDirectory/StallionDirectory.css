@@ -1,0 +1,1076 @@
+
+.SDTitle{
+    font-family: 'FlechaM-Medium';
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: left;
+    color: #1D472E !important;
+}
+
+.stalliondirectory-container{
+    padding-bottom: 80px;
+    display: grid;
+    z-index: 0;
+}
+
+.farmdirectory-container {
+    padding-bottom: 80px;
+    display: grid;
+    z-index: 0;
+}
+
+.stallion-directory-header-wrp .root-button{
+    font-family:'Synthese-Regular';
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-transform: none;
+    color: #007142;
+    position: relative;
+    top:-8px;
+    background: none !important;
+
+}
+.stallion-directory-header-wrp .root-button:hover{
+    color: #1D472E;
+}
+.filter-box-wrapper .StallionSearch {
+    min-width: 552px;
+    float: right;
+    margin-top: -20px;
+}
+
+.stallion-directory-header-wrp .root-button:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1.5px;
+    background: #007142;
+}
+
+.root-button:hover::after{
+    background: #1D472E;
+}
+
+.StallionCount{
+    font-family:'Synthese-Regular';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #1D472E;
+    letter-spacing: 0.02rem;
+}
+
+.filter-drawer-left .clearBtn{
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    font-family:'Synthese-Regular';
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-transform: none;
+    color: #007142;
+    background: none !important;
+    min-width: inherit;
+
+}
+.clearBtn:hover{
+    color: #1D472E;
+}
+
+.clearBtn:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1.5px;
+    background: #007142;
+}
+
+.clearBtn:hover::after{
+    background: #1D472E;
+}
+.StallionSearch{
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+
+}
+
+.StallionSearch .search{
+    padding: 0 5px 0px 0px;
+    border-radius: 4px;
+    font-family:'Synthese-Light';
+    font-size: 20px;
+    color:#161716 !important;
+    font-weight: 300;
+    height: 56px;
+    line-height: 56px;
+}
+
+.StallionSearch .Mui-focused .MuiOutlinedInput-notchedOutline,.StallionSearch .search:hover .MuiOutlinedInput-notchedOutline{
+    border-color: #161716;
+    border-width: 1px;
+}
+.StallionSearch .search input.MuiOutlinedInput-input {
+    padding: 10px 16px 14px;
+    height: 56px;
+    box-sizing: border-box;
+    font-size: 20px;
+line-height: 32px;
+    
+}
+.StallionSearch button.MuiButtonBase-root {
+    background: none;
+}
+
+.StallionSearch .search input.MuiOutlinedInput-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   font-family:'Synthese-Light' !important;
+   font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: -0.01em;
+opacity: 1;
+  }
+.StallionSearch .search input.MuiOutlinedInput-input::-moz-placeholder { /* Firefox 19+ */
+   font-family:'Synthese-Light' !important;
+   font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: -0.01em;
+opacity: 1;
+  }
+.StallionSearch .search input.MuiOutlinedInput-input:-ms-input-placeholder { /* IE 10+ */
+   font-family:'Synthese-Light' !important;
+   font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: -0.01em;
+opacity: 1;
+  }
+.StallionSearch .search input.MuiOutlinedInput-input:-moz-placeholder { /* Firefox 18- */
+   font-family:'Synthese-Light' !important;
+   font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: -0.01em;
+opacity: 1;
+  }
+
+/* ... Filters Styles ..... */
+
+.filterMenu::before{
+    background:none;
+}
+
+
+
+.filterMenu .MuiAutocomplete-root{
+    margin-top: 0px;
+}
+.filter-drawer-left  .filterMenu .select-dropdown{
+    margin-top: 0;
+}
+
+.filterMenu .MuiSelect-icon{
+    color: #161716;
+    font-size: 28px;
+    right: 16px;
+    top:10px;
+
+    right: 12px;
+    top: 10px;
+}
+
+.filterMenu .MuiFormControlLabel-label{
+    font-family:'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #161716;
+}
+.filterMenu .MuiRadio-root{
+    padding: 0;
+    margin: 4px 8px;
+    margin-left: 11px;
+    min-width: 24px;
+    width: 24px;
+    min-height: 24px;
+    height: 24px;
+}
+.filterMenu .radio-global {
+    margin-top: 0px;
+}
+.filterMenu .MuiRadio-root:hover,.filterMenu .MuiRadio-root:active {
+    background: none !important;
+}
+
+.filterMenu .MuiAccordionSummary-root.Mui-expanded {
+    min-height: 40px;
+    min-height: 25px;
+    margin-bottom: 14px;
+}
+.filterMenu .MuiAccordionSummary-content.Mui-expanded{
+    margin: 0px;
+}
+
+.filters{
+    position: relative;
+}
+
+.SDmultiselect{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.SDmultiselect .MuiChip-deleteIcon{
+    font-size: 14px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.SDmultiselect .MuiOutlinedInput-input{
+    padding: 14px 16px;
+    min-height: initial;
+}
+
+.SDmultiselect .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #161716;
+    border-width: 1px;
+}
+.filter-drawer-left .SDmultiselect .MuiInputBase-formControl input.MuiSelect-nativeInput {
+    height: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+.SDmultiselect:focus{
+    outline: #161716;
+}
+
+.SDmultiselect:active{
+    outline: #161716;
+}
+
+.multiselect-listitem{
+    width: 170px;
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+}
+.multiselect-listitem span {
+    width: 178px;
+    text-overflow: ellipsis;
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+.SDmultiselect .MuiChip-root span {
+    text-transform: capitalize;
+    padding: 0;
+    padding-right: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    color: #161716;
+}
+.filter-drawer-left .SDmultiselect .MuiOutlinedInput-input {
+    padding-right: 40px;
+}
+.filterMenu .MuiAccordionSummary-root svg.MuiSvgIcon-root {
+    font-size: 30px;
+}
+
+.multiselect-menu{
+    padding: 4px 13px 4px 16px;
+    height: auto;
+    font-family: 'Synthese-Book';
+    margin: 0;
+    line-height: 20px;
+    box-sizing: border-box;
+    min-height: inherit;
+    background: none !important;
+}
+.multiselect-menu span.MuiCheckbox-root {
+    padding: 0;
+    margin-right: 3px;
+}
+
+.multiselect-menu span.MuiCheckbox-root.Mui-checked{
+    background-color: #2EFFB4;
+    border-radius: 4px;
+    width: 16px;
+    height: 14px;
+    margin-right: 3px;
+}
+
+.multiselect-menu .MuiMenuItem-root:hover{
+    background: #F0F3F0 !important;
+}
+
+.multiselect-menu .MuiTypography-root{
+    font-family: 'Synthese-Book';
+    color: #161716;
+    font-size: 14px;
+}
+
+.multiselect-menu .MuiSvgIcon-root{
+    width: 22px;
+    height: 22px;
+    color: #B0B6AF;
+}
+.multiselect-menu .Mui-checked .MuiSvgIcon-root {
+    color: #1D472E;
+}
+
+.select-dropdown{
+    margin-top: 10px;
+    font-family:'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+
+.select-dropdown .MuiSelect-select{
+    padding: 14px 16px;
+    min-height: 48px;
+    box-sizing: border-box;
+}
+
+.feerange-dropdown .MuiSelect-select{
+    padding: 14px 16px !important;
+    color: #161716;
+}
+.feerange-values{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feerange-values{
+    margin-bottom: 15px;
+}
+.feerange-values .MuiOutlinedInput-root input.MuiOutlinedInput-input{
+    height: 40px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #626E60;
+    font-family: 'Synthese-Book';
+}
+.feerange-values .maxValue .MuiOutlinedInput-root input.MuiOutlinedInput-input{
+    padding-left: 12px;
+    padding-right: 13px;
+}
+
+.feerange-values h6{
+    padding: 0px 10px;
+}
+.min-max{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    top:-12px;
+}
+
+.select-dropdown .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border: solid 1px #161716;
+}
+
+.select-dropdown:active{
+    outline: #161716;
+}
+ 
+.feerange label{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 350;
+    color: #626E60;
+    line-height: 20px;
+}
+.feerange {
+    margin-top: 12px;
+}
+.rangeSliderFilter span.MuiSlider-markLabel {
+    display: none;
+}
+
+.rangeSliderFilter {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+.includedPrivateFee label.MuiFormControlLabel-root {
+    margin: 0;
+}
+
+.filterMenu .MuiSvgIcon-root {
+    color: #161716;
+}
+
+
+.filter-drawer-left .SDmultiselect .MuiInputBase-formControl {
+    min-height: 48px;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    line-height: 20px;
+    color: #626E60;
+}
+
+.invite-user .SDmultiselect .MuiInputBase-formControl {
+    min-height: 48px !important;
+}
+
+.invite-user .SDmultiselect .MuiSelect-icon{
+    font-size: 30px;
+    color: #161716;
+}
+
+.filter-drawer-left  .select-dropdown {
+    min-height: 48px;
+}
+
+
+.filterMenu .MuiAutocomplete-root .MuiAutocomplete-inputRoot {
+    min-height: 48px;
+    padding: 14px 16px;
+    padding-right: 39px;
+    background: #ffffff;
+}
+
+.filterMenu  .MuiAutocomplete-paper{
+    margin-top: 0px;
+}
+
+.filterMenu .MuiChip-deleteIcon{
+    font-size: 15px;
+    margin: 2px 0 0 0;
+    color: #161716 !important;
+}
+
+.filterMenu .MuiAutocomplete-endAdornment{
+    top:10px;
+    right: 12px;
+}
+
+.filterMenu .MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    font-weight: 400;
+    line-height: 20px;
+}
+.filterMenu .MuiAutocomplete-root .MuiAutocomplete-inputRoot.MuiAutocomplete-input.MuiInputBase-inputAdornedStart{
+    display: none !important;
+}
+
+.filterMenu .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #161716 !important;
+    border-width: 1px !important;
+    color: #161716 !important;
+}
+
+.filterMenu .MuiChip-root {
+    background: #2EFFB4;
+    color: #161716;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 1px 8px 2px;
+    height: 24px;
+    border-radius: 32px;
+    margin: 0px 3px 3px 0px;
+    max-width: calc(100% - 33px);
+}
+.filterMenu .MuiChip-root span {
+    text-transform: capitalize;
+    padding: 0;
+    padding-right: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    color: #161716;
+}
+
+.filterMenu .MuiAutocomplete-popper{
+    overflow: hidden;
+    box-sizing: border-box;
+    border: none !important;
+    max-height: 228px;
+    margin-top: -3px !important;
+    
+  }
+  
+  .filterMenu .MuiAutocomplete-paper{
+    max-height: 228px;
+    z-index: 9999 !important;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 0;
+    border: solid 1px #333333;
+    border-radius: 4px;
+    padding-right: 0px;
+    padding-top: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0;
+    width: 100%;
+  }
+  
+  .filterMenu .MuiAutocomplete-listbox{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    text-transform: capitalize;
+    padding: 7px 0px 14px;
+    margin: 0;
+    max-height: 190px;
+  }
+  
+  
+  /* .filterMenu .MuiAutocomplete-listbox {
+    scrollbar-width: thin;
+    scrollbar-color: #B0B6AF transparent;
+  
+  } */
+  
+  .filterMenu .MuiAutocomplete-popper[data-popper-placement="top"] {
+    margin-top: 0px !important;
+    margin-bottom: -3px !important;
+  }
+  
+  .filterMenu .MuiAutocomplete-popper[data-popper-placement="top"] .MuiAutocomplete-paper {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top: solid 1px #333333;
+    border-bottom: 0;
+  }
+
+.filterMenu .MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-family: 'Synthese-Book';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #626E60;
+        opacity:1;
+}
+.filterMenu .MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input::-moz-placeholder { /* Firefox 19+ */
+      font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #626E60;
+    opacity:1;
+}
+.filterMenu .MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input:-ms-input-placeholder { /* IE 10+ */
+      font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #626E60;
+    opacity:1;
+}
+.filterMenu .MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input:-moz-placeholder { /* Firefox 18- */
+      font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #626E60;
+    opacity:1;
+}
+.rangeSliderFilter span.MuiSlider-rail {
+    height: 6px;
+    border-radius: 8px;
+}
+.rangeSliderFilter span.MuiSlider-mark {
+    display: none;
+}
+.rangeSliderFilter .MuiSlider-thumb {
+    width: 16px;
+    height: 16px;
+}
+.rangeSliderFilter span.MuiSlider-valueLabel {
+    background: #1d472e;
+    padding: 0px 6px 7px;
+}
+
+.filterMenu .MuiRadio-root.Mui-checked .MuiSvgIcon-root {
+    color: #1D472E;
+}
+.rangeSliderFilter span.MuiSlider-valueLabel span.MuiSlider-valueLabelLabel {
+    font-size: 14px;
+}
+
+.filterMenu .MuiRadio-root .MuiSvgIcon-root {
+    color: #B0B6AF;
+}
+.StallionSearch button.MuiButtonBase-root .icon-Search:before {
+    color: #161716;
+}
+.filterMenu .MuiAccordionSummary-content {
+    color: #1D472E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Regular';
+}
+.pedegree-filter-box .MuiAutocomplete-endAdornment button.MuiAutocomplete-popupIndicator {
+    color: #333333;
+    font-size: 24px;
+}
+
+
+.pedegree-filter-box .MuiAutocomplete-root[placeholder="Key Ancestor"] button.MuiAutocomplete-popupIndicator {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.pedegree-filter-box .MuiAutocomplete-endAdornment button.MuiAutocomplete-popupIndicator i.icon-Info-circle {
+    margin-top: 3px;
+}
+/* ................................. */
+
+
+/* .............................. */
+
+.MuiButtonBase-root-MuiMenuItem-root.Mui-selected:hover{
+    background: none;
+}
+
+.MuiMenuItem-root.Mui-selected:hover{
+    background: none;
+}
+.MuiMenuItem-root.Mui-selected:focus{
+    background: #333333;
+}
+
+.MuiMenuItem-root.Mui-selected{
+    background:none !important;
+}
+
+.MuiCheckbox-root:hover{
+    background: none;
+}
+
+
+
+.SDmultiselect .Mui-selected{
+    color: #161716 !important;
+    font-family:'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.SDmultiselect .MuiChip-root{
+    background: #2EFFB4;
+    color: #161716;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 1px 8px 3px;
+    height: 24px;
+    border-radius: 32px;
+
+}
+.SDmultiselect .MuiChip-root:active {
+    box-shadow: inherit;
+}
+.SDmultiselect .SDmultinames{
+    font-family:'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.SDmultiselect .MuiInputLabel-root{
+    font-family:'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #626E60;
+
+}
+.SDmultiselect label.MuiInputLabel-root {
+    line-height: 15px;
+    padding-left: 2px;
+}
+/* .....................Shortlist..................................... */
+.shortlist-order{
+    background-color: #1D472E;
+    padding: 2rem 2rem 2.5rem 2rem;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 36px;
+    overflow: hidden;
+    border: 0;
+    box-shadow: inherit;
+    outline: 0;
+}
+
+.shortlist-order h3{
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 500;
+    font-family: 'FlechaM-Medium';
+}
+
+.shortlist-order h6{
+    color: #ffffff;
+    font-family: 'Synthese-Light';
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.02rem;
+    line-height: 40px;
+}
+
+.shortlist-tiles{
+    background: url(../../assets/Vectors/shortlist-tiles.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 78px;
+    right: -1px;
+    bottom: -1px;
+
+}
+
+.shortlist-order .view-sample{
+    color: #2EFFB4;
+    margin-left: 1.5rem;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    padding: 0px;
+    font-weight: 400;
+    text-transform: none;
+    position: relative;
+    background: none !important;
+}
+.shortlist-order .view-sample.Mui-focusVisible {background:none !important;}
+.shortlist-order .view-sample:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    border: 0px;
+    background: #2EFFB4;
+    height: 1.5px;
+}
+
+.shortlist-order .view-sample:hover::after{
+    background: #00DE8E;
+}
+.shortlist-order .view-sample:hover {color: #00DE8E;}
+
+
+/* Stallion-search-Placeholder */
+.StallionSearch .search input::-webkit-input-placeholder {
+    color: #626E60;
+    opacity:1;
+    letter-spacing: -0.01em;
+      
+  }
+  .StallionSearch .search input::-moz-placeholder { 
+    color: #626E60;
+    opacity:1;
+    letter-spacing: -0.01em;
+  }
+  .StallionSearch .search input:-ms-input-placeholder { 
+    color: #626E60;
+    opacity:1;
+    letter-spacing: -0.01em;
+  }
+  .StallionSearch .search input:-moz-placeholder { 
+     color: #626E60;
+     opacity:1;
+     letter-spacing: -0.01em;
+  }
+
+
+  .disableClick {
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+/* Filter-Button */
+.filterBtnWrp {display: none;}
+.filter-box-wrapper  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {color: #161716;}
+
+
+
+/* ************************Responsive Filter-******************* */
+
+.filter-header {
+    background: #1D472E;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 16px 19px;
+    min-height: 72px;
+    box-sizing: border-box;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    flex-direction: row !important;
+}
+.Responsive-filter label.MuiFormControlLabel-root {
+    margin: 0;
+}
+.filter-header h4 {
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Synthese-Regular';
+}
+
+.filter-header 
+ .icon-close-btn {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    min-width: inherit;
+}
+
+.Responsive-filter {
+    box-sizing: border-box;
+    padding: 5px 16px 32px;
+}
+.Responsive-filter .StallionCount {
+    display: none;
+}
+
+.Responsive-filter 
+ .clearBtn {
+    display: none;
+}
+
+.Responsive-filter .filterMenu {
+    background: none;
+}
+.Responsive-filter .rangeSliderFilter {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+}
+.Responsive-filter .SDmultiselect {
+    background: none;
+}
+.drawer-button-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+
+    
+}
+.responsive-sticky-directory {
+    position: static;
+    z-index: 1;
+}
+div#menu- {
+    z-index: 999999;
+}
+.filterMenu .MuiAccordionDetails-root .SDmultiselect:nth-child(1) {
+    margin-top: 0px;
+    }
+/* ************************End Responsive Filter-******************* */
+
+
+
+
+
+/* Mediaquery */
+@media only screen and (max-width: 1200px){
+.filter-box-wrapper .StallionSearch {padding-right: 0;width: 100%;margin-right: 0px;height: 54px;
+    margin-top: 0;}
+    .Responsive-filter .filter-drawer-left {
+        display: block;
+    }
+    .Responsive-filter {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .filterBtnWrp {display: block;}
+    .SDTitle {
+        font-size: 44px;
+        line-height: 56px;
+    }
+    .stalliondirectory-container, .farmdirectory-container {
+        padding-bottom: 64px;
+    }
+    .filterBtn {background: #1D472E;  border-radius: 4px;width: 56px;height: 56px;color: #fff;font-size: 28px;min-width: 56px;margin: 0;}      
+    .filterBtn:hover, .filterBtn:focus{background: #007142;}
+    .filter-box-wrapper {display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;}
+    .filter-box-wrapper .StallionSearch {padding-right: 0;width: 100%;margin-right: 0px;height: 54px;
+        margin-top: 0;}
+    .filter-drawer-left {display: none;}
+    .filter-box-wrapper>form { grid-column: 1 / 4; grid-row: 1; }
+    .filterBtnWrp { grid-column: 4 / 4; grid-row: 1;}
+    .stallion-directory-header-wrp {
+        margin-bottom: 16px;
+    }
+    .responsive-sticky-directory .filterBtnWrp span.MuiBadge-anchorOriginTopRightRectangular {
+        border: 0;
+    }
+    .responsive-sticky-directory {
+        position: -webkit-sticky;
+        position: sticky;
+        z-index: 1;
+    }
+    .filter-box-wrapper {
+        margin-top: 11.5px;
+        gap: 8px;
+    }
+    .Responsive-filter .filter-drawer-left {
+        display: block;
+    }
+    .main-drawer-wrapper{
+        z-index: 2;
+    }
+    .Responsive-filter .filterMenu .MuiRadio-root {
+        margin-left: 0;
+    }
+    .Responsive-filter .rangeSliderFilter {
+        width: 100%;
+    }
+    .Responsive-filter {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1199px){
+    .filterBtnWrp {display: block;}
+    .filter-drawer-left {display: none;}
+    .Responsive-filter .filter-drawer-left {
+        display: block;
+    }
+
+      .MuiDrawer-paper{
+        width: 40%;
+    }
+    .SDTitle {font-size: 44px;}
+    .filterBtn {background: #1D472E;  border-radius: 4px;width: 56px;height: 56px;color: #fff;font-size: 28px;min-width: 56px;margin: 0;}      
+    .filterBtn:hover, .filterBtn:focus{background: #007142;}
+    .filter-box-wrapper {display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;}
+    .filter-box-wrapper .StallionSearch {width: 100%;height: 54px;}
+    .filter-drawer-left {display: none;}
+    .filter-box-wrapper>form { grid-column: 1 / 4; grid-row: 1; }
+    .filterBtnWrp { grid-column: 4 / 4; grid-row: 1;}
+    .stallion-directory-header-wrp {
+        margin-bottom: 20px;
+    }
+    .responsive-sticky-directory {
+        position: -webkit-sticky;
+        position: sticky;
+        z-index: 1;
+    }
+    .filter-box-wrapper {
+        margin-top: 1rem;
+        gap: 8px;
+    }
+    .main-drawer-wrapper{
+        z-index: 2;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .filter-box-wrapper{
+        margin-top: 11.5px;
+    }
+    .responsive-sticky-directory {
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .responsive-sticky-directory {
+        z-index: 1;
+    }
+    .filter-box-wrapper .StallionSearch {
+        min-width: 100%;
+        float: inherit;
+    }
+    .shortlist-order h3 {
+        line-height: 55px;
+    }
+    
+    .shortlist-order {
+        min-height: 260px;
+        padding: 24px;
+    }
+    
+    .shortlist-order .view-sample {
+        margin-left: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .shortlist-order {
+        min-height: 370px;
+        padding: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .SDTitle {
+        font-size: 40px;
+    }
+    .shortlist-order {
+        min-height: 540px;
+    }
+    
+    .shortlist-order .homeSignup {
+        min-width: 120px;
+    }
+    
+    
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .SDcard .viewButton {
+        padding: 7px 10px 9px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,600 @@
+.Main-Title{
+    padding: 80px 0px;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.pdf-report:fullscreen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+.report-overview-page .Main-Title h1 {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    color: #1D472E;
+}
+.ReportCard .MediacardTitle {
+    margin: 0;
+    padding: 0 10px 0px 0px;
+}
+
+.ReportCard h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #626E60;
+}
+.ReportCard h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #161716;
+}
+.ReportCard .MuiCardContent-root {
+    min-height: 314px;
+    box-sizing: border-box;
+    padding-bottom: 16px;
+}
+.ReportCard .ReportCard .viewButton {
+    padding: 7px 12px 9px;
+}
+.ReportCard h6 a {
+    font-weight: 400;
+    line-height: 20px;
+    color: #007142;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 4px;
+    margin: 0px 4px;
+}
+.ReportCard h6 a:hover{
+    color: #1D472E;
+}
+.ReportCard .report-card-bottom .view:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1.5px;
+    background: #007142;
+}
+
+.ReportCard .report-card-bottom .view {
+    text-decoration: none;
+    position: relative;
+    padding: 0;
+    white-space: nowrap;
+    min-width: inherit;
+}
+
+.ReportCard .report-card-bottom .view:hover {
+    text-decoration: none;
+    color: #1D472E;
+}
+
+.ReportCard .report-card-bottom .view:hover:after {
+    background: #1D472E;
+}
+
+.report-overview-page {
+    padding-bottom: 40px;
+}
+.reportCardDes{
+    padding-right: 10px;
+}
+
+/* ******************************************************* */
+                /* View Sample Modal */
+/* ******************************************************* */
+.pdf-view-modal .MuiDialog-container{
+    background-color: rgba(22, 23, 22, 0.7) !important;
+}
+
+.pdf-view-modal .MuiDialog-paper{
+    width: auto;
+    border-radius: 0;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    background: none;
+    box-shadow: inherit;
+  
+}
+
+.pdf-view-modal .MuiDialog-paper h2 {
+    display: none;
+}
+
+.pdf-view-modal .popup-cnt {
+    padding: 0;
+}
+
+.pdf-view-modal .popup-cnt .react-pdf__Page {
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+.pdf-view-modal .popup-cnt .react-pdf__Page canvas {
+    margin:auto;
+}
+
+.pdf-view-modal .popup-cnt .react-pdf__Page .react-pdf__Page__textContent {
+    width: 100% !important;
+}
+
+.pdf-view-modal .popup-cnt .react-pdf__Page.centered-pdf canvas {
+    width: 537px !important;
+    height: 760px !important;
+}
+
+.pdf-view-modal .popup-cnt .react-pdf__Page.centered-pdf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.report-modal-controller {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 156px;
+    background: #2EFFB4;
+    height: auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    min-height: 36px;
+}
+
+.report-modal-controller button,.report-modal-controller a {
+    background: none;
+    border: 0;
+    padding: 0;
+    min-width: inherit;
+    font-size: 22px;
+    color: #1D472E;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.report-modal-controller  i:before {
+    color: #1D472E;
+}
+
+.report-nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 56px;
+    left: 0;
+    right: 0;
+    padding: 0% 20%;
+    display: block;
+}
+
+.report-nav button {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: inherit;
+    min-height: 56px;
+    cursor: pointer;
+    font-size: 24px;
+    background: #E2E7E1;
+    color: #1D472E;
+}
+
+.report-nav button i:before {
+    color: #1D472E;
+}
+
+.report-nav button.report-nav-left {
+    float: left;
+}
+
+.report-nav button.report-nav-right {
+    float: right;
+}
+.report-nav button:hover {
+    background: #C5CFC4;
+}
+
+
+.report-nav button[disabled]{
+    background: #B0B6AF;
+    color: #fff;
+    pointer-events: none;
+}
+
+.report-nav button[disabled] i:before{
+    color: #fff;
+}
+
+.ReportCardMedia {
+    height: 240px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.ReportCardMedia .MuiCardMedia-root{
+    height: 100%;
+}
+.react-pdf__message, .react-pdf__message.react-pdf__message--loading  {
+    padding: 10px 20px;
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* Autocomplete */
+
+.dialogPopup .reportModalForm .MuiAutocomplete-root  .MuiOutlinedInput-root input.MuiOutlinedInput-input {
+    padding: 0;
+    min-height: initial;
+}
+/* .dialogPopup .reportModalForm fieldset.MuiOutlinedInput-notchedOutline{
+    border: 1px solid #b9b9b9;
+  } */
+
+.dialogPopup .reportModalForm .MuiAutocomplete-root  .MuiOutlinedInput-root {
+    height: auto;
+    padding: 12px 16px;
+    padding-right: 64px;
+}
+.dialogPopup .reportModalForm .MuiAutocomplete-popper{
+    max-height: 130px !important;
+}
+.dialogPopup .reportModalForm .MuiAutocomplete-paper{
+    max-height: 130px !important;
+    width: 100%;
+}
+
+.dialogPopup .reportModalForm .MuiAutocomplete-listbox{
+    max-height: 130px !important;
+  }
+
+
+.dialogPopup .reportModalForm .MuiAutocomplete-root .MuiChip-root {
+    background: #2EFFB4;
+    border-radius: 32px;
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    margin: 0px 3px 3px 0px;
+    padding: 1px 8px 3px 8px;
+    height: 24px;
+    box-sizing: border-box;
+}
+.reportModalForm .SDmultiselect .dropdown-content .root .infinite-scroll-component .node-label {
+    font-family: 'Synthese-Book';
+    color: #161716;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 20px;
+    width: 90%;
+}
+.dialogPopup .reportModalForm .MuiAutocomplete-root .MuiChip-root span.MuiChip-label.MuiChip-labelMedium {
+    padding-left: 0;
+    padding-right: 4px;
+}
+.dialogPopup .reportModalForm .MuiAutocomplete-root .MuiChip-root .MuiChip-deleteIconMedium {
+    font-size: 13px;
+    right: 0;
+    margin: 2px 0px 0px;
+}
+.LoactionFilter.reportfilter[role="option"] span{
+    font-family: 'Synthese-Book';
+}
+.report-bottom-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #161716;
+    letter-spacing: -0.01em;
+}
+
+.report-bottom-sub-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+}
+.reportModalForm .SDmultiselect .dropdown-content .root .infinite-scroll-component {
+    max-height: auto !important;
+}
+
+.reportModalForm .SDmultiselect .dropdown-content .root .infinite-scroll-component .leaf {
+    padding: 4px 0px;
+    padding-right: 5px;
+}
+.reportModalForm .SDmultiselect.CountrySDmultiselect .dropdown-content .root .infinite-scroll-component .leaf {
+    padding: 4px 0px;
+    padding-right: 0px;
+}
+.reportModalForm .SDmultiselect.CountrySDmultiselect .mdl-demo .checkbox-item{
+margin-right: 5px;
+}
+    
+.reportModalForm .custfield {
+    margin-bottom: 0;
+}
+
+.reportModalForm p {
+    margin-bottom: 16px;
+}
+.reportModalForm .MuiAutocomplete-listbox ul.MuiList-root {
+    padding-right: 16px;
+}
+.search-stallion-pop-box.reportPopup{
+    min-height: auto;
+}
+.search-stallion-pop-box .search-stallion-pop-box-inner.stallionReportPopup .MuiAutocomplete-listbox li:last-child {
+    margin-bottom: 0px !important;
+}
+.search-stallion-pop-box.reportPopup .MuiAutocomplete-popper .MuiAutocomplete-paper {
+    max-height: 260px !important;
+}
+
+.search-stallion-pop-box.reportPopup .MuiAutocomplete-popper {
+    max-height: 260px !important;
+}
+
+.search-stallion-pop-box.reportPopup .search-stallion-pop-box-inner .MuiAutocomplete-paper .MuiAutocomplete-listbox {
+    min-height: 70px;
+    max-height: 260px !important;
+
+}
+.selectDropDownBox.reportDropDownBox .mobileCountryList .MuiTypography-body1{
+    font-size: 14px !important;
+    font-family: 'Synthese-Book' !important;
+    min-height: 40px !important;
+    line-height: 20px;
+    padding-right: 0;
+    padding: 0px 16px;
+}
+
+@supports (-moz-appearance:none) {
+    .reportModalForm .SDmultiselect .dropdown-content .root .infinite-scroll-component .leaf{
+      padding-right: 16px;
+  }
+  .reportModalForm .MuiAutocomplete-listbox ul.MuiList-root {
+    padding-right: 16px;
+}
+  }
+
+
+/* Mediquery */
+@media only screen and (max-width: 1200px) {
+    .reportCardDes {min-height: 218px;}
+
+    .ReportCard .MediacardTitle {
+        min-height: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .reportModalForm .SDmultiselect .dropdown-content .root .infinite-scroll-component .leaf {
+        padding-right: 6px;
+    }
+        .report-modal-controller {
+            right: 10px;
+        }
+        .pdf-view-modal .popup-cnt{
+            overflow: visible;
+        }
+        .report-nav {
+            padding: 0% 2%;
+        }
+        .report-card-bottom {
+            display: flex;
+            flex-direction: column;
+            align-content: flex-start;
+            align-items: flex-start;
+        }
+        
+        
+        .report-card-bottom .view {
+            margin-top: 16px;
+            margin-left: 0;
+        }
+        .ReportCardMedia {
+            height: 175px;
+        }
+          .Main-Title {
+        padding: 56px 0px;
+    }
+        .report-overview-page .Main-Title h1 {
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 56px;
+        }
+        .reportCardDes {
+            min-height: 250px;
+        }
+        
+        .ReportCard h4.MediacardTitle {
+            min-height: 80px;
+        }
+        .report-card-bottom {
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        .report-card-bottom .view {
+            margin-top: 0;
+            margin-left: 1.5rem;
+        }
+        .reportModalForm .shortlistConfirm .SDmultiselect .dropdown-content .root .infinite-scroll-component .leaf{
+            padding-right: 6px;
+        }
+        
+}
+
+@media only screen and (max-width: 992px) {
+    .ReportCard .MediacardTitle {
+        padding-right: 0px;
+        line-height: 36px;
+    }
+    .reportCardDes{
+        padding-right: 0px;
+    }
+    .reportCardDes {
+        min-height: 340px;
+    }
+    .report-card-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .report-card-bottom .view {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .reportCardDes {
+        min-height: 380px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ReportCardMedia {
+            height: 229px;
+        }
+    .ReportCard .MediacardTitle {
+        padding-right: 0px;
+    }
+    .reportCardDes{
+        padding-right: 0px;
+    }
+    .report-modal-controller {
+        right: 0px;
+    }
+
+    .report-nav {
+        padding: 0% 1%;
+    }
+   
+    .pdf-view-modal .MuiDialog-paper{
+       
+        background: none;
+        box-shadow: inherit;
+    }
+   
+    .report-overview-page .Main-Title h1 {
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 56px;
+    }
+    
+    .Main-Title {
+        padding: 56px 0px;
+    }
+    .ReportCard h4.MediacardTitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .dialogPopup .reportModalForm .MuiAutocomplete-root .MuiOutlinedInput-root {
+        padding-right: 65px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .report-card-bottom {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+    }
+    .LoactionFilter.reportfilter[role="option"] span {
+        white-space: nowrap !important;
+        text-overflow: ellipsis;
+        width: 90% !important;
+        overflow: hidden;
+    }
+    .LoactionFilter.reportfilter {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        min-height: initial;
+    }
+    
+    .LoactionFilter.reportfilter[role="option"]  span.MuiCheckbox-root {
+        width: auto !important;
+        overflow: visible;
+    }
+    .ReportCard .report-card-bottom .view {
+        margin-top: 0;
+        margin-left: 24px;
+    }
+    .reportCardDes{
+        min-height: initial;
+    }
+    .ReportCard h4.MediacardTitle {
+        min-height: initial;
+    }
+    .dialogPopup .reportModalForm .MuiAutocomplete-root .MuiOutlinedInput-root {
+        padding-right: 65px;
+    }
+    .report-modal-controller{
+        width: 160px;
+    }
+    .report-modal-controller .expand-modal{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 330px) {
+.report-card-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ReportCard .report-card-bottom .view {
+    margin-left: 0;
+    margin-top: 16px;
+}
+.pdf-view-modal .MuiDialog-paper {
+    margin-top: 60px;
+}
+}
+

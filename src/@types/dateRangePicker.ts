@@ -1,0 +1,1 @@
+export type DateRange = [number | null, number | null];

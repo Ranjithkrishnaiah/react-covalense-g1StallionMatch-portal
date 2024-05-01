@@ -1,0 +1,558 @@
+.contact-section-block{
+    padding: 1.3rem;
+}
+.contact-wrapper{
+    background: url(../assets/Images/contactbg.webp) center;
+    min-height: 793px;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 5rem 0rem;
+    border-radius: 0px 20px 20px 20px;
+}
+.contact-left p {
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    color: #FAF8F7;
+    font-family: 'Synthese-Book';
+    padding-right: 76px;
+    line-height: 32px;
+    
+}
+
+.contact-details-block h6 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 7px;
+    color: #BD9A68;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Bold';
+}
+
+.contact-social-block  {
+    display: flex;
+   flex-direction: row;
+}
+.contact-social-block a {
+    margin-right: 50px;
+}
+
+.contact-social-block a img {
+    width: 34px;
+    height: 34px;
+    margin-left: 0;
+}
+.contact-right-inner .intrested-label {
+    color: #FAF8F7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Book';
+    margin-bottom: 17px;
+}
+
+
+.outLineGold {
+    color: #FAF8F7;
+    text-transform: capitalize;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid #BD9A68;
+    border-radius: 4px;
+    height: 48px;
+    padding: 10px 14px 14px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-family: 'Synthese-Regular';
+    min-width: 150px;
+}
+
+.outLineGold:hover {
+    border: 2px solid #BD9A68;
+    background: #BD9A68;
+    color: #161716;
+}
+.contact-form {
+    margin-top: 10px;
+}
+
+.contact-form label {
+    color: #FAF8F7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Synthese-Regular;
+    padding-bottom: 5px;
+}
+
+.contact-form .MuiOutlinedInput-input,.contact-form .con-form-control {
+    background: #fff;
+    border: 1px solid #BD9A68;
+    border-radius: 4px;
+    height: 48px;
+    box-sizing: border-box;
+    color: #626E60;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    font-family: 'Synthese-Book';
+    outline: 0;
+    padding: 14px 16px;
+}
+.contact-form .MuiOutlinedInput-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #626E60;
+    opacity: 1;
+  }
+.contact-form .MuiOutlinedInput-input::-moz-placeholder { /* Firefox 19+ */
+    color: #626E60;
+    opacity: 1;
+  }
+.contact-form .MuiOutlinedInput-input:-ms-input-placeholder { /* IE 10+ */
+    color: #626E60;
+    opacity: 1;
+  }
+.contact-form .MuiOutlinedInput-input:-moz-placeholder { /* Firefox 18- */
+    color: #626E60;
+    opacity: 1;
+  }
+  .contact-right .lr-btn {
+    font-family: 'Synthese-Regular';
+    background: #BD9A68;
+    color: #161716;
+    min-width: 130px;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    line-height: 24px;
+    padding: 5.5px 0px 6.5px;
+}
+
+.contact-active{
+    background-color: #BD9A68;
+    color: #161716;
+}
+
+/* ................................About Us................................. */
+.aboutGrayTiles{
+    background: url(../assets/Vectors/aboutGreyTiles.svg);
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    bottom: -1px;
+}
+.aboutBackground{
+    background: url(../assets/Images/farm-about-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(63%) calc(30%);
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: -92px;
+}
+.aboutBackground h2{
+   color: #ffffff;
+}
+.aboutBackground h2 span{
+    color:#2EFFB4;
+ }
+.aboutBackground h5{
+    padding-top: 3rem;
+    font-family: 'Synthese-Regular';
+    font-size: 24px;
+    font-weight: 400;
+    color:#2EFFB4;
+    line-height: 40px;
+    letter-spacing: -0.02rem;
+}
+.aboutTopcnt{
+    text-align: center;
+    padding: 3rem 0 !important;
+}
+.aboutTopcnt h3{
+    color: #1D472E;
+}
+.aboutTopcnt h5{
+    font-family: 'Synthese-Light';
+    font-weight: 300;
+    color: #161716;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 32px;
+}
+.valuesBlock{
+    max-width: 1280px !important;
+    padding: 0px !important;
+}
+.valuesBlock .VB-col{
+    display: grid;
+    gap: 6px;
+    margin-bottom: 6px;
+    grid-template: repeat(2,1fr) / repeat(3,1fr);
+}
+.valuesBlock .Box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 260px;
+    cursor: pointer;
+    background-color: #1D472E;
+    border: solid 1px #1D472E;
+    border-radius: 4px;
+}
+
+.valuesBlock .Box-1:hover{
+    background-color:#007142;
+}
+
+.valuesBlock .Box-1 h3{
+    font-size: 40px;
+}
+.valuesBlock .Box-1 h5{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    padding: 0px 39px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.valuesBlock .Box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 260px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: solid 1px #BD9A68;
+    border-radius: 4px;
+}
+.valuesBlock .Box-2:hover{
+    background-color: #BD9A68;
+}
+.valuesBlock .Box-2 h5{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    padding: 0px 39px;
+    line-height: 30px;
+    font-weight: 400;
+    color:#161716;
+}
+.valuesBlock .Box-2 h3{
+    font-size: 40px;
+    color: #1D472E;
+}
+.valuesBlock .Box-3{
+    display: flex;
+    width: 100%;
+}
+.aboutBenifitCol{
+    padding-top: 4rem;
+}
+.aboutBenifits{
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+.aboutBenifits.studBenifits h3{
+    color: #BD9A68;
+}
+.aboutBenifits.studBenifits h5{
+    color: #BD9A68;
+}
+.aboutBenifits h3{
+    color: #007142;
+}
+.aboutBenifits h5{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    color: #007142;
+    line-height: 24px; 
+}
+.aboutBenifits h6{
+    color: #626E60;
+    letter-spacing: -0.01rem;
+    line-height: 24px;
+}
+.aboutBenifits hr{
+    margin: 20px 0px;
+    height: 1px;
+    background-color: #C5CFC4;
+    opacity: .5;
+    border: none;
+}
+.aboutBenifits .MuiPaper-root{
+    border: solid 1px #C5CFC4;
+    padding: 22px 20px;
+    border-radius: 8px;
+}
+
+.aboutBenifits .aboutAPI{
+    border: solid 1px #C5CFC4;
+    padding: 22px 20px;
+    background-color: #626E60 !important;
+    border-radius: 8px;
+}
+.aboutBenifits .aboutAPI h5{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    color: #2EFFB4;
+    line-height: 24px; 
+}
+.aboutBenifits .aboutAPI h6{
+    color: #ffffff;
+    letter-spacing: -0.01rem;
+    line-height: 24px;
+}
+.aboutBenifits hr{
+    background-color: #ffffff;
+}
+.aboutInterested{
+    margin-top: 60px;
+    background: #BD9A68;
+    overflow: hidden;
+    min-height: 444px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.aboutInterested .SMregis{
+    margin-left: 0px;
+}
+.aboutInterested h3{
+    color: #1D472E;
+}
+.aboutInterested h6{
+    font-family: 'Synthese-Light';
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 32px; 
+}
+.aboutInterested .icon-Arrow-circle-right:before{
+    color: #1D472E;
+}
+
+
+/* ................................Career................................. */
+.Bottomgreentile{
+    background:url(../assets/Vectors/darkGreenTiles.svg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    width: 612px;
+    height: 90px;
+  
+}
+.careerWhiteTiles{
+    background: url(../assets/Vectors/careerWhiteTiles.svg);
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    bottom: -1px;
+}
+.careerBackground{
+    background: url(../assets/Images/foal-careers-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(8%) calc(30%);
+    width: 100%;
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: -92px;
+}
+.careerBackground h2{
+   color: #ffffff;
+}
+.careerBackground h2 span{
+    color:#2EFFB4;
+ }
+.careerBackground h5{
+    padding-top: 3rem;
+    font-family: 'Synthese-Regular';
+    font-size: 24px;
+    font-weight: 400;
+    color:#2EFFB4;
+    line-height: 40px;
+    letter-spacing: -0.02rem;
+}
+.careerTopcnt{
+    text-align: center;
+    padding: 5rem 0 !important;
+    border-bottom: solid 1px #B0B6AF;
+}
+.careerTopcnt h3{
+    color: #1D472E;
+}
+.careerTopcnt h4{
+    letter-spacing: -0.05rem;
+}
+.careerCnt{
+    display: flex;
+    justify-content: center;
+}
+.careerTopcnt h5{
+    font-family: 'Synthese-Light';
+    font-weight: 300;
+    color: #161716;
+    padding: 32px 10px 0px 10px;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 32px;
+}
+.careerMarketing h3{
+    font-size: 40px;
+    line-height: 52px;
+    color: #161716;
+    padding-top: 120px;
+}
+.careerMarketing h4{
+    font-family: 'Synthese-Light';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0,02rem;
+    color: #161716;
+}
+.careerMarketing h5{
+    padding-top: 13px;
+    font-family: 'Synthese-Regular';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #161716;
+    letter-spacing: -0,01rem;
+}
+.careerMarketing h5 span{
+    color: #00DE8E;
+}
+.careerMarketing h6{
+    padding-top: 26px;
+    font-family: 'Synthese-Book';
+    font-weight: 350;
+    color: #161716;
+    letter-spacing: -0,01rem;
+}
+.careerMarktCnt{
+    padding: 75px 0px;
+    border-bottom: solid 1px #B0B6AF;
+}
+.careerMarktCnt .learnBtn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.careerMarktCnt .ListBtn{
+    width: 158px;
+    height: 52px;
+    font-size: 20px;
+    color: #1D472E;
+}
+.careerMarketing.bottomMark{
+    margin-bottom: 100px;
+}
+/* Media-query */
+@media only screen and (max-width: 1200px){
+    .contact-left p {
+        padding-right: 24px;
+    }
+    .aboutTopcnt{
+        padding: 2rem 24px !important;
+    }
+    .valuesBlock{
+        padding: 0px 24px !important;
+    }
+    .valuesBlock .VB-col{
+        display: grid;
+        gap: 6px;
+        margin-bottom: 6px;
+        grid-template: repeat(2,1fr) / repeat(2,1fr);
+    }
+    .valuesBlock .Box-3{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .aboutInterested{
+        padding: 5rem 0px 7rem 0px;
+    }
+    
+    .careerTopcnt h5{
+        padding: 32px 16px 0px 16px;
+    }
+    .careerBackground{
+        background-position: calc(45%) calc(30%);
+    }
+}
+@media only screen and (max-width: 767px){
+    .contact-social-block {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .contact-details-block {
+        margin-top: 40px;
+    }
+    .contact-section-block {
+        padding: 16px;
+    }
+    .valuesBlock .VB-col{
+        flex-direction: column;
+    }
+    .valuesBlock{
+        padding: 0px 24px !important;
+    }
+    .valuesBlock .Box-3{
+        display: none;
+    }
+    .aboutTopcnt{
+        padding: 2rem 24px !important;
+    }
+    .valuesBlock .VB-col{
+        display: grid;
+        gap: 6px;
+        margin-bottom: 6px;
+        grid-template: repeat(1,1fr) / repeat(1,1fr);
+    }
+    .careerBackground h2 {
+        color: #ffffff;
+        padding: 0px 20px;
+        /* word-break: break-word; */
+    }
+    .careerMarktCnt .learnBtn{
+        justify-content: start;
+        margin-top: 30px;
+    }
+    .careerBackground{
+        background-position: calc(35%) calc(30%);
+    }
+    
+}
+
+@media only screen and (max-width: 330px){
+    .contact-section-block {
+        padding: .5rem;
+    }
+}

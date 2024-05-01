@@ -1,0 +1,1833 @@
+.homeBackground{
+    background: url(../../assets/Images/HomePageHeader.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(63%) calc(30%);
+    width: 100%;
+    height: 955px;
+    position: relative;
+    margin-top: -92px;
+}
+
+.TopgreyTiles{
+    background: url(../../assets/Vectors/TopGreyTiles.svg);
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    bottom: -1px;
+}
+
+.STMHeading{
+    font-family: 'FlechaM-Medium';
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: center;
+    color: #2EFFB4;
+  }
+
+  .homeBackgroundHeading {
+    color: #2EFFB4;
+}
+.STMbannertext{
+    font-family: 'Synthese-Light';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: -0.01em;
+}
+
+.Homesearch{
+    background: #FFFFFF; 
+    border-radius: 10px; 
+    min-height: 104px; 
+    align-items: center; 
+    display: grid;
+}
+.HomeSearchBlock {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Homesearch .MuiAutocomplete-popper{
+    max-height: 160px !important;   
+    z-index: 1;
+}
+
+.Homesearch .MuiAutocomplete-paper{
+   border: none !important;
+   max-height: 160px !important;
+}
+
+.Homesearch .MuiAutocomplete-listbox{
+    max-height:150px !important;
+}
+
+.homeCntBg{
+    background-color: #C5CFC4;
+    padding-bottom: 5rem;
+}
+.STMcntHeading{
+    font-family: 'FlechaM-Medium';
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: center;
+    color: #1D472E;
+}
+
+.STMhomeTitle{
+    font-family: 'Synthese-Book';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.02rem;
+    text-align: left;
+    color: #1D472E;
+}
+
+.STMhomeCnt{
+    font-family: 'Synthese-Light';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #161716;
+    letter-spacing: -0.01em;
+}
+.homeCntBg h3 {
+    letter-spacing: -0.02em;
+    font-family: 'Synthese-Book';
+    color: #1D472E;
+    font-weight: 350;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+
+.fingerBG{
+    background: #1D472E;
+    padding: 120px 0 88px 0;
+    min-height: 524px;
+    box-sizing: border-box;
+}
+
+.fingerCnt{
+    font-family: 'Synthese-Light';
+    padding: 16px 72px 0rem 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.01rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* Testimonials Styles */
+
+.TestimonialBG{
+    background: #BD9A68;
+    padding: 5.6rem 0;
+    overflow: hidden;
+    min-height: 672px;
+    box-sizing: border-box;
+}
+.Testimonial-Slider .marquee {
+    min-width: inherit;
+}
+
+
+    .Testimonial-Slider{
+    /* animation: scroll 30s linear infinite; */
+    display: flex;
+    width: 100%;
+    /* animation: moveSlideshow 10s linear infinite;
+    animation-direction: normal; */
+
+
+}
+
+/* .Testimonial-Slider:hover{
+    animation-play-state: paused;
+} */
+
+
+
+
+/* @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  } */
+
+
+
+/* @keyframes moveSlideshow {
+    from {
+        transform: translate(0, 0);
+      }
+      to {
+        transform: translate(calc(-100% + (3* 300px)));
+      }
+} */
+
+
+
+
+
+
+.TestimonialBG {position: relative;}
+
+.TestimonialBG:before {content: "";width: 10%;height: 100%;  position: absolute;top: 0;bottom: 0;left: 0;z-index: 2;
+background: rgb(189,154,104);
+background: linear-gradient(90deg, rgba(189,154,104,1) 0%, rgba(255,255,255,0) 80%);}
+
+.TestimonialBG:after {content: "";width: 10%;height: 100%;  position: absolute;top: 0;bottom: 0;right: 0;z-index: 1;
+
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(189,154,104,1) 100%);}
+.Testimonial-Slider {align-items: center;justify-content: center;}
+
+/* @media only screen and (max-width: 1023px){
+    .Testimonial-Slider{
+           animation-direction: reverse;
+   
+       }
+   
+     } */
+
+
+/* Stallion Match Sign Up Column */
+
+.SMsignup{
+    position: relative;
+    background:#1D472E;
+    height: 477px;
+    display: flex;
+    align-items: center;
+}
+
+.SMsignup .signup{
+    background-color: #2EFFB4;
+    color: #1D472E;
+    border: solid 1px #2EFFB4;
+    font-family: 'Synthese-Regular';
+    font-size: 20px;
+    text-transform: none;
+    line-height: 32px;
+    margin-top: 2rem;
+    padding: 8px 24px 12px;
+    height: 52px;
+    letter-spacing: 0.01rem;
+    min-width: 169px;
+    font-weight: 400;
+}
+
+.SMsignup .signup:hover{
+    background-color: #00DE8E;
+    color:#1D472E;
+    border-color: #00DE8E;
+  }
+
+ .Btmgreentile{
+      background:url(../../assets/Vectors/bottomGreenTiles.svg);
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-repeat: no-repeat;
+      width: 612px;
+      height: 90px;
+    
+  }
+  .TestimonialBGStallionMatch  .Btmgreentile{
+    z-index: 1;
+  }
+
+  .newgate{
+    width: 100px;
+    margin: 0 auto;
+  }
+
+@media only screen and (max-width: 600px){
+ .Btmgreentile{
+        background:url(../../assets/Vectors/bottomGreenTilesMobile.svg);
+        background-repeat: no-repeat;
+        width: 245px;
+        height: 60px;
+
+    }
+
+  }
+
+  /* Stallion Subscribe Styles  */
+
+  .HomeSubscribe{
+    background:#005632;
+    height: 445px;
+    display: flex;
+    align-items: center;
+    
+}
+.HomeSubscribe h4 {
+    letter-spacing: -0.01em;
+}
+
+.Subscribe{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    border-bottom: solid 1px #ffffff;
+    padding: 15px 0px;
+}
+
+.Subscribe img:hover{
+    cursor: pointer;
+}
+
+.Subscribe i{
+    cursor: pointer;
+}
+
+.Subscribe .MuiOutlinedInput-root{
+    font-family: 'Synthese-Light';
+    font-size: 20px;
+    color: #C5CFC4;
+    padding: 12px 0px;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 0.01rem;
+
+}
+
+.Subscribe .MuiInputBase-input.MuiOutlinedInput-input{
+    padding: 16px 0px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Synthese-Light';
+    color: #C5CFC4 !important;
+}
+
+
+.Subscribe .MuiInputBase-input.MuiOutlinedInput-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #C5CFC4 !important;
+    opacity:1;
+    font-size: 20px;
+line-height: 32px;
+    
+  }
+.Subscribe .MuiInputBase-input.MuiOutlinedInput-input::-moz-placeholder { /* Firefox 19+ */
+    color: #C5CFC4 !important;
+    opacity:1;
+    font-size: 20px;
+line-height: 32px;
+  }
+.Subscribe .MuiInputBase-input.MuiOutlinedInput-input:-ms-input-placeholder { /* IE 10+ */
+    color: #C5CFC4 !important;
+    opacity:1;
+    font-size: 20px;
+line-height: 32px;
+  }
+.Subscribe .MuiInputBase-input.MuiOutlinedInput-input:-moz-placeholder { /* Firefox 18- */
+    color: #C5CFC4 !important;
+    opacity:1;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+
+  .SMregis .MuiInputBase-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #1D472E !important;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.SMregis .MuiInputBase-input::-moz-placeholder { /* Firefox 19+ */
+    color: #1D472E !important;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.SMregis .MuiInputBase-input:-ms-input-placeholder { /* IE 10+ */
+    color: #1D472E !important;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.SMregis .MuiInputBase-input:-moz-placeholder { /* Firefox 18- */
+    color: #1D472E !important;
+    opacity:1;
+    text-transform:capitalize;
+  }
+
+  
+
+.Subscribe .MuiOutlinedInput-notchedOutline{
+    border: 0;
+}
+
+
+/* ..... Stallion Match Page Styles */
+.forfarmsheader h1 {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    font-family: 'FlechaM-Medium';
+    color: #F0F3F0;
+}
+.SMbackground{
+    background:url(../../assets/Images/WhiteRunning.webp);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 955px;
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+
+.TopwhiteTiles{
+    background: url(../../assets/Vectors/whiteTiles.svg);
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    bottom: -1px;
+}
+
+.SMbannertext{
+    font-family: 'Synthese-Regular';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.02rem;
+    text-align: center;
+    color: #2EFFB4;
+}
+
+.SMregis{
+    background: #FFFFFF; 
+    border-radius: 10px;
+    padding:  0 15px;
+    margin-left: 96px;
+    min-height: 80px; 
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    max-width: 543px;
+}
+
+.SMregis fieldset{
+    outline: 0;
+    border: 0;
+}
+.SMregis .MuiOutlinedInput-root input.MuiOutlinedInput-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #1D472E !important;
+     
+  }
+.SMregis .MuiOutlinedInput-root input.MuiOutlinedInput-input::-moz-placeholder { /* Firefox 19+ */
+    color: #1D472E !important;
+ 
+  }
+.SMregis .MuiOutlinedInput-root input.MuiOutlinedInput-input:-ms-input-placeholder { /* IE 10+ */
+    color: #1D472E !important;
+    
+  }
+.SMregis .MuiOutlinedInput-root input.MuiOutlinedInput-input:-moz-placeholder { /* Firefox 18- */
+    color: #1D472E !important;
+  
+  }
+
+
+.SMregis .MuiOutlinedInput-root input.MuiOutlinedInput-input{
+    font-family: 'Synthese-Book';
+    font-size: 16px;
+    letter-spacing: -0.01rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1D472E;
+}
+.StallionreportexBox {
+    background-color: #fff;
+    border-radius:28px;
+}
+
+.StallionreportexBox img{
+    border: 20px solid #E2E7E1;
+    border-radius: 25px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0px 10px 16px rgb(0 0 0 / 8%);
+    box-sizing: border-box;
+}
+
+
+
+.SMregisIcon{
+    display: flex;
+    align-items: center;
+}
+
+.SMregisIcon i{
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+.SMregisIcon .MuiButton-root{
+    padding: 0px;
+}
+
+.SMregisIcon .MuiButton-root.Mui-disabled i::before{
+    color: #B0B6AF;
+}
+
+.stallion-match-search .MuiOutlinedInput-input::placeholder{
+    color: #626E60 !important;
+}
+.stallion-match-search .SMregisError{
+    margin-left: 100px;
+}
+
+.stallion-match-search-box{
+    margin-top: 48px;
+}
+
+.stallion-match-search-box .SMregisError{
+    margin-left: 0px;
+}
+
+.stallion-match-search .SMregisError {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.SMregisError p{
+    font-family: 'Synthese-Regular';
+    font-size: 14px !important;
+    letter-spacing: -0.01rem;
+    font-weight: 400;
+    line-height: 20px;
+    color: #C75227;
+
+}
+
+.SMfarmtitle{
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.SMfarmtitle h4{
+    color: #161716;
+    font-family: 'Synthese-Light';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -0.02rem;
+    line-height: 40px;
+}
+.SMflogo{
+    display: flex;
+    gap: 59px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+.flogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+.flogo img{
+    width: 157px;
+}
+
+.SMfarmlogos img{
+    filter: grayscale();
+    
+}
+.SMfarmlogos img:hover{
+    filter:none;
+}
+.SMfarmlogos img[alt="Arrowfield"] {
+    opacity: .7;
+}
+
+.SMfarmlogos img[alt="Arrowfield"]:hover {
+    opacity: 1;
+}
+.SM-Valueadded{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.promote-fee{
+    background-color:#E2E7E1;
+    min-height: 500px;
+}
+
+.promote-fee .fee-border{
+    border-bottom: 1px solid #B0B6AF;
+    width: 100px;
+    margin:2rem auto;
+
+}
+
+.promote-fee .promoted-clmn .fee-border{
+    border-bottom: 1px solid #F0F3F0;
+    width: 100px;
+    margin:2rem auto;
+
+}
+
+.promote-fee .promote{
+    display: flex;
+    justify-content: center;
+    gap: 102px;
+    /* scrollbar-width: thin;
+    scrollbar-color: #B0B6AF transparent; */
+}
+.promote-fee .promote::-webkit-scrollbar {
+    width: 6px;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    -ms-border-radius:0px;
+    -o-border-radius:0px;
+  }
+  
+  .promote-fee .promote::-webkit-scrollbar-track {
+    background: #F0F3F0;
+  }
+  
+  .promote-fee .promote::-webkit-scrollbar-thumb {
+    background-color: #d4d4d4;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-clip: content-box;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 119px;
+    width: 4px;
+  }
+
+.promote-fee .free-btn{
+    min-width: 223px;
+    height: 52px;
+    border: solid 3px #007142;
+    font-family: 'Synthese-bold';
+    font-size: 14px;
+    font-weight: 700;
+    color: #161716;
+    text-transform: capitalize;
+    line-height: 20px;
+    padding: 15px 0px 17px;
+    
+}
+.promote-fee .free-btn:hover{
+    background-color: #007142;
+    color: #FFFFFF;
+}
+
+.promote-fee .promote-btn{
+    min-width: 223px;
+    height: 52px;
+    background-color: #1D472E;
+    font-family: 'Synthese-bold';
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: capitalize;
+    line-height: 20px;
+    padding: 15px 0px 17px;
+    
+}
+
+.promote-fee .promote-btn:hover{
+    background-color: #007142;
+    color: #FFFFFF;
+}
+
+.promote-fee .promote-country{
+    height: auto;
+    padding-top: 18px;
+    min-height: 32px;
+    padding-bottom: 30px;
+    width: 181px;
+    margin: 0px auto;
+}
+
+.promote-fee .countryDropdownBox{
+    width: 181px;
+    margin-top: 1rem;
+}
+
+.promote-fee .free-clmn h3{
+    color: #000000;
+    font-family: 'FlechaM-Medium';
+    font-size: 65px;
+    line-height: 72px;
+}
+
+.promote-fee .free-clmn h4{
+    color: #000000;
+    font-family: 'Synthese-bold';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+}
+
+.promote-fee .free-clmn h5{
+    color: #747474;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.promote-fee .free-clmn h6{
+    font-family: 'Synthese-Regular';
+    padding-bottom: 1rem;
+    font-size:14px;
+    color: #626E60;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.promote-fee .icon-Info-circle{
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.promote-fee .promoted-clmn h3{
+    color: #1D472E;
+    font-family: 'FlechaM-Medium';
+    font-size: 65px;
+    line-height: 72px;
+}
+
+.promote-fee .promoted-clmn h4{
+    color: #ffffff;
+    font-family: 'Synthese-bold';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+}
+
+.promote-fee .promoted-clmn h5{
+    color: #F0F3F0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.promote-fee .promoted-clmn h6{
+    font-family: 'Synthese-Regular';
+    padding-bottom: 1rem;
+    font-size:14px;
+    color: #F0F3F0;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.promote-fee .free-clmn{
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 330px;
+    border-radius: 4px;
+    padding: 2rem 0;
+    min-height: 746px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+.promote-fee .promoted-clmn{
+    background-color: #BD9A68;
+    text-align: center;
+    width: 330px;
+    border-radius: 4px;
+    padding: 2rem 0;
+    min-height: 746px;
+    box-shadow: 0px 10px 15px rgb(0 0 0 / 10%), 0px 4px 6px rgb(0 0 0 / 5%);
+}
+
+.SM-howitwork{
+    background: #1D472E;
+    display: flex;
+    align-items: center;
+    height: 524px;
+}
+
+.SM-howitwork .SMregis{
+    margin-left: 0px;
+}
+
+.SM-howitwork h6{
+    color: #FFFFFF;
+    font-family: 'Synthese-Light';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.SMregis .MuiInputBase-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #1D472E;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.SMregis .MuiInputBase-input::-moz-placeholder { /* Firefox 19+ */
+    color: #1D472E;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.SMregis .MuiInputBase-input:-ms-input-placeholder { /* IE 10+ */
+    color: #1D472E;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.SMregis .MuiInputBase-input:-moz-placeholder { /* Firefox 18- */
+    color: #1D472E;
+    opacity:1;
+    text-transform:capitalize;
+  }
+
+
+  /* :disabled-button */
+    .css-twvth5-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+        background: #B0B6AF;
+        color: #fff;
+    }
+/* :disabled-button */
+
+.SMfarmlogos .MuiGrid-spacing-xs-6>.MuiGrid-item {
+    align-items: center;
+    display: flex;
+}
+.subSuccess{
+    color: #C5CFC4 !important;
+    font-family: 'Synthese-Regular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.02rem;
+    font-size: 20px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    
+
+}
+
+.subError{
+    color: #C75227 !important;
+}
+
+
+
+
+
+/* Hypomating Search Autocomplete List */
+
+.SMare .search-couldnot .sorry-message {
+    min-height: 59px;
+    display: block;
+    margin: 0;
+    padding:24px 0px 0px 36px !important;
+}
+.hypo-search .SMare .search-couldnot .sorry-message {
+    padding:16px 0px 0px 24px !important;
+    text-align: left;
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-paper {
+    margin-top: 0;
+    padding-right: 0px;
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox{
+    -webkit-overflow-scrolling: touch; 
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox::-webkit-scrollbar {
+    width: 16px;
+  }
+
+
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox {
+    min-height: 110px;
+    padding-right: 0px;
+    min-height: inherit;
+}
+
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox li {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    min-height: 64px;
+    justify-content: center;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+.search-stallion-pop-box-inner.mareSelectPopup .MuiAutocomplete-listbox li:last-child {
+margin-bottom: 70px;
+}
+.search-stallion-pop-box-inner.farmAdd-pop-box .MuiAutocomplete-listbox li {
+    /* min-height: 40px; */
+    justify-content: center;
+    padding-bottom: 0px;
+}
+.search-stallion-pop-box-inner.farmAdd-pop-box .MuiAutocomplete-listbox li:last-child {
+    margin-bottom: 0px;
+}
+
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox li.Mui-focused, .search-stallion-pop-box-inner .MuiAutocomplete-listbox li[aria-selected="true"] {
+    background: #F0F3F0 !important;
+}
+
+.stallionListBoxHead {
+    color: #161716;
+    text-transform: capitalize;
+    display: block;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Regular';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.roasterAddstallion{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #626E60;
+    font-family: 'Synthese-Book';
+}
+
+/* .stallionListBoxHead::first-letter, .stallionListBoxpara p::first-letter {
+    text-transform: capitalize;
+} */
+.stallionListBoxpara p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #161716;
+    margin: 0;
+    padding: 0;
+    padding-left: 4px;
+    font-family: 'Synthese-Book';
+}
+
+.stallionListBoxpara  {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox li  strong {
+    color: #007142 !important;
+    font-weight: 400;
+    font-size: 12px !important;
+}
+.Homesearch .search-stallion-pop-box-inner .MuiAutocomplete-listbox li strong {
+    font-size: 14px !important;
+}
+/* .stallionListBoxHead span,.stallionListBoxpara span {
+    text-transform: uppercase;
+} */
+.SMareWrapper .search-stallion-pop-box-inner .MuiAutocomplete-listbox {
+    padding-right: 0;
+}
+
+.SMareWrapper .search-stallion-pop-box-inner .MuiAutocomplete-paper {
+    padding-right: 0;
+    box-shadow: inherit;
+}
+
+.SMareWrapper .stallionListBoxpara p {
+    white-space: pre;
+}
+
+
+
+.Subscribe .MuiInputBase-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #C5CFC4;
+    opacity:1;
+    font-size: 20px;
+    font-family: 'Synthese-Light';
+  }
+  .Subscribe .MuiInputBase-input::-moz-placeholder { /* Firefox 19+ */
+    color: #C5CFC4;
+    opacity:1;
+    font-size: 20px;
+    font-family: 'Synthese-Light';
+  }
+  .Subscribe .MuiInputBase-input:-ms-input-placeholder { /* IE 10+ */
+    color: #C5CFC4;
+    opacity:1;
+    font-size: 20px;
+    font-family: 'Synthese-Light';
+  }
+  .Subscribe .MuiInputBase-input:-moz-placeholder { /* Firefox 18- */
+    color: #C5CFC4;
+    opacity:1;
+    font-size: 20px;
+    font-family: 'Synthese-Light';
+  }
+
+  .stallion-match-search-box .SMregis {
+    width: 573px;
+}
+
+.stallion-match-search-box .error-border{
+    border: 2px solid #C75227 !important;
+}
+.stallion-match-search .error-border{
+    border: 2px solid #C75227 !important;
+}
+
+.fonrfarms-search .SMregisIcon {
+    padding-left: 12px;
+}
+
+.fonrfarms-search .SMregisIcon button {
+    padding: 0;
+}
+
+.nativeStallionBox h3.MuiTypography-root {
+    letter-spacing: -0.02em;
+    font-weight: 350;
+    font-size: 36px;
+    line-height: 54px;
+    font-family: 'Synthese-Book';
+    color: #1D472E;
+}
+.SMregisIcon .MuiButtonBase-root.Mui-disabled i::before {
+    color: #B0B6AF;
+}
+
+
+
+
+
+
+
+/* Search AutoComplete */
+.Homesearch .MuiAutocomplete-popper {
+    max-height: 230px !important;
+    z-index: 1;
+    margin-top: -9px !important;
+}
+.Homesearch .MuiAutocomplete-paper {
+    border: none !important;
+    max-height: 230px !important;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.Homesearch .MuiAutocomplete-listbox {
+    max-height: 208px !important;
+    border-top: 1px solid #C5CFC4 !important;
+    margin-top: 9px;
+}
+
+
+.Homesearch .MuiOutlinedInput-root input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #1D472E !important;
+    opacity:1;
+     text-transform:capitalize;
+     font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+  }
+.Homesearch .MuiOutlinedInput-root input::-moz-placeholder { /* Firefox 19+ */
+    color: #1D472E !important;
+    opacity:1;
+     text-transform:capitalize;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.01em;
+  }
+.Homesearch .MuiOutlinedInput-root input:-ms-input-placeholder { /* IE 10+ */
+    color: #1D472E !important;
+    opacity:1;
+     text-transform:capitalize;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.01em;
+  }
+.Homesearch .MuiOutlinedInput-root input:-moz-placeholder { /* Firefox 18- */
+    color: #1D472E !important;
+    opacity:1;
+    text-transform:capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+  }
+  .HomeSearchBlock .Homesearch {
+    padding: 0px 0px;
+}
+.HomeSearchBlock .Homesearch button.MuiButtonBase-root {
+    padding: 0;
+}
+.HomeSearchBlock .Homesearch .SMare hr.MuiDivider-root {
+    margin-right: 32px;
+    min-height: 56px;
+}
+.Homesearch .search-stallion-pop-box-inner .MuiAutocomplete-listbox li {
+    min-height: 61px;
+    padding: 0px 38px;
+}
+
+
+.Homesearch .stallionListBoxHead {
+    letter-spacing: -0.01em;
+}
+.Homesearch .SMareWrapper .stallionListBoxpara {
+    width: 100%;
+}
+.Homesearch .SMareWrapper .stallionListBoxpara p {
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.Homesearch .stallionListBoxpara strong {
+    font-size: 14px !important;
+    color: #1D472E !important;
+}
+
+.Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 0 !important;
+}
+
+.Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+    padding: 0px 38px;
+    min-height: 104px;
+    border: 0;
+    height: auto;
+    border-radius: 0;
+    outline: 0;
+    font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.01em;
+font-weight: 400;
+color: #1D472E;
+}
+
+.Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root fieldset.MuiOutlinedInput-notchedOutline {
+    border: 0;
+    height: 104px;
+    top: 0;
+    padding: 0;
+}
+
+.HomeSearchBlock .Homesearch .SMare hr.MuiDivider-root {
+    margin: 24px auto;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeSearchBlock .Homesearch button.MuiButtonBase-root {
+    margin: 0px 32px 0px 0px;
+    background: none !important;
+}
+.Homesearch .MuiAutocomplete-popper[data-popper-placement="bottom"] .MuiAutocomplete-paper {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Homesearch .MuiAutocomplete-popper[data-popper-placement="top"] .MuiAutocomplete-paper {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0px;
+}
+
+
+.Homesearch .MuiAutocomplete-popper[data-popper-placement="top"] .MuiAutocomplete-listbox {
+    border-top: 0px !important;
+    border-bottom: 0 !important;
+    margin-top: 0;
+    margin-bottom: 10px;
+    position: relative;
+    top: 0x;
+
+}
+.Homesearch .MuiAutocomplete-popper[data-popper-placement="top"] {
+    margin-top: inherit !important;
+    margin-bottom: -9px !important;
+}
+section#Hypo-Mating .Homesearch .search-stallion-pop-box-inner .MuiAutocomplete-listbox li {
+    padding: 0px 32px;
+}
+.HomeSearchBlock .Homesearch button.MuiButtonBase-root.MuiAutocomplete-popupIndicator {
+    display: none;
+}
+
+.HomeSearchBlock .Homesearch button.MuiButtonBase-root.MuiAutocomplete-clearIndicator {
+    color: #161716;
+    margin-right: 0px;
+}
+.HomeSearchBlock .Homesearch .MuiAutocomplete-endAdornment {
+    right: 0;
+    margin-right: 32px;
+}
+
+
+.Homesearch .MuiAutocomplete-popper {
+    position: relative;
+}
+
+.Homesearch .MuiAutocomplete-popper .MuiPaper-root:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #C5CFC4;
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+
+.Homesearch .MuiAutocomplete-listbox {
+    border: 0 !important;
+    margin-right: 0px !important;
+    margin-top: 14px;
+    padding-bottom: 5px;
+}
+
+.Homesearch .MuiAutocomplete-popper[data-popper-placement="top"] .MuiPaper-root:before{
+    top: inherit;
+    bottom: 9px;
+}
+.Homesearch .MuiAutocomplete-paper .MuiAutocomplete-noOptions {
+    padding: 0;
+}
+
+.Homesearch .submit-new-bg {
+    margin: 0px !important;
+    padding: 10px 0px !important;
+    min-height: 40px !important;
+    height: auto !important;
+}
+
+.Homesearch .submit-new-bg .home-submit{
+    margin-left: 36px !important;
+    padding: 0px !important;
+    
+}
+.Homesearch .submit-new-bg .home-submit:hover{
+    color: #fff !important;
+  background: #007142 !important;
+  border: 1px solid #007142 !important;
+}
+.SMCGridLeft{
+    min-width: 550px;
+}
+.backed{
+    padding-right: 90px;
+}
+.communication{
+    padding-left: 50px;
+}
+
+.nativeStallionBox 
+ .STMhomeCnt {
+    padding-right: 40px;
+}
+
+
+
+
+
+/* Promote-dropdown */
+
+.promote-country .global-dropdown-style {
+    height: 32px;
+    margin: 0px auto 0px;
+    border: 0;
+    padding: 0px 8px 0px 12px;
+    min-height: inherit;
+    border: solid 1px transparent;
+  }
+  .promote-country .global-dropdown-style .react-dropdown-select-content span{
+    width: 128px;
+  }
+  .promote-country .global-dropdown-style .react-dropdown-select-content {
+    width: 135px;
+}
+.promote-country .global-dropdown-style .react-dropdown-select-dropdown-handle svg.MuiSvgIcon-root {
+    color: #1D472E;
+}
+.promote-country .global-dropdown-style:hover {
+    border-color: transparent;
+  }
+
+ /* End Promote-dropdown */
+
+/* media-query */
+@media only screen and (max-width: 1200px){
+    .Homesearch .MuiAutocomplete-listbox {
+        white-space: nowrap;
+        overflow-y: scroll;
+        
+        margin-bottom: 12px;
+        margin-top: 22px;
+        padding-bottom: 0;
+
+    }
+    .Homesearch .SMareWrapper .stallionListBoxpara p {
+        width: 100%;
+    }
+    .SM-howitwork h6 {
+        padding-right: 0;
+    }
+    .HomeSearchBlock .SMare .MuiBox-root {
+        width: 100%;
+    }
+    .Homesearch .MuiAutocomplete-popper .MuiPaper-root:before {
+        height: 0.5px;
+    }
+    .HomeSearchBlock {flex-grow: 1;padding: 0rem 4rem;}
+    .HomeSearchBlock .MuiBox-root {flex-grow: 1;padding: 13.5px 24px;}
+    .HomeSearchBlock .SMare {display: flex;flex-direction: column;align-items: flex-start;}
+    .HomeSearchBlock .SMare .MuiBox-root {width: 100%;}
+    .MuiOutlinedInput-input {  font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;}
+    .Homesearch .SMare hr.MuiDivider-root {width: 100%;height: 1px;background: #C5CFC4;    margin: 0; margin-right: 0rem;min-height: initial !important; }
+    .Homesearch .MuiOutlinedInput-root {padding-left: 0;padding-right: 0;}
+    .HomeSearchBlock button.MuiButtonBase-root {    position: absolute; right: 24px;bottom: 18px;}
+    .Homesearch {position: relative;}
+    .Homesearch .MuiOutlinedInput-input {
+        padding: 24px 0px 24px !important;
+    }
+    .Homesearch .SMare .MuiOutlinedInput-root {padding: 0rem;}
+    .Homesearch .mareBlockInput .MuiOutlinedInput-root {padding-right: 56px !important;}
+    .homeBackground .STMbannertext {padding-left: 3rem;padding-right: 3rem;margin-bottom: 3rem;}
+
+
+    .HomeSearchBlock .SMare .directory-arrow { width: 100%; }
+    .HomeSearchBlock .SMare .directory-arrow.mareBlockInput {width: 95%; }
+    .HomeSearchBlock .MuiBox-root { 
+        padding: 0px 0px;
+        min-height: 150px;
+    }
+        .HomeSearchBlock button.MuiButtonBase-root img {
+            width: 40px;
+            height: 40px;
+        }
+        
+
+    .SMareWrapper .search-stallion-pop-box-inner .MuiAutocomplete-root { width: 100%;}
+    .Homesearch .SMareWrapper .mareBlockInput .MuiOutlinedInput-root {
+       padding-right: 0px !important;
+   }
+
+   .HomeSubscribe{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 353px;
+   }
+   
+   .SMsignup{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 375px;
+   }
+
+   .fingerCnt{
+    padding-right: 52px;
+   }
+   .TestimonialBG {
+    min-height: 560px;
+    padding: 3rem 0;
+}
+.homeBackground {
+    height: 768px;
+    align-items: baseline;
+}
+.TestimonialBG:before,.TestimonialBG:after {
+    width: 25%;
+}
+.HomeSubscribe h4 {
+    letter-spacing: -0.02em;
+}
+.homeBackgroundHeader {
+    margin-top: 128px;
+}
+.STMhomeCnt {
+    padding-right: 0;
+}
+.TestimonialBGStallionMatch .Btmgreentile {
+    display: none;
+}
+.fingerBG {
+    min-height: 532px;
+    padding: 80px 0px;
+}
+.HomeSearchBlock .Homesearch .SMare hr.MuiDivider-root {
+    height: 1px;
+    min-height: initial !important;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    width: inherit;
+}
+
+.Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+    min-height: 72px;
+    padding: 0px 24px !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+.Homesearch .MuiAutocomplete-root.mareBlockInput .MuiOutlinedInput-root .MuiOutlinedInput-input {
+    padding-right: 80px !important;
+}
+
+.HomeSearchBlock .SMare .directory-arrow.mareBlockInput {
+    width: 100%;
+}
+
+.HomeSearchBlock .Homesearch button.MuiButtonBase-root {
+    padding: 0;
+    margin: 0;
+}
+.Homesearch .search-stallion-pop-box-inner .MuiAutocomplete-listbox li {
+    min-height: 61px;
+    padding: 0px 24px;
+}
+.HomeSearchBlock .Homesearch button.MuiButtonBase-root.MuiAutocomplete-clearIndicator {
+    position: static;
+}
+.Homesearch .MuiAutocomplete-popper {
+    margin-left: 0px !important;
+}
+.HomeSearchBlock .SMare .directory-arrow.mareBlockInput .MuiAutocomplete-endAdornment {
+    margin-right: 80px;
+}
+.SMCGridLeft{
+    min-width: auto;
+}
+.backed{
+    padding-right: 0px;
+}
+.communication{
+    padding-left: 0px;
+}
+.homeCntBg h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+}
+.nativeStallionBox h3.MuiTypography-root {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    font-family: 'Synthese-Book';
+    letter-spacing: -0.02em;
+}
+.ComemonHomeGrid {
+    gap: 24px;
+}
+
+.nativeStallionBox 
+ .STMhomeCnt {
+    padding-right: 0px;
+}
+.stallion-match-search>div {position: relative; margin: 0px; padding: 0px;}
+.stallion-match-search .SMregisIcon {position: absolute;right: 58px;top: 0;bottom: 0;margin: auto;}
+.stallion-match-search-box>div {position: relative; margin: 0px; padding: 0px;}
+.stallion-match-search .SMregisIcon {position: absolute;right: 108px;top: 0;bottom: 0;margin: auto;}
+.fonrfarms-search .SMregisIcon {
+    position: static;
+    padding: 0;
+    margin: 0px 0px 0px 12px;
+}
+.forfarmsheaderwrp .SMregis {
+    margin: 0px auto;
+}
+
+.forfarmsheaderwrp .stallion-match-search {
+    width: 573px;
+    max-width: 573px;
+    position: relative;
+}
+
+.forfarmsheaderwrp .stallion-match-search .SMregisIcon {
+    right: 0;
+}
+.forfarmsheaderwrp .stallion-match-search .SMregisError {
+    margin-left: 0;
+}
+.SMregisIcon .MuiButton-root {
+    background: none !important;
+}
+.SMfarmlogos .newgate {
+    width: 110px;
+}
+.StallionreportexBox img {
+    width: 100%;
+}
+.newgate{
+    width: 90px;
+}
+.coolmore{
+    margin-top: 30px;
+} 
+.Homesearch .submit-new-bg .home-submit{
+    position: relative;
+    left: 24px;
+    top: 0px;
+}
+.Homesearch .search-couldnot .sorry-message {
+    padding-left: 24px !important;
+}
+    
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .HomeSearchBlock.MuiGrid-root {
+        width: 80% !important;
+    }
+    .homeBackground .STMbannertext {padding-left: 10rem;padding-right: 10rem;}
+    .HomeSubscribe{
+        padding-left: 6rem;
+        padding-right: 6rem;
+       }
+       
+       .SMsignup{
+        padding-left: 6rem;
+        padding-right: 6rem;
+       }
+       .SMCGridLeft{
+        min-width: auto;
+    }
+    .backed{
+        padding-right: 0px;
+    }
+    .communication{
+        padding-left: 0px;
+    }  
+    .Homesearch .submit-new-bg .home-submit{
+        margin-left: 0px !important;
+    }
+    
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    
+    .promote-fee .MuiGrid-root.MuiGrid-item {
+        padding-left: 32px;
+    }
+    
+    .promote-fee {
+        width: calc(100% + 32px);
+        margin-left: -32px;
+    }
+ }
+ @media only screen and (max-width: 834px){
+ .promote-fee .promote{
+    gap: 12px;
+}
+.Homesearch .submit-new-bg .home-submit{
+    position: relative;
+    left: -12px;
+    top: 0px;
+}
+ }
+@media only screen and (max-width: 768px){
+    .SMbackground{
+        background-position: calc(73%) calc(30%);
+    }
+    .SMregis{
+        margin-left: 72px;
+    }
+    .stallion-match-search>div {position: relative; margin: 0px; padding: 0px;}
+.stallion-match-search .SMregisIcon {position: absolute;right: 82px;top: 2px;bottom: 0;margin: auto;}
+.stallion-match-search-box .SMregisIcon {position: absolute;right: 82px;top: 2px;bottom: 0;margin: auto;}
+.StallionreportexBox img{
+    border: 6px solid #E2E7E1;
+    border-radius: 8px;
+}
+.StallionreportexBox {
+    border-radius:10px;
+    margin-top: 60px;
+}
+
+
+  }
+
+
+  @media only screen and (max-width: 767px) and (min-width: 560px)  {
+
+    .stallion-match-search-box>div.fonrfarms-search {
+        width: 573px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 767px){
+    .Homesearch .SMareWrapper .stallionListBoxpara p {
+        width: 80%;
+    }
+    .promote-fee .promote-country .MuiPopover-paper {
+        margin-left: -0.5px;
+    }
+    .newgate{
+        width: 150px;
+        margin: 0 auto;
+      }
+    .HomeSearchBlock .Homesearch .SMare hr.MuiDivider-root {
+        height: 0.5px;
+    }
+    .homeBackground {
+        height: 888px;
+        align-items: baseline;
+    }
+    .SMfarmlogos img {
+        width: 157px;
+    }
+    .HomeSearchBlock .SMare .directory-arrow.mareBlockInput .MuiAutocomplete-endAdornment {
+        margin-right: 80px;
+    }
+    .HomeSearchBlock button.MuiButtonBase-root {
+        bottom: 16px;
+    }
+    .homeBackgroundHeader {
+        margin-top: 128px;
+    }
+    .HomeSearchBlock {flex-grow: 1;
+        padding: 0rem 16px;
+        width: 100%;}
+    .homeBackground .STMbannertext {padding-left: 0rem;padding-right: 0rem;margin-bottom: 3rem;}
+    .stallion-match-search>div {position: relative; margin: 0px; padding: 0px;}
+    .stallion-match-search-box>div {position: relative; margin: 0px; padding: 0px;}
+    .stallion-match-search .SMregis{margin-left: 0; min-height: 75px;}
+    .stallion-match-search .SMregisIcon {position: absolute;right: 0;top: 1px;bottom: 0;margin: auto;}
+    .SM-howitwork form>div {position: relative;}
+    .SMareWrapper .search-stallion-pop-box-inner .MuiAutocomplete-root {
+        padding: 0px 0px;
+    }
+    .SMareWrapper .search-stallion-pop-box-inner .directory-arrow.mareBlockInput {
+        width: 100%;
+    }
+
+    .regisBtn {
+        line-height: 0px;
+    }
+    .SMCGridOpposite {
+        flex-direction: column;
+    }
+    .HomeSearchBlock button.MuiButtonBase-root img {
+        width: 40px;
+    }
+    .dialogPopup 
+ .isPrivateFee {
+    padding-top: 0;
+    position: relative;
+    top: 1px;
+
+}
+
+.HomeSearchBlock .MuiBox-root {
+    padding: 0px 0px;
+    min-height: 145px;
+}
+.SMCGridLeft {
+    margin-top: 20px;
+
+}
+.TestimonialBG:before, .TestimonialBG:after {
+    display: none;
+}
+.SMsignup {
+    height: 421px;
+}
+.HomeSubscribe {
+    height: 401px;
+}
+.forfarmsheader h1 {
+    font-size: 44px;
+    line-height: 56px;
+}
+
+.SMbackground {
+    height: 888px;
+}
+.SMbannertext {
+    padding-top: 0;
+}
+.SMfarmtitle {
+    padding-top: 4rem;
+}
+.SMCGrid.SMCGridOpposite {
+    flex-direction: column;
+}
+
+.fingerBG {
+    min-height: inherit;
+}
+.fingerBG .MuiGrid-root.MuiGrid-item {
+    margin-bottom: 0px;
+}
+
+.fingerBG .MuiGrid-root.MuiGrid-item:last-child {
+    margin-bottom: 0;
+}
+.SMCGridLeft{
+    min-width: auto;
+}
+.backed{
+    padding-right: 0px;
+}
+.communication{
+    padding-left: 0px;
+}
+.homeCntBg h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+}
+
+.stallion-match-search .SMregisError{
+    margin-left: 0px;
+}
+.fonrfarms-search .SMregisIcon {
+    position: absolute;
+    right: 16px;
+}
+.fonrfarms-search .MuiOutlinedInput-root input.MuiOutlinedInput-input{
+    padding-left: 9px;
+  }
+
+  .Homesearch .stallionListBoxHead {
+    white-space: break-spaces;
+    text-align: left;
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    white-space: pre; */
+}
+
+.Homesearch 
+ .stallionListBoxpara {
+    width: 100%;
+    display: none;
+}
+.Homesearch .SMareWrapper .stallionListBoxpara p {
+    width: 100%;
+}
+.fingerBG h3 {
+    padding-right: 60px;
+}
+.stallionListBoxpara p {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+}
+
+  @media only screen and (max-width: 600px){
+    .fingerBG {
+        min-height: 936px;
+    }
+    .fingerBG .MuiGrid-root.MuiGrid-item {
+        margin-bottom: 60px;
+    }
+    .SPhypomating .Homesearch .directory-arrow .MuiAutocomplete-clearIndicator .MuiSvgIcon-root {
+        font-size: 22px !important;
+    }
+    .Homesearch .MuiAutocomplete-popper {
+        z-index: 1;
+    }
+    .SMCGrid {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .SMCGrid .nativeStallionBox {
+        padding: 40px 20px 0px;
+    }
+    .HomeSubscribe{
+       padding: 0px;
+       }
+       
+    .SMsignup{
+       padding: 0px;
+       }
+       .stallion-match-search-box .SMregis {
+        width: 100%;
+    }
+    .promote-fee .promote{
+        justify-content: flex-start;
+        overflow-x: scroll;
+        gap: 30px;
+    }
+    .promote-fee .free-clmn{
+        padding: 2rem;
+    }
+    .promote-fee .promoted-clmn{
+        padding: 2rem;
+    }
+   
+
+
+  }
+
+.MuiAutocomplete-root.has-errors fieldset.MuiOutlinedInput-notchedOutline {
+    border: 2px solid #C75227 !important;
+}
+
+.MuiAutocomplete-root.has-errors p#controlled-demo-helper-text {
+    margin-left: 0 !important;
+}
+
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 568px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+
+}
+
+
+@media only screen and (max-width: 380px){
+    .fingerBG h3 {
+        padding-right: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 330px){
+    .fingerBG h3 {
+        padding-right: 0px;
+    }
+    .StallionreportexBox {
+        margin-top: 0;
+    }
+}

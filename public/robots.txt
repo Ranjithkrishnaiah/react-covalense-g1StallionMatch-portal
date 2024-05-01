@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+
+#Allowed
+User-agent: Twitterbot
+Disallow:
+
+#Not Allowed
+User-agent: *
+Disallow: /

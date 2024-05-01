@@ -1,0 +1,15 @@
+.skeleton-card .MuiSkeleton-root{
+    background-color: #F4F1EF;
+}
+
+.skeleton-card{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+@media only screen and (max-width: 600px){
+.skeleton-card .MuiGrid-item{
+    margin-bottom: 24px;
+}
+}

@@ -1,0 +1,40 @@
+.leaflet-container {
+  background: #fff;
+  outline: 0;
+}
+
+.dottedMapmain .dottedMap {
+  width: 100%;
+  height:520px;
+}
+
+.Tooltipmapbox{padding: 6px 7px 7px 11px; box-sizing: border-box;}
+.Tooltipmapbox p{
+  margin: 0;
+  padding: 0;
+}
+
+
+.bubble-Wrapper{
+  width: 100%;
+  height: 460px;
+}
+
+
+/* Mediaquery */
+@media only screen and (max-width: 1200px) {
+
+  .bubble-Wrapper{
+    width: 100%;
+    height: 460px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .bubble-Wrapper{
+    width: 338px;
+    height: 258px;
+  }
+
+}

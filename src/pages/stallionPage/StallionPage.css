@@ -1,0 +1,1288 @@
+.title-container{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.SPfavMenu{
+    position: relative;
+}
+
+.SPfavMenu {
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #626E60;
+    letter-spacing: 0.01rem;
+    line-height: 28px;
+    margin-left: 0px !important;
+
+}
+
+.SPfavMenu .MuiMenuItem-root:hover{
+    background: none;
+}
+
+.SPfavMenu i::before   {
+    font-size: 20px;
+    color:#626E60;
+}
+.SPfavMenu span{
+    margin: 0;
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 0;
+    padding-bottom: 4px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+}
+.stallionsearchButtonOuter {
+    background: none !important;
+}
+.stallion-page-header-button .stallionsearchButton i:before {
+    font-size: 20px;
+}
+.stallion-page-header-button .stallionsearchButton i, .SPfavMenu .MuiMenuItem-root i.icon-Star, .SPfavMenu .MuiMenuItem-root img{
+    margin-right: 8px;
+}
+
+.stallion-page-header-button .SPfavMenu {
+    padding-left: 0px;
+}
+.stallion-page-header-button .SPfavMenu em.add-fav-extracol {
+    font-style: normal;
+    margin-left: 24px;
+    display: flex;
+}
+.stallion-page-header-button .SPfavMenu.share-button-stallion .stallionsearchButtonOuter {
+    min-width: inherit;
+}
+
+.stallion-page-header-button .SPfavMenu.share-button-stallion .stallionsearchButtonOuter .stallionsearchButton {margin-left: 0;}
+.SPfavMenu:hover i::before, 
+.SPfavMenu:hover span{
+    background: none !important;
+    color: #007142 !important;
+}
+
+.stallion-subtitle{
+    display: flex;
+    white-space: nowrap;
+}
+.stallion-subtitle h6, .stallion-subtitle p {
+    letter-spacing: -0.01em;
+    font-size: 18px;
+    line-height: 28px;
+}
+.stallion-page-header-button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+}
+.stallion-page-header-button .ListBtn, .farm-header-btns .ListBtn {
+    height: 36px;
+    padding: 7px 12px 9px;
+}
+
+.stallion-page-header-button .ListBtn i.icon-Link {
+    margin-top: 3px;
+}
+.stallion-page-header-button .MuiMenuItem-root, .farm-header-btns .MuiMenuItem-root{
+    padding: 0px;
+    position: relative;
+    top: 0;
+}
+
+.stallion-page-header-button .MuiMenuItem-root:hover, .farm-header-btns .MuiMenuItem-root:hover{
+    background: none;
+}
+.title-container-head  h2 {
+    text-transform: capitalize;
+    font-size: 56px;
+    line-height: 72px;
+    font-weight: 500;
+}
+.fav-active{
+    color: #007142 !important;
+}
+
+.fav-active i::before{
+    color: #007142 !important;
+}
+
+.fav-active img.icon-star-filled {
+    width: 18px;
+    position: relative;
+    top: 0;
+    margin-right: 8px;
+}
+
+
+.MRclmn{
+    background:#F4F1EF;
+    border-radius: 0px 0px 8px 8px;
+    height: 96px;
+    position: relative;
+}
+.MRclmn ul.MuiList-root {
+    height: 96px;
+}
+
+.MRclmn ul.MuiList-root li.MuiMenuItem-root {
+    height: 96px;
+    padding: 20px 0px 24px;
+}
+.MRclmn ul.MuiList-root.disableClick li.MuiMenuItem-root {filter: gray; /* IE6-9 */-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */opacity: 0.4;}
+.farmBox{
+    white-space:initial;
+    text-align: center;
+}
+
+/* Tabs Styles */
+
+.SPtabs{
+    width: 100%;
+    
+}
+.SPtabs header > .MuiBox-root {
+    min-height: 56px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #EAE4E0;
+}
+
+.SPtabs .css-19kzrtu{
+    padding: 0px;
+}
+
+.SPtabs .MuiTab-root.Mui-selected{
+    margin-right: 24px;
+    padding: 12px 0px;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    color:#1D472E;
+    text-transform: capitalize;
+    letter-spacing: 0.01rem;
+    line-height: 32px;
+
+}
+
+.SPtabs .MuiTab-root{
+    margin-right: 24px;
+    padding: 12px 0px;
+    font-family: 'Synthese-Light';
+    font-weight: 300;
+    font-size: 20px;
+    color:#1D472E;
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+    line-height: 32px;
+}
+
+/* Hypomating Styles */
+.SPtabs .SPhypomating{
+    padding: 5rem 0;
+    text-align: center;
+    background-color: #F4F1EF;
+}
+
+/* RaceRecords Styles */
+.SPracerecord{
+    /* border-bottom: solid 1px #B0B6AF; */
+    height: 36px;
+    display: block;
+}
+.SPracerecord span{
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+    font-size: 12px;
+    color:#1D472E;
+    line-height: 16px;
+}
+
+.SPracerecordCount{
+    height: 40px;
+    border-radius: 8px;
+    background-color: #F4F1EF;
+    display: flex;
+    align-content: center;
+}
+
+.SPracerecordCount span{
+    font-family: 'Synthese-Book';
+    font-weight:400;
+    font-size: 14px;
+    color:#161716;
+    line-height: 20px;
+
+}
+
+.SPracerecordTotal{
+    height: 40px;
+    border-radius: 8px;
+    background-color: #F4F1EF;
+    display: flex;
+    align-content: center;
+}
+
+.SPracerecordTotal span{
+    font-family: 'Synthese-Bold';
+    font-weight:700;
+    font-size: 14px;
+    color:#161716;
+    line-height: 20px;
+
+}
+
+.SPracerecordCnt{
+    position: relative;
+    margin-bottom: 4px;
+
+}
+
+.SPracerecordCnt body{
+    font-family: 'Synthese-Bold';
+    font-weight:700;
+    font-size: 14px;
+    color:#1D472E;
+    line-height: 20px;
+
+}
+
+.SPracerecordCnt span{
+    font-family: 'Synthese-Regular';
+    font-weight:400;
+    font-size: 14px;
+    color:#007142;
+    line-height: 20px;
+
+}
+
+.SPracerecordCnt div{
+    font-family: 'Synthese-Regular';
+    font-weight:400;
+    font-size: 14px;
+    color:#161716;
+    line-height: 20px;
+
+}
+.SPracerecordCnt div b {
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+}
+
+.common-search-hypomate {
+    background: #EAE4E0;
+    border-radius: 10px;
+    min-height: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Search-Mare-HypoMate {
+    background: #F4F1EF;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0px;
+}
+.fullscreen.fullscreen-enabled .common-search-hypomate {
+    min-height: initial;
+}
+.fullscreen.fullscreen-enabled .SPtreechat {
+    border-radius: 0px;
+}
+.fullscreen.fullscreen-enabled .SPtreechat .treeBox .PredegreeWrapperBoxInner {
+    min-height: 322px;
+}
+
+.fullscreen.fullscreen-enabled .SPtreechat .SPtreechatBody {
+    height: 90%;
+    
+}
+.fullscreen.fullscreen-enabled .common-search-hypomate  .SPtreechat .SPtreechatBody {
+    height: initial;
+}
+.fullscreen.fullscreen-enabled .SPtreechat .treeBox {
+    max-height: 90%;
+}
+.Search-Stallion-HypoMate {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.common-search-hypomate .StallionButton {
+    min-width: 238px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+
+.common-search-hypomate .StallionButton h6 {
+    font-size: 16px;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+.common-search-hypomate .StallionButton:hover {
+    background: #1D472E;
+    cursor: pointer;
+}
+
+.common-search-hypomate .StallionButton:hover h6 {
+    color: #fff;
+}
+
+.StallionButton img {
+ width: 40px;
+}
+.SearchBtnStallion {
+    padding: 0;
+}
+.SearchBtnStallion i.icon-Search {
+    width: 40px;
+    height: 40px;
+    background: #1D472E;
+    color: #2EFFB4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+.SearchBtnStallion i.icon-Search:before {
+    color: #2EFFB4;
+}
+
+.common-search-hypomate .StallionButton:hover .SearchBtnStallion i.icon-Search {
+    background: #2EFFB4;
+    color: #1D472E;
+}
+
+.common-search-hypomate .StallionButton:hover .SearchBtnStallion i.icon-Search:before {
+    color: #1D472E;
+}
+
+.common-search-hypomate .StallionButton,.common-search-hypomate .StallionButton i {
+    -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+
+#Overview{padding-top: 32px;}
+#Hypo-Mating{ padding-top: 80px;}
+#Race-Record{ padding-top: 80px;}
+#Pedigree{padding-top: 80px;}
+#Progeny{padding-top: 80px; padding-bottom: 80px;}
+#Our-Stallion{padding-top: 3rem;}
+#Media{padding-top: 80px;padding-bottom: 100px;}
+#Pedigree h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1D472E;
+}
+
+.StakesProgenyWrapper {
+    padding: 0;
+}
+
+#Progeny .SDpagenation {
+    margin-bottom: 0;
+}
+.nav__inner {
+        display: flex;
+        padding: 0;
+        margin: 0px 0px;
+}
+.nav__inner li {
+    list-style: none;
+    padding: 12px 0px 0px 0px;
+    padding-right: 32px;
+    min-height: 56px;
+    box-sizing: border-box;
+}
+.nav__inner .disabled-tabs .disabled-a{
+    color:#B0B6AF !important;
+}
+.nav__inner li a {
+    cursor: pointer;
+    font-family: 'Synthese-Light';
+    font-weight: 300;
+    font-size: 20px;
+    color:#626E60;
+    letter-spacing: -0.01em;
+    line-height: 32px;
+}
+li.nav__item.is-current a{
+    border-bottom: 4px solid #1D472E;
+    padding-bottom: 10px;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    color: #1D472E;
+    letter-spacing: -0.01em;
+    line-height: 32px;
+}
+#Media .farm-media-image {
+    height: 100%;
+    max-height: 240px;
+    cursor: pointer;
+}
+
+.farm-media-image .icon-Arrows-expand:before{
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#Media .farm-media-image img {
+    /* height: 100%; */
+    border-radius: 0;
+}
+#Media .farm-media-image video {
+    border-radius: 0px;
+    height: 244px;
+    object-fit: cover;
+}
+
+.SPcardCntHeader {
+    text-transform: capitalize;
+    margin-bottom: 4px;
+    color: #1D472E;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.stallionPage-Left {
+    box-sizing: border-box;
+    min-height: 300px;
+}
+.stallionPage-Left h6 {
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Bold';
+    padding-bottom: 4px;
+}
+
+.stallionPage-Left p {
+    color: #626E60;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.overviewLeftText p {
+    letter-spacing: -0.01em;
+    color: #161716;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+#Overview .MuiGrid-root.MuiGrid-container {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#Hypo-Mating .SPhypomating h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1D472E;
+}
+
+#Hypo-Mating .SPhypomating p.MuiTypography-root {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+}
+#Hypo-Mating .SPhypomating p.STparaLength {
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+#Hypo-Mating .FPhypomating p.MuiTypography-root, .Dashboard-Hypomate p.MuiTypography-root {
+padding: 16px 30px 0 30px;
+}
+#Hypo-Mating .HomeSearchBlock {
+    margin-top: 32px;
+    padding: 0px 12px;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch {
+    padding: 0px 0px;
+}
+
+#Hypo-Mating .HomeSearchBlock .Homesearch button.MuiButtonBase-root {
+    padding: 0;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch button.MuiButtonBase-root.MuiAutocomplete-popupIndicator {
+    margin-right: 0;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .MuiInputBase-input, .Dashboard-Hypomate .HomeSearchBlock .Homesearch .MuiInputBase-input {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Synthese-Book';
+    padding: 0px 32px;
+    min-height: 104px;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input, .Dashboard-Hypomate .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input {
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+.Dashboard-Hypomate .HomeSearchBlock .Homesearch .mareBlockInput .MuiInputBase-input {
+    padding-right: 70px;
+}
+
+#Hypo-Mating  .HomeSearchBlock .Homesearch .MuiInputBase-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #626E60 !important;
+    opacity:1;
+     text-transform:capitalize;
+
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 32px;
+     font-family: 'Synthese-Light';
+  }
+  #Hypo-Mating  .HomeSearchBlock .Homesearch .MuiInputBase-input::-moz-placeholder { /* Firefox 19+ */
+    color: #626E60 !important;
+    opacity:1;
+     text-transform:capitalize;
+
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 32px;
+     font-family: 'Synthese-Light';
+  }
+  #Hypo-Mating .HomeSearchBlock .Homesearch .MuiInputBase-input:-ms-input-placeholder { /* IE 10+ */
+    color: #626E60 !important;
+    opacity:1;
+     text-transform:capitalize;
+
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 32px;
+     font-family: 'Synthese-Light';
+  }
+  #Hypo-Mating .HomeSearchBlock .Homesearch .MuiInputBase-input:-moz-placeholder { /* Firefox 18- */
+    color: #626E60 !important;
+    opacity:1;
+    text-transform:capitalize;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Synthese-Light';
+  }
+
+.RaceRecordWrapper h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1D472E;
+}
+section#Progeny h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+}
+.stallionPage-Testimonials .TestimonialBG:before,.stallionPage-Testimonials .TestimonialBG:after {
+    display: none;
+}
+
+.updateForm .MuiDialog-paper {width: 928px;}
+#Hypo-Mating .HomeSearchBlock .Homesearch .mareBlockInput .MuiAutocomplete-endAdornment {
+    display: block;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .mareBlockInput .MuiAutocomplete-endAdornment button.MuiButtonBase-root.MuiAutocomplete-popupIndicator {
+    display: none;
+}
+.SPhypomating .Homesearch .directory-arrow .MuiAutocomplete-endAdornment button.MuiButtonBase-root {
+    margin-right: 0;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch button.MuiButtonBase-root.MuiAutocomplete-popupIndicator {
+    display: inline-flex;
+}
+#Hypo-Mating  .Homesearch .MuiAutocomplete-popper {
+    margin-left: 0px !important;
+}
+
+
+
+
+/* Requst Nomination Disabled Info */
+
+
+.Disabled-RequestNomination {
+    background: #F4F1EF;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.Disabled-RequestNomination h6.MuiTypography-root {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1D472E;
+    font-family: 'Synthese-Regular';
+    padding: 16px 24px;
+    width: 100%;
+    letter-spacing: 0
+}
+
+.Disabled-RequestNomination h6.MuiTypography-root i {
+    font-size: 20px;
+    vertical-align: text-top;
+    color: #1D472E;
+    cursor: pointer;
+}
+.Disabled-RequestNomination-Wrp {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.MRclmn-NoRadius {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0px;
+}
+
+.ownFarmMember .MRclmn-NoRadius {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 0px;
+}
+
+
+.StakesProgenyWrapper .sort-recent .MuiSelect-select {
+    height: 40px;
+    padding: 10px 16px 10px;
+    min-height: 40px;
+    padding-right: 38px;
+    box-sizing: border-box;
+}
+
+.StallionSlider .recent-slider-box .farm-media-image img.MuiCardMedia-root {
+    height: 496px;
+}
+#Pedigree .StallionPedigree {
+    background: #F4F1EF;
+}
+/* media-query */
+
+@media only screen and (max-width: 1200px) {
+    .SPtabs header{ z-index: 2;}
+    .StallionSlider .dots {
+        bottom: 32px;
+    }
+    #Media .farm-media-image video {
+        border-radius: 0px;
+        height: 100%;
+        height: 190px;
+        object-fit: cover;
+    }
+    .farmSlider {
+        height: auto;
+    }
+    .fullscreen.fullscreen-enabled .SPtreechat.StallionMatchActivityGraph {
+        margin-bottom: 0;
+    }
+    .fullscreen.fullscreen-enabled .SPtreechat.StallionMatchActivityGraph .StMatchActvtyInfo{
+        padding-bottom: 0;
+    }
+    .StallionSlider .recent-slider-box .farmSlider > div {
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+
+    .StallionSlider .dots {
+        bottom: 32px;
+    }
+    
+    .farmSlider {
+        height: auto;
+    }
+    .fullscreen.fullscreen-enabled .SPtreechat {
+        height: 100%;
+    }
+    
+    .SPtabs header{ z-index: 2; top: 72px; }
+    .stallion-page-header-button .MuiMenuItem-root{ padding: 0px;}
+    .SPtabs .SPhypomating .HomeSearchBlock {width: 100%;padding: 0;max-width: 100%; margin-top: 32px;}
+    .SPtabs .SPhypomating .HomeSearchBlock .SMare {display: flex; flex-direction: row; align-items: center;}
+    .SPtabs .SPhypomating .HomeSearchBlock .SMare hr.MuiDivider-root {width: auto; height: 56px; margin: auto 0px;}
+    .SPtabs .SPhypomating .HomeSearchBlock .SMare button.MuiButtonBase-root {position: static;top: 0; bottom: 0;margin: 0;padding: 0;}
+    .SPtabs .SPhypomating .HomeSearchBlock .SMare .MuiAutocomplete-root .MuiAutocomplete-endAdornment {top: 0px; bottom: 0;margin: auto; height: 28px; right: 32px;}
+    .SPtabs .SPhypomating .Homesearch { padding: 2px 32px; }
+    .SPtabs .SPhypomating .Homesearch .SMare .MuiOutlinedInput-root .MuiOutlinedInput-input { font-size: 20px;}
+    .SPtabs .SPhypomating {padding: 3.6rem 0rem;}
+    .SPtabs .SPhypomating .MuiGrid-root.MuiGrid-container { width: 100%; padding: 0; margin: 0;justify-content: center; max-width: 100%;}
+    .SPtabs .SPhypomating .MuiGrid-root.MuiGrid-container .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-11 {max-width: 100%; flex-basis: 100%;}
+    #Hypo-Mating .HomeSearchBlock .Homesearch button.SearchBtnST {
+        margin-right: 32px;
+    }
+    #Hypo-Mating .FPhypomating p.MuiTypography-root, .Dashboard-Hypomate p.MuiTypography-root {
+        padding: 16px 100px 0 100px;
+        }
+ 
+     .stallion-page-header-button{ align-items: flex-end;}
+     .stallion-page-header-button .MuiMenuItem-root{padding: 0px; top:0px;}
+     .stallion-header{
+        position: relative;
+        top:12px;
+     }
+
+     .overviewLeftText p.MuiTypography-root {
+        white-space: break-spaces;
+    }
+    
+    #Hypo-Mating .SPhypomating p.STparaLength {
+        padding-left: 0px;
+        padding-right: 0px;
+        box-sizing: border-box;
+    }
+    #Overview p.MuiTypography-root {
+        white-space: initial;
+    }
+    
+    .SPracerecordCnt div .MuiTypography-root.MuiTypography-body1 {
+        white-space: initial;
+    }
+
+    .StallionFarmDetails {
+        padding-top: 32px !important;
+    }
+    #Hypo-Mating .HomeSearchBlock .Homesearch {
+        min-height: 104px;
+    }
+    #Hypo-Mating .HomeSearchBlock {
+        padding: 0;
+    }
+    .RaceRecordWrapper h3 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    #Hypo-Mating .SPhypomating h3 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    .title-container-head h2 {
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 56px;
+    }
+    
+    #Pedigree h3 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    #Progeny h3 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .stallionPage-Testimonials .testimonial {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        min-width: 100%;
+     
+    }
+    
+    section#Progeny h3 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    #Hypo-Mating .HomeSearchBlock .Homesearch .mareBlockInput button.MuiAutocomplete-clearIndicator {
+        margin-right: 0;
+    }
+    .MRclmn-NoRadius {
+        margin-bottom: 64px;
+    }
+    .nav__inner li {
+        white-space: nowrap;
+    }
+    .stallionSearchHeaderRight {
+        -webkit-box-pack: flex-end;
+        -ms-flex-pack: flex-end;
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+    }
+    #Hypo-Mating .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input, .Dashboard-Hypomate .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input {
+        padding: 0px 32px !important;
+        padding-right: 100px !important;
+    }
+    #Hypo-Mating .Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root .MuiOutlinedInput-input {
+        padding-right: 32px !important;
+    }
+    section.stallionPage-Testimonials .TestimonialBG {
+        padding: 80px 0px;
+    }
+    .stallion-subtitle {
+        padding-left: 0;
+    }
+    .stallion-subtitle span{
+        display: none;
+    }
+    .stallionsearchButtonOuter {
+        padding: 0;
+    }
+    .stallion-page-header-button .stallionsearchButton {
+        padding-right: 0;
+        margin-right: 0;
+        margin: 0;
+    }
+    #Hypo-Mating .HomeSearchBlock .Homesearch button.SearchBtnST img, .Dashboard-Hypomate .HomeSearchBlock .Homesearch button.SearchBtnST img {
+        width: 56px;
+        height: 56px;
+    }
+    #Hypo-Mating .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input, #Hypo-Mating .HomeSearchBlock .Homesearch .MuiInputBase-input, .Dashboard-Hypomate .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input {
+        padding-right: 90px !important;
+    }
+    .StallionSlider .recent-slider-box .farm-media-image img.MuiCardMedia-root {
+        height: 479px;
+    }
+    .SPtabs header .MuiContainer-root {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    .SPtabs .MuiContainer-root::-webkit-scrollbar {
+        display: none;
+    }
+    #Media .farm-media-image video {
+        border-radius: 0px;
+        height: 100%;
+        height: 190px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .msg-head h3{
+        font-size: 16px;
+    }
+    .SPtabs .MuiContainer-root::-webkit-scrollbar {
+        display: none;
+    }
+    .SPtabs header .MuiContainer-root{     
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    #Media .farm-media-image {
+        height: auto;
+    }
+    #Media .farm-media-image video {
+        height: 190px;
+        border-radius: 0px;
+        object-fit: cover;
+    }
+    #Hypo-Mating .FPhypomating p.MuiTypography-root , .Dashboard-Hypomate p.MuiTypography-root{
+        padding: 16px 16px 0 16px;
+        }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .farmpagesliderWrapper .dots {
+        bottom: 16px;
+    }
+    .SPtabs header .MuiContainer-root{     
+        overflow-x: scroll;
+        white-space: nowrap;
+        /* position: relative; */
+    }
+    .SPtabs header:after {
+        width: 50px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        content: "";
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgb(255 255 255) 100%);
+    }
+    .StallionSlider > .MuiBox-root {
+        margin-left: -5%;
+        margin-right: -5%;
+        margin-top: 10px;
+    }
+    .StallionFarmDetails {
+        padding-bottom: 20px;
+    }
+    .midday-wrapper  .fullscreen.fullscreen-enabled .SPtreechat .treeBox .PredegreeWrapperBoxInner {
+        min-height: 100%;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .pedegree-overlap-right-wrapper .SPtreechat .SPtreechatBody {
+        top: 10px;
+    }
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-left-wrapper {
+        padding-top: 60px;
+    }
+    
+    .midday-wrapper .fullscreen.fullscreen-enabled .MuiContainer-root .pedegree-overlap-right-wrapper  .SPtreechat {
+        padding-top: 26px;
+    }
+    #Hypo-Mating .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input, #Hypo-Mating .Homesearch .MuiAutocomplete-root .MuiOutlinedInput-root .MuiOutlinedInput-input, .Dashboard-Hypomate .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input{
+        padding: 0px 24px !important;
+        padding-right: 90px !important;
+    }
+    #Hypo-Mating .HomeSearchBlock .Homesearch button.SearchBtnST, .Dashboard-Hypomate .HomeSearchBlock .Homesearch button.SearchBtnST{
+    margin-right: 24px;
+}
+section#Hypo-Mating .Homesearch .search-stallion-pop-box-inner .MuiAutocomplete-listbox li {
+    padding: 0px 24px;
+}
+
+section#Hypo-Mating .Homesearch .search-stallion-pop-box-inner .MuiAutocomplete-listbox li .stallionListBoxpara {
+    width: 100%;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch button.SearchBtnST img {
+    width: 56px;
+    height: 56px;
+}
+.stallion-subtitle {
+    padding-left: 0;
+}
+.stallion-search-graph .hypomating-tabs {
+    overflow: hidden;
+}
+.common-search-hypomate {
+    margin-left: -6%;
+    margin-right: -6%;
+    border-radius: 0;
+    padding: 0px 24px;
+}
+.SPtabs .SPhypomating .HomeSearchBlock .SMare .MuiAutocomplete-root .MuiAutocomplete-endAdornment {
+    display: flex;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .mareBlockInput .MuiAutocomplete-endAdornment {
+    display: flex;
+}
+.fullscreen.fullscreen-enabled .SPtreechat .treeBox .PredegreeWrapperBoxInner {
+    min-height: initial;
+}
+.stallion-page-header-button .stallionsearchButton i, .SPfavMenu .MuiMenuItem-root i.icon-Star {
+    margin-left: 0;
+    margin-right: 8px;
+    padding-right: 0;
+}
+.SPtabs .raceHorseSearch{
+    padding-right: 50px !important;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .stallion-search-graph .hypomating-tabs {
+        overflow: hidden;
+    }
+    .common-search-hypomate {
+        margin-left: -6%;
+        margin-right: -6%;
+        border-radius: 0;
+        padding: 0px 8px;
+    }.stallionSearchHeader .stallionSearchHeaderRight {
+        margin-top: 8px;
+    }
+
+    .title-container{ margin-bottom: 1rem; }
+    .stallion-page-header-button{justify-content: left; margin: 24px 0 0rem 0;}
+    .stallion-page-header-button .css-1meeb1d-MuiStack-root>:not(style)+:not(style) {  margin-left: 5px;}
+    /* .stackWinnerTable {white-space: pre-line; overflow-y: scroll; width: 770px; min-width: 770px;  } */
+    .stakes-winner-wrapper {    width: 100%;  margin-bottom: 0;  padding-bottom: 0;}
+    .SPtabs .MuiContainer-root .MuiTabs-scroller {overflow-x: scroll !important;}
+    .SPtabs .MuiContainer-root .MuiTabs-scroller::-webkit-scrollbar { width: 0px; height: 0px;}
+    .SPtabs .MuiContainer-root .MuiTabs-scroller::-webkit-scrollbar-track {  background: transparent;  border-radius: 0px;}
+    .SPtabs .MuiContainer-root .MuiTabs-scroller::-webkit-scrollbar-thumb { background: #fff; border-radius: 8px;}
+    .SPtabs .MuiContainer-root .MuiTabs-scroller::-webkit-scrollbar-thumb:hover { background: #fff; }
+    .SPracerecordCount span { line-height: inherit;}
+    .stackWinnerTable .DataList tbody td:nth-child(2) {min-width: 120px;padding-right: 10px;}
+
+.stackWinnerTable .DataList tbody td {
+    padding-right: 16px;
+}
+
+.stackWinnerTable .DataList tbody td:nth-child(4) {
+    min-width: 80px;
+}
+.stackWinnerTable {
+    position: relative;
+}
+.SPtabs {
+    margin-top: 4px;
+}
+
+.stackWinnerTable:after {
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "";
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgb(255 255 255) 100%);
+}
+    .stallion-header{
+        position: relative;
+        top:0;
+     }
+     #Overview p.MuiTypography-root {
+        white-space: initial;
+        padding-bottom: 0;
+    }
+
+    .farmSlider {
+        height: 250px;
+        border-radius: 0;
+    }
+    .farmSlider .farm-media-image img.MuiCardMedia-root {
+        border-radius: 0;
+        height: 250px;
+    }
+    
+    .SPracerecordCnt div .MuiTypography-root.MuiTypography-body1 {
+        white-space: initial;
+    }
+    .overviewLeftText {
+        padding: 32px 0px 0px;
+    }
+    .SPcardCntHeader {
+        text-transform: capitalize;
+    }
+
+    
+    .MRclmn-NoRadius {
+        margin-bottom: 60px;
+    }
+
+
+/* Hypo Mating Search */
+.SPtabs .SPhypomating .HomeSearchBlock .SMare { flex-direction: column;align-items: center;}
+.SPtabs .SPhypomating .HomeSearchBlock .SMare hr.MuiDivider-root {     height: 1px; min-height: initial !important; margin: 0px 24px;  box-sizing: border-box; width: inherit;}
+.SPtabs .SPhypomating .HomeSearchBlock .SMare button.MuiButtonBase-root { position: absolute; right: 24px; bottom: 16px;top: inherit;}
+.SPtabs .SPhypomating .Homesearch .MuiBox-root { padding: 6px 0px;}
+.SPtabs .SPhypomating .Homesearch .SMare .MuiOutlinedInput-root .MuiOutlinedInput-input {font-size: 16px;}
+.SPtabs .SPhypomating .HomeSearchBlock .SMare .MuiAutocomplete-root .MuiAutocomplete-endAdornment button.MuiButtonBase-root.MuiIconButton-root { position: static;}
+.SPtabs .SPhypomating .HomeSearchBlock .SMare .MuiAutocomplete-root .MuiAutocomplete-endAdornment {     height: 32px;
+    margin: auto;}
+.SPtabs .SPhypomating .Homesearch { padding: 2px 24px;}
+.SPtabs .SPhypomating p.MuiTypography-root {white-space: break-spaces;}
+.SPtabs .SPhypomating .MuiGrid-root.MuiGrid-container .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-11 {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.SPtabs  .Homesearch .SMareWrapper .stallionListBoxpara p {
+    width: 90%;
+  }
+
+#Hypo-Mating .HomeSearchBlock .Homesearch {
+    min-height: 144px;
+    padding: 0;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .MuiInputBase-input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    min-height: 72px;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .stallionBlockInput .MuiInputBase-input, #Hypo-Mating .HomeSearchBlock .Homesearch .MuiInputBase-input {
+    padding-right: 90px !important;
+}
+
+
+
+
+#Hypo-Mating  .HomeSearchBlock .Homesearch .MuiInputBase-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+     font-size: 16px;
+     line-height: 24px;
+}
+#Hypo-Mating  .HomeSearchBlock .Homesearch .MuiInputBase-input::-moz-placeholder { /* Firefox 19+ */
+    font-size: 16px;
+    line-height: 24px;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .MuiInputBase-input:-ms-input-placeholder { /* IE 10+ */
+    font-size: 16px;
+    line-height: 24px;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .MuiInputBase-input:-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+    line-height: 24px;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch button.SearchBtnST img, .Dashboard-Hypomate .HomeSearchBlock .Homesearch button.SearchBtnST img{
+    width: 40px;
+    height: 40px;
+}
+
+#Hypo-Mating .FPhypomating p.MuiTypography-root, .Dashboard-Hypomate p.MuiTypography-root {
+    padding:16px 0 0 0;
+    }
+
+/* Stakes Progeny  Table*/
+.StakesProgenyWrapper .progeny-sort{height: 40px;
+    min-width: 168px;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    padding: 0}
+.StakesProgenyTable .SPracerecordCount .datatable-list-item:first-child{
+    padding-left: 24px;
+}
+.StakesProgenyTable .SPracerecord { max-width: 14%; flex-basis: 14%; }
+.StakesProgenyTable .SPracerecord:first-child { max-width: 30%; flex-basis: 30%;}
+.StakesProgenyTable .SPracerecordCount .MuiGrid-item.MuiGrid-grid-xs-2 { max-width: 14%; flex-basis: 14%;}
+.StakesProgenyTable .SPracerecordCount .MuiGrid-item.MuiGrid-grid-xs-2:first-child { max-width: 30%; flex-basis: 30%;}
+.StakesProgenyTable .SPracerecordCount {height: auto;min-height: 40px; align-items: center;}
+.StakesProgenyTable .SPracerecordCount span {line-height: 20px;    white-space: initial;}
+
+
+/* Race Record Table*/
+.RaceRecordTable .SPracerecord {max-width: 14%;flex-basis: 14%;}
+.RaceRecordTable .SPracerecord:first-child {  max-width: 30%; flex-basis: 30%;}
+.RaceRecordTable .SPracerecordCount .MuiGrid-item.MuiGrid-grid-xs-2 { flex-basis: 14%; max-width: 14%;}
+.RaceRecordTable .SPracerecordCount .MuiGrid-item.MuiGrid-grid-xs-2:first-child { flex-basis: 30%; max-width: 30%;}
+.RaceRecordTable .SPracerecordCount{ height: auto;  min-height: 40px;}
+.RaceRecordTable .SPracerecordTotal .MuiGrid-item.MuiGrid-grid-xs-2{ flex-basis: 14%; max-width: 14%;}
+.RaceRecordTable .SPracerecordTotal .MuiGrid-item.MuiGrid-grid-xs-2:first-child{ flex-basis: 30%; max-width: 30%;}
+
+
+.stallion-page-header-button .stallionsearchButton i, .SPfavMenu .MuiMenuItem-root i.icon-Star {
+    margin-left: 0;
+    margin-right: 8px;
+    padding-right: 0;
+}
+
+.stallionsearchButton span {
+    margin-right: 0px;
+}
+.StallionSlider {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.stallionDetailsGridContainer {
+    padding: 0;
+}
+
+.stallionDetailsGrid {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+.StallionFarmDetails {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.SPtabs header > .MuiBox-root {
+    min-height:56px;
+    height: 57px;
+}
+#Race-Record, #Pedigree {
+    padding-top: 64px;
+}
+#Progeny{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.stallionPage-Testimonials .testimonial {
+    min-width: 100%;
+    max-width: 10%;
+}
+
+.TestimonialBG {
+    min-height: auto;
+    padding: 80px 0px;
+}
+section#Progeny h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 32px;
+}
+
+section#Pedigree .MuiContainer-root {
+    padding: 0;
+}
+
+section#Pedigree  h3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+}
+#Hypo-Mating .HomeSearchBlock {
+    padding: 0px 16px;
+}
+#Hypo-Mating .MuiAutocomplete-hasClearIcon .MuiOutlinedInput-root {
+    padding-right: 0px !important;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch button.MuiButtonBase-root {
+    margin-right: 0px;
+}
+#Hypo-Mating .HomeSearchBlock .Homesearch .mareBlockInput .MuiAutocomplete-endAdornment {
+    margin-right: 40px;
+}
+.StallionSlider .recent-slider-box .farm-media-image img.MuiCardMedia-root {
+    height: auto;
+}
+.stallionSearchHeaderRight {
+    justify-content: flex-start;
+}
+.stallion-page-header-button .stallionsearchButtonOuter {
+    padding-right: 0;
+    margin-left: 0rem;
+    margin-right: 0;
+    padding-left: 0rem;
+}
+.stallion-page-header-button .SPfavMenu {
+    padding-right:0px;
+    padding-left: 0;
+}
+.stallion-subtitle {
+    padding-left: 0;
+}
+}
+
+@media only screen and (max-width: 330px) {
+    .stallion-page-header-button .css-1meeb1d-MuiStack-root>:not(style)+:not(style) { margin-left: 3px;}
+    .stallion-page-header-button .ListBtn i { font-size: 13px;margin-right: 3px;}
+    .Disabled-RequestNomination h6.MuiTypography-root {
+        padding: 16px;
+        font-size: 11px;
+    }
+    .stallion-subtitle h6, .stallion-subtitle p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+

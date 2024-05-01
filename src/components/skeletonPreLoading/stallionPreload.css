@@ -1,0 +1,133 @@
+.stallion-load{
+    padding: 0px !important;
+}
+.stallion-load .MuiSkeleton-root{
+    background-color: #F4F1EF;
+}
+.stallion-load .stallion-skeleton-banner{
+    height: 496px;
+    border-radius: 8px;
+}
+
+.stallion-load .farm-skeleton-banner{
+    height: 556px;
+    border-radius: 8px;
+}
+
+.stallion-load .skeleton-details .stallion-right-box{
+    background-color: #F4F1EF;
+    border-radius: 8px;
+    height: 400px;
+    padding: 0px;
+}
+.stallion-load .stallion-skeleton-right{
+    width: 120px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.stallion-load .stallion-skeleton-box{
+    width: 105px;
+    height: 58px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.stallion-load .whiteBG{
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 4px 0px;
+    border-radius: 4px;
+    height: 24px;
+}
+.stallion-load .greyBG{
+    margin: 4px 10px 4px 0px;
+    border-radius: 4px;
+    height: 24px;
+
+}
+.stallion-load .skelt-msg .MuiSkeleton-root{
+    margin: 20px;
+}
+
+.stallion-load .skelt-msg .MuiDivider-root{
+    margin-left: 0;
+    border-color: #ffffff !important;
+    border-width: 1px;
+}
+.stallion-load .skelt-border{
+    height: 2px;
+    background-color: #ffffff;
+}
+.stallion-load.MuiSkeleton-text{
+    padding: 0px;
+    margin: 0px;
+}
+.stallion-load .tabBG{
+    height: 24px;
+    width: 96px;
+}
+
+.stallion-load .our-title{
+    height: 41px;
+    width: 25%;
+    border-radius: 4px;
+}
+.stallion-load .skelt-tab{
+    border-bottom: solid 1px #F4F1EF !important;
+    padding:20px 0px;
+}
+
+.stallion-load .SPtabs.tabs-gap{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.stallion-load .overview-skelt .MuiBox-root{
+width: 100px;
+height: 100px;
+display: block;
+}
+.stallion-load .overview-skelt .MuiDivider-root{
+    border-width: 1px;
+}
+.stallion-load .skeleton-over-details{
+   margin-left:24px ;
+  
+}
+.stallion-load .ourStallions{
+    width: 100%;
+    border-radius: 4px;
+    height: 380px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .stallion-load .stallion-skeleton-banner{
+        height: 476px;
+    }
+    .stallion-load .farm-skeleton-banner{
+        height: 354px;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .stallion-load .stallion-skeleton-banner{
+        height: 250px;
+    }
+    .stallion-load .skeleton-details{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+     }
+     .stallion-load .skelt-tab.tabs-gap{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .stallion-load .farm-skeleton-banner{
+        height: 250px;
+    }
+    .stallion-load .skeleton-over-details{
+        margin-left:0px ;
+        margin-top: 24px;
+     }
+     .stallion-load .our-title{
+        width: 60%;
+     }
+}

@@ -1,0 +1,316 @@
+.sort-Btn-Custom .MuiSelect-select {border: solid 1px #BD9A68; background: #fff;padding: 0px 0px 0px 10px;height: 37px;line-height: 36px;color: #161716; font-size: 14px;font-family: 'Synthese-Regular'; font-weight: 400;}
+.sort-Btn-Custom .MuiSelect-select[aria-expanded="true"] {background: #BD9A68;}
+.NameBtn {height: 40px;
+    min-width: 168px;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    padding: 0;
+}
+    
+.NameBtn .MuiSelect-select {    color: #161716;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px 16px 10px;
+    min-width: 168px;
+}
+
+.NameBtn svg.MuiSvgIcon-root {font-size: 28px;color: #161716;}
+
+
+.customDate {margin: 0;}
+
+.customDate .date-picker {
+    width: 204px;
+    vertical-align: middle;
+}
+.roaster-date .date-picker {
+    width: 204px;
+}
+.roaster-date .date-picker img{ margin-right: 8px !important;}
+.customDate .date-picker img{ margin-right: 0px;}
+
+.customDate button.MuiButtonBase-root.MuiIconButton-root {
+    margin-right: 6px;
+}
+
+.customDate .DP-input {
+    padding-right: 15px;
+    width: 204px;
+}
+
+.customDate .MuiOutlinedInput-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    opacity:1 !important;
+    
+  }
+.customDate .MuiOutlinedInput-input::-moz-placeholder { /* Firefox 19+ */
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    opacity:1 !important;
+   
+  }
+.customDate .MuiOutlinedInput-input:-ms-input-placeholder { /* IE 10+ */
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    opacity:1 !important;
+   
+  }
+.customDate .MuiOutlinedInput-input:-moz-placeholder { /* Firefox 18- */
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    opacity:1 !important;
+
+  }
+
+  .stallionRoaster-innrhed .customDate .date-picker {
+    width: 176px;
+}
+
+
+.sort-Btn-Custom  svg.MuiSvgIcon-root {color: #161716;}
+.dropdown-menu {position: relative;
+    width: 190px;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 400;
+    color: #626E60;
+    cursor: pointer;
+}
+.sm-dropdown .MuiPopover-paper {
+    border-radius: 8px !important;
+}
+.sort-Btn-Custom {
+    min-width: 94px;
+    height: 39px;
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Regular';
+}
+
+.sort-Btn-Custom.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #b99766;
+    border-width: 1px;
+}
+.stallionRoaster-headerright {
+    margin-top: 24px;
+}
+
+.stallionRoaster-headerright .ListBtn{
+    height: 39px;
+}
+.sortBtnDropDownList {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: solid 1px #B0B6AF;
+    position: relative;
+    width: 100%;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 400;
+    color: #626E60;
+    cursor: pointer;
+}
+.sortBtnDropDownList:hover {
+    background: #F0F3F0;
+    color: #626E60;
+}
+
+.stallionRoaster-headerright .sortby{
+    height: 39px;
+}
+.stallionRoaster-headerright .msg-btn{
+    text-transform: inherit;
+}
+.stallionRoaster-headerright .sortby i{
+    font-size: 16px;
+}
+.stallionRoaster-headerright .sortby i.sortbyarrow {
+    margin-top: 3px;
+}
+.roaster-block-right h4 {
+    font-size: 36px;
+}
+
+.sortby-menu{
+        position: relative;
+        width: 168px;
+        font-family: 'Synthese-Book';
+        font-size: 14px;
+        border-radius: 8px;
+        font-weight: 400;
+        color: #626e60;
+        cursor: pointer;
+}
+
+
+
+.sortby-menu .MuiDivider-root{
+    color: #B0B6AF;
+}
+.sortby-menu .active{
+    color: #161716 !important;
+}
+.stallionRoaster-headerright .sortby[aria-describedby='simple-popover'] {
+    background: #bd9a68;
+}
+.stallionRoaster-headerright .sortby.Mui-disabled,.stallionRoaster-headerright .ListBtn.Mui-disabled {
+    background: none;
+    color: #626E60;
+    border: 1px solid #B0B6AF;
+    cursor: not-allowed;
+}
+
+
+
+.stallionRoaster-innrhed .selectDropDownBox.Mui-disabled {
+    color: #626E60;
+}
+
+
+
+.stallionRoaster-innrhed .selectDropDownBox.Mui-disabled .MuiSelect-select {
+    color: #626E60;
+    -webkit-text-fill-color: #626E60;
+}
+
+.Stallionview i.disabled {
+    pointer-events: none;
+}
+.Stallionview i.disabled:before{
+    color: #B0B6AF;
+}
+.Stallionview i.disabled:after{
+    color: #fff;
+}
+
+
+
+.stallion-analytics .GotoMsg.Mui-disabled {
+    background: #B0B6AF;
+}
+.active-analytics .stallion-analytics.Mui-disabled {
+    pointer-events: none;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+.stallionRoaster-headerright {
+    margin-top: 10px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+.stallion-roaster-wrapper .stallion-analytics .GotoMsg {
+    width: 167px;
+}
+}
+@media only screen and (max-width: 600px) {
+   
+    .sort-Btn-Custom {background: none;}
+    .roasterheading h2 {margin-bottom: 20px;}
+    .NameBtn {min-width: 150px;}
+    .customDate .date-picker {min-width: 170px;}
+    .stallion-roaster-wrapper .roaster-profile {border-bottom: solid 1px #B0B6AF;border-top: solid 1px #B0B6AF;margin-top: 20px;padding-top: 0;padding-bottom: 0;}
+    .stallion-roaster-wrapper hr.MuiDivider-root {margin-top: 0;}
+    .stallion-roaster-wrapper .roaster-profile-box {padding: 0px 0px;margin: 0;min-height: 45px;}
+    .stallion-roaster-wrapper .roaster-block-right-row{padding: 4px 0 0 0;}
+     .profile-rating-wrapper {margin-top: 20px;}
+    .stallion-roaster-wrapper h4.MuiTypography-root {font-weight: 400;font-size: 18px;color: #1D472E;font-family: Synthese-Regular; line-height: 28px;}
+    .stallion-roaster-wrapper .roaster-profile  {margin-top: -1px;padding: 0;border-top: solid 1px #B0B6AF; border-bottom: solid 1px #B0B6AF;}
+    .stallion-roaster-wrapper .MuiAccordion-region .MuiAccordionDetails-root{padding: 0 .6rem;}
+   
+
+    .stallionRoaster-headerright { margin-top: 0;    margin-bottom: 10px;}
+
+    .roaster-lines-anlaytics {
+        padding: 0px 0px;
+        border-bottom: solid 1px #B0B6AF;
+        border-top: solid 1px #B0B6AF;
+        margin-top: 1rem;
+       
+    }
+
+    .roaster-lines-anlaytics-wrp .roaster-lines-anlaytics {
+        margin-top: -1px;
+    }
+    .roaster-lines-anlaytics>:not(style)+:not(style) {
+        margin: 0px;
+    }
+    
+    .roaster-block {
+        padding: 5px 0px;
+        min-height: 28px;
+    }
+    
+    .keyStaticsWrapper {
+        margin-top: 20px;
+    }
+    .roaster-block-right h4 {
+        font-weight: 400;
+        font-size: 18px;
+        color: #1D472E;
+        font-family: Synthese-Regular;
+    }
+    .Stallionview .roaster-block-right h4 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .roaster-block-right-row {
+        padding: 0;
+    }
+    .active-analytics  .MuiAccordionDetails-root {
+        padding: 0 .6rem;
+    }
+
+
+    .stallionactivity-dashboard-box .MuiGrid-root.MuiGrid-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .stallionactivity-dashboard-box .MuiGrid-root.MuiGrid-container .MuiGrid-grid-xs-4 {
+        max-width: 20%;
+        flex-basis: 20%;
+    }
+    
+    .stallionactivity-dashboard-box .MuiGrid-root.MuiGrid-container .MuiGrid-grid-xs-2 {
+        max-width: 20%;
+        flex-basis: 20%;
+        display: flex;
+    }
+    .Stallionview h6.promotostallionunlock {
+        white-space: normal;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .NameBtn {min-width: 120px;}
+    .customDate .date-picker {min-width: 150px;}
+    .date-picker{width: 150px;}
+    .customDate .MuiOutlinedInput-input {
+        font-size: 13px;
+    }
+}

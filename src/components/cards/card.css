@@ -1,0 +1,661 @@
+
+.SDcardTitle{
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.01rem;
+    margin: 0;
+    width: 98%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.SDcard{
+    background: #F4F1EF;
+    box-shadow: none;
+    position: relative;
+}
+.SDcardMedia .SDavatar {
+    margin-bottom: -12px;
+}
+.SDcardMediaImg {
+    height: 180px;
+    overflow: hidden;
+    background: #ece9e7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.SDcardMediaImg img {
+    width : 100%;
+    height: auto;
+    /* object-fit: cover; */
+}
+.SDcardMedia img.MuiCardMedia-root {
+    height: auto;
+}
+.SDcard:hover{
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, 
+    rgb(0 0 0 / 14%) 0px 8px 10px 1px,
+     rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+}
+
+.SDcard:hover .viewButton{
+    background: #007142;
+    color: #FFFFFF !important;
+}
+
+.viewButton:disabled{
+    background: none !important;
+    color: #626E60 !important;
+    border: solid 1px #B0B6AF;
+}
+.viewButton:disabled i {
+    color: #626E60 !important;
+}
+
+.SDcard:hover .viewButton:disabled{
+    background: none;
+    color: #626E60 !important;
+    border: solid 1px #B0B6AF;
+}
+
+.SDcard:hover .viewButton:disabled .icon-Search:before{
+    color: #626E60 !important;
+}
+
+
+
+.SDcard .MuiCardContent-root{
+    min-height: 210px;
+    box-sizing: border-box;
+}
+
+.SDavatar{
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.year{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #161716;
+    text-transform: capitalize;
+}
+.myhorse-card .MuiCardContent-root{
+    height: 130px;
+}
+.myhorse-card .year {
+    text-transform: lowercase;
+}
+.myhorse-page-wrapper {
+    padding-bottom: 176px;
+}
+.myhorse-card .SDcardTitle {
+    overflow: initial;
+    white-space: initial;
+    text-overflow: initial;
+}
+.breed{
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #161716;
+    margin-bottom: 4px;
+}
+.SDcard .MuiCardContent-root .breed {
+    overflow: hidden;
+    width: 98%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.SDcardBottom{
+    padding: 0px 15px 15px 15px;
+    position:absolute;
+   bottom: 0;
+    width: 89%;
+}
+
+.SDcard .icon-Search:before {
+    font-size: 16px;
+    color: #161716;
+}
+
+.SDcard .viewButton:disabled .icon-Search:before {
+    color: #626E60;
+}
+
+.SDcard:hover .icon-Search:before{
+    color: #FFFFFF;
+}
+
+
+.horses-bottom{
+    position: static !important;
+}
+
+.bookmark{
+    padding: 0px;
+}
+.bookmark:disabled i:before{
+    color: #d4d4d4;
+}
+.bookmark i{
+    font-size: 34px;
+    color: #d4d4d4;
+}
+.bookmark i:hover{
+    color: #007142;
+}
+
+.bookmark i.visited{
+    color: #007142;
+}
+
+.bookmark i.visited{
+    color: #007142;
+}
+
+.view {text-transform: capitalize;color: #007142;}
+
+.view-shortlist .MuiPopover-paper {
+    border-radius: 8px;
+    width: 349px;
+    box-shadow: 0px 10px 15px rgb(0 0 0 / 10%), 0px 4px 6px rgb(0 0 0 / 5%);
+}
+
+.view-shortlist i{
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    color: #1D472E;
+}
+
+.view-shortlist h6{
+    font-family: 'Synthese-Regular';
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.view-shortlist .viewButton.continue-btn {
+    min-width: 79px;
+    padding: 5px 0 7px;
+    margin-right: 12px;
+}
+.view-shortlist .viewButton {
+    min-width: 145px;
+    padding: 5px 0px 8px;
+    height: 32px;
+    margin-right: 5px;
+}
+div#simple-popover .MuiPaper-root > .MuiBox-root {
+    padding: 0;
+}
+.shortlistBox {
+    padding: 0px 24px 24px;
+}
+
+.view-shortlist .remove-shortlist{
+    background-color: #1D472E;
+    color: #FFFFFF;
+    border-color: #1D472E;
+}
+.removesShortlistBox .viewButton {
+    min-width: 140px;
+}
+
+.removesShortlistBox .remove-shortlist {
+    min-width: 128px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 9px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .SDcardBottom{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+/* Testimonial Card Styles */
+
+.testimCnt{
+    width: 300px;
+    padding-top: 10px;
+    color: #161716;
+    font-family: 'Synthese-Light';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+
+.testimCnt {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.testimCnt p{
+    margin: 0px;
+    padding: 0px;
+    color: #161716;
+    font-family: 'Synthese-Light';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+.testimCnt p strong{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+}
+
+.testimonial{
+    width: 100%;
+    height: 432px;
+    border-radius: 8px;
+    overflow:visible;
+    min-width: 368px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: #EAE4E0;
+    width: 360px;
+    margin: 30px 12px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.TestimName{
+    color: #1D472E;
+    font-family: 'Synthese-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.01rem;
+}
+.TestimSurName{
+    color: #1D472E;
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+}
+
+.TestimSurName,.TestimName {
+    width: 240px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+.testimonial-avatar {
+    margin-right: 16px;
+    width: 60px;
+    height: 60px;
+}
+
+.testimonial-author-wrapper {
+    display: flex;
+    align-items: center;
+}
+.testimonial .MuiCardContent-root {
+    padding: 30px 24px 20px;
+}
+
+
+
+.testimonial-author h6 {
+    color: #1D472E;
+    font-family: 'Synthese-Regular';
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+
+
+/* Stallion Page Card Styles */
+.SPcard{
+    background: #F4F1EF;
+    box-shadow: none; 
+    padding: 1.5rem; 
+    border-radius: 8px 8px 0px 0px;
+}
+.SPcardCnt{
+    padding: 1rem 0 0 0 !important;
+}
+
+.SPcardCnt span{
+    font-family: 'Synthese-Book';
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #626E60;
+}
+
+.SPcardCnt h6{
+    font-family: 'Synthese-Book';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #626E60;
+    letter-spacing: -0.01em;
+}
+
+.SPcardCnt .sp-mails{
+    margin-top: 1rem;
+}
+
+/* Media Card Styles */
+.farmcard{
+    background: #F4F1EF;
+    box-shadow: none;
+    position: relative;
+}
+
+.farmcard .farmcardMedia {
+    height: 180px;
+    overflow: hidden;
+    background: #ece9e7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.farmcard .farmcardMedia img.MuiCardMedia-root {
+ height: auto;
+}
+
+.farmcardMedia img {
+    width : 100%;
+    height: auto;
+}
+
+.farmcard:hover{
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, 
+    rgb(0 0 0 / 14%) 0px 8px 10px 1px,
+     rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+}
+
+.farmcard:hover .viewButton{
+    background: #007142;
+    color: #FFFFFF;
+}
+
+.farmcard .MuiCardContent-root{
+    /* min-height: 80px; */
+    padding-bottom: 24px;
+}
+
+.farmcardBottom{
+    padding: 0px 16px 16px 16px;
+    /* position: absolute;
+    bottom:0; */
+}
+
+
+
+/* Media Card Styles */
+
+.MediacardTitle{
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.02rem;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+
+/* .... Report Card Styles.... */
+
+.ReportCard{
+    box-shadow: none;
+    border-radius: 8px;
+    background: #F4F1EF;
+}
+
+.Report-Cardmedia{
+    background: #EAE4E0;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 1.5rem;
+    text-decoration: underline;
+    color: #007142;
+}
+
+.report-card-bottom  .view{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: #007142;
+    background: none !important;
+}
+
+.report-card-bottom  .view:hover{
+    text-decoration: underline;
+    color: #1D472E;
+}
+
+.view:hover{
+    color: #1D472E;
+}
+
+.report-card-bottom{
+    display: flex;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+
+.SPcard .farmlogo-column{
+    width: 120px;
+    height: 80px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.SPcard .farmlogo-column img{
+    max-width: 100%;
+    height: 100%;
+    cursor: pointer;
+    
+}
+.StallionFarmDetails .SPcard .farmlogo-column img {
+    border-radius: 4px;
+}
+
+.SPcard .MuiCardMedia-root  .farmlogo-column img {
+    border-radius: 4px;
+}
+.stallionPage-Testimonials .testimonial {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+/* Mediaquery */
+
+@media only screen and (max-width: 1200px){
+.farmcard .farmcardMedia {
+    height: auto;
+}
+.SDcardMediaImg {
+    height: auto;
+}
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width:1200px){
+    .view-shortlist .MuiPopover-paper{
+        width: 35%;
+    }
+    .SPcardCnt{
+        padding: 0px 0px 0px 1.5rem !important;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .bookmark{
+        margin-right: 10px;
+    }
+    .SPcardCnt{
+        padding: 0px 0px 0px 1.5rem !important;
+    }
+    .testimonial{
+        width: 360px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px){
+
+    .farmcard .farmcardMedia {
+        height: auto;
+    }
+   
+    .SDcard .MuiCardContent-root {
+        min-height: 204px;
+    }
+    .drawer-button-wrapper {
+        margin-top: 10px;
+    }
+    .farmcard .farmcardMedia img.MuiCardMedia-root {
+        height: 100%;
+       }
+       .SDcardMedia img.MuiCardMedia-root {
+        height: 100%;
+    }
+
+    .testimonial .testimCnt, .testimonial-author h6, .TestimSurName,.testimonial .MuiCardContent-root img, .testimonial .MuiCardContent-root p, .testimonial .testimonial-avatar,.testimonial .testimonial-avatar img {
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; 
+                                   
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .view-shortlist .MuiPopover-paper{
+        width: 45%;
+    }
+    /* .SDcard .MuiCardContent-root .breed{
+        width: 80%;
+    }
+    .recent-searches-wrapper .recent-slider-box .SDcard{
+        max-width: none !important;
+    } */
+}
+
+@media only screen and (max-width: 767px){
+    .SDcardMediaImg {
+        height: auto;
+    }
+    .view-shortlist .MuiPopover-paper{
+        width: 49%;
+    }
+    .bookmark{
+        margin-right: 0px;
+    }
+    .testimonial {
+        width: 360px;
+    }
+    .SDcard .MuiCardContent-root {
+        min-height: 204px;
+        box-sizing: border-box;
+    }
+    .shortlistBox {
+        padding: 0px 16px 16px;
+    }
+    
+    .view-shortlist .viewButton {
+        padding: 4px 0px 8px;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .SPcardCnt{
+        padding: 1rem 0 0 0 !important;
+    }
+    .view-shortlist .MuiPopover-paper{
+        width: 100%;
+    }
+    .testimonial {
+        width: 100%;
+        min-width: 343px;
+        max-width: 343px;
+    }
+    .SDcardMediaImg img ,.farmcardMedia img{
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+    .shortlistBox {
+        padding: 0px 8px 8px;
+    }
+    .removesShortlistBox .viewButton {
+        min-width: 120px;
+    }
+    
+    .view-shortlist .remove-shortlist {
+        min-width: 130px;
+    }
+}
+

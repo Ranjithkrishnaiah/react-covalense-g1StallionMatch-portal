@@ -1,0 +1,497 @@
+.lr-popup{
+    position: relative;
+}
+
+.custfield{
+    margin-bottom: 0.5rem;
+}
+.custfield:focus{
+    border-color: red !important;
+}
+.social li:hover{
+    background: none;
+}
+.dialogPopup .popup-btn{
+    padding: 0;
+    margin-left: auto;
+    text-transform:inherit;
+    color: #007142;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;}
+    
+
+.dialogPopup .forgot-btn{
+    padding-bottom: 6px;
+}
+
+.dialogPopup .popup-btn:hover{
+    background: none;
+    text-decoration: underline;
+}
+
+.SDradio{
+    padding: 0px !important;
+}
+
+.terms{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.dialogPopup .terms-btn{
+    padding: 0;
+    text-transform:inherit;
+    color: #007142;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 4px;
+}
+
+.dialogPopup .terms-btn:hover{
+    background: none;
+    color: #1D472E;
+    text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 4px;
+}
+.session-expire p{
+    font-size: 18px;
+    padding: 1.5rem 0 0.8rem 0;
+}
+.lr-btn{
+     font-family: 'Synthese-Regular';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 10px 0px 14px;
+      text-transform: none;
+      background-color: #1D472E;
+      height: 48px;
+      border-radius: 4px;
+      letter-spacing: -0.01rem;
+      text-align: center;
+      color: #FFFFFF;
+      margin: 1rem auto 0 auto;
+  }
+.lr-btn.session-btn{
+    width: 100%;
+}
+  .lr-btn:hover{
+    background-color: #007142;
+    border: solid 1px #007142;
+  }
+  
+
+  .lr-btn:disabled{
+      background-color: #B0B6AF;
+      color: #FFFFFF;
+      cursor: not-allowed
+  }
+
+  .yes-btn{
+    margin-top: 0px;
+  }
+
+  .no-btn{
+    font-family: 'Synthese-Regular';
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     padding: 0px;
+     text-transform: none;
+     border: solid 1px #007142;
+     height: 48px;
+     border-radius: 4px;
+     letter-spacing: -0.01rem;
+     text-align: center;
+     color: #161716;
+     box-sizing: border-box;
+ }
+
+ .no-btn:hover{
+   background-color: #007142;
+   color:#FFFFFF;
+ }
+ 
+
+ .no-btn:disabled{
+     background-color: #B0B6AF;
+     color: #FFFFFF;
+ }
+
+  .pwdhints{
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    color: #161716;
+  }
+
+  .pwdhints i{
+    position: relative;
+    top: 5px;
+    margin: 0px 8px 0px 0px;
+  }
+
+  .eye-icon:eye-outlined{
+      color: #1D472E;
+  }
+  .update-email {
+    padding-top: 20px;
+}
+.update-email .update-email-user {
+    margin-bottom: 20px;
+}
+
+.forgot-password-box .lr-btn {
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0px 14px;
+    text-transform: none;
+    background-color: #1D472E;
+    height: 48px;
+    border-radius: 4px;
+    letter-spacing: -0.01rem;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+.forgot-password-box  .lr-btn-outline{
+    background: none;
+    color: #161716;
+    border: 1px solid #007142;
+    padding: 10px 0px 14px;
+} 
+
+.forgot-password-box .lr-btn-outline:hover {
+    background: #007142;
+    color: #fff;
+    border-color: #007142;
+}
+
+.forgot-class-align {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 11px;
+}
+
+.forgot-password-box .lr-btn:hover {
+    background-color: #007142;
+}
+
+.resendEmail-box h6 {
+    margin: 40px 0px;
+    font-family: 'Synthese-Book';
+    font-size: 16px;
+    font-weight: 400;
+    color: #161716;
+}
+
+
+.lr-btn-outline {
+    background: none;
+    color: #1D472E;
+    border: 1px solid #007142;
+    border-radius: 4px;
+    text-transform: inherit;
+}
+
+.lr-btn-outline:hover {
+    color: #fff;
+}
+.lr-btn-outline:disabled {
+    color: #626E60;
+    border: 1px solid #B0B6AF;
+    background: none;
+}
+
+.reports-multiselect{
+    margin-top: 0px !important;
+}
+
+/* congratulation-box */
+.congratulation-box {padding-top: 32px;line-height: 24px;}
+
+.dialogPopup 
+ .congratulation-box label {
+    font-family: 'Synthese-Book';
+    letter-spacing: -0.01em;
+    color: #161716;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.invitaion-congrts-box label {
+     text-overflow: initial;
+    white-space: pre-line;
+}
+
+.regis-success{ position: relative;}
+.regis-success h4{
+    font-family:'Synthese-Regular';
+    letter-spacing: -0.01em;
+    color: #1D472E;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px
+}
+.regis-success h6{
+    font-family:'Synthese-Book';
+    letter-spacing: -0.01em;
+    color: #161716;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.regis-success a{
+    font-weight: 700;
+    color: #007142;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    font-family: 'Synthese-Bold';
+}
+
+.regis-success a:hover{
+    color: #1D472E;
+}
+.copylink.regis-success h6 {
+    letter-spacing: -0.0em;
+    padding-right: 24px;
+}
+  /* ..................... country cookie ..................... */
+
+
+  :root {
+    --toastify-color-success: #007142 !important;
+    --toastify-icon-color-success: var(--toastify-color-success) !important;
+    --toastify-color-error: #EAE4E0 !important;
+    --toastify-icon-color-error: var(--toastify-color-error) !important;
+  }
+  .Toastify__toast-container--top-right{
+    min-width: 360px;
+  }
+  .Toastify__toast-theme--light{
+    background: #2EFFB4 !important;
+  }
+  .Toastify__toast-theme--light.Toastify__toast--error{
+    background: #C75227!important;
+  }
+  .Toastify__toast-body > div:last-child{
+    padding-bottom: 4px;
+  }
+  .Toastify__toast--error .Toastify__toast-body > div:last-child{
+    padding-bottom: 4px;
+    color: #f0f0f0;
+  }
+  .Toastify__toast {
+    font-family:'Synthese-Regular' !important;
+    color:#161716 !important;
+}
+
+.Toastify__progress-bar--success {
+    background:#007142 !important;
+}
+.Toastify__progress-bar--error{
+    background:#ff6633 !important;
+}
+
+
+/* .................. CopyLink................. */
+.dialogPopup .copylink h4{
+    color: #161716;
+}
+
+.dialogPopup .copylink-btn{
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 24px 10px;
+    color: #FFFFFF;
+    text-transform: none;
+    background-color: #1D472E;
+    height: 40px;
+    border-radius: 4px;
+    line-height: 24px;
+    letter-spacing: -0.01rem;
+    min-width: 146px;
+}
+.dialogPopup .copylink-btn i::before{
+    color: #FFFFFF;
+    margin-right: 6px;
+    margin-top: 2px;
+}
+.dialogPopup .copylink-btn:hover{
+    background-color: #007142;
+}
+
+.dialogPopup .company-logo{
+    width: 242px;
+    height: 72px;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    border: solid 1px #E2E7E1;
+    box-sizing: border-box;
+    background: #E2E7E1;
+}
+
+.dialogPopup .company-logo img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.dialogPopup .download-btn{
+    width: 72px;
+    height: 72px;
+    background: #1D472E;
+    border-radius: 0 !important;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.dialogPopup .download-btn:hover{
+    background-color: #007142;
+}
+
+
+.inite-user-modal label.MuiFormControlLabel-root {
+    margin: 10px 0px 0px;
+}
+div#simple-popover.home-dropdown .MuiPaper-root > .MuiBox-root {
+    margin-bottom: 0;
+}
+.navigation-dropdown .add-a-stallion {
+    margin-bottom: 10px;
+}
+.reg-checkbox label.MuiFormControlLabel-root {
+    margin: 8px 0px;
+    display: flex;
+    align-items:flex-start;
+}
+.dialogPopup .signupac .terms-btn {
+    min-width: 48px;
+}
+.dialogPopup .signupac .terms-btn.login-button-cr {
+    margin-left: 8px;
+}
+.register-intrest-pop .lr-btn {
+    color: #2EFFB4;
+}
+.dialogPopup .loginBoxWrapper .MuiOutlinedInput-root input.MuiOutlinedInput-input {
+    padding: 14px 16px 16px;
+}
+.dialogPopup .forgot-btn:hover, .dialogPopup .popup-btn:hover {
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 5px;
+    color: #007142;
+}
+
+.dialogPopup .delete-msg{
+    padding: 32px 16px 32px 0px;
+}
+.stallion-select .mdl-demo .tag-item {
+    width: 100%;
+}
+
+.SDmultiselect.stallion-select .mdl-demo .tag-item {
+    width: auto;
+}
+.stallion-select .react-dropdown-tree-select .dropdown .dropdown-content, .StallionsforthisUser .react-dropdown-tree-select .dropdown .dropdown-content {
+    position: static;
+}
+.createAccountPopup.dialogPopup .MuiDialogTitle-root {
+    text-transform: inherit;
+}
+.mustnotcontaine {
+    padding-right: 5px;
+}
+.dialogPopup .signupac.logindonthave {
+    padding-top: 6px;
+}
+/* .............Media Query................. */
+
+@media only screen and (max-width: 767px) {
+    .reg-checkbox label.MuiFormControlLabel-root {
+        align-items:flex-start;
+    }
+    .dialogPopup .signupac.logindonthave {
+        padding-top: 6px;
+    }
+    .copylink.regis-success h6 {
+        padding-right: 0px;
+    }
+    .mustnotcontaine {
+        padding-right: 0px;
+    }
+    .createFarmPara {
+        padding-top: 0;
+    }
+    .reg-checkbox label.MuiFormControlLabel-root {
+        align-items: flex-start;
+    }
+    .forgot-password-box {
+        margin-top: 0;
+    }
+    .forgot-class-align {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+    .terms{
+       display: inline-block;
+    }
+    .dialogPopup .terms-btn{
+        vertical-align: inherit;
+    }
+    .SDradio{
+        align-items: center;
+    }
+    .dialogPopup .congratulation-box label {
+        white-space: normal;
+    }
+    
+    .congratulation-box {
+        padding-top: 0;
+    }
+    .dialogPopup .signupac .terms-btn.login-button-cr {
+        margin-left: 4px;
+    }
+    .dialogPopup .signupac {
+        padding-top: 14px;
+        text-align: left;
+    }
+    .RegBoxWrapper {
+        margin-top: 0;
+    }
+    .reg-checkbox-wrpr .isPrivateFee {
+        top: 3px !important;
+    }
+    .dialogPopup .signupac .terms-btn {
+        vertical-align: middle;
+    }
+    .pwdhints {
+        padding-top: 0;
+    }
+    .reg-checkbox-wrpr .terms .terms-btn {
+        display: inherit;
+    }
+    .dialogPopup .delete-msg{
+        padding: 0 0 24px 0px;
+    }
+    .session-expire .MuiDialogTitle-root{font-size: 20px !important;}
+    .session-expire p{padding:0px; font-size: 12px !important;} 
+}
+
+

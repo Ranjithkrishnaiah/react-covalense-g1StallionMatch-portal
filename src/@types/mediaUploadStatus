@@ -1,0 +1,8 @@
+export type mediaUploadSchema = {
+    mediauuid: string; 
+}
+
+export type mediaUploadObject = {
+    mediauuid: string;
+   
+}

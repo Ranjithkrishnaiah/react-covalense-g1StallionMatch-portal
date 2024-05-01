@@ -1,0 +1,23 @@
+export const StakeWinnerComparisionTableProps = {
+    columns: ["HORSE", "G1", "G2", "G3", "E", "CSI",],
+    displayColumns: ["horse", "g1", "g2", "g3", "e", "csi",],
+    tableIdentifier: "PROGENY",
+    hascolumnDivider: true,
+    data: [{ id: "0", horse:"Adeline", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "1", horse:"Tyranny", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "2", horse:"Zoffry", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "3", horse:"Quiline", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "4", horse:"Iam Invincible", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "5", horse:"Adeline", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "6", horse:"Tyranny", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "7", horse:"Zoffry", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "8", horse:"Quiline", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "9", horse:"Iam Invincible", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "10", horse:"Adeline", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "11", horse:"Tyranny", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "12", horse:"Zoffry", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "13", horse:"Quiline", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+           { id: "14", horse:"Iam Invincible", g1:"4", g2:"5", g3:"6", e: "22", csi: "15" },
+        ],
+    hasAvatar: false
+}
